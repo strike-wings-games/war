@@ -1,0 +1,112 @@
+# Authoritative shared-war tick — armed 2026-07-09 after the round-4 audit.
+#
+# Tamper/exposure contracts this file enforces — keep them when editing:
+#   - The private ledger (war_state_full.json: SteamIDs + per-player delta
+#     baselines) NEVER enters this public tree or the Pages artifact. It
+#     persists tick-to-tick in the Actions cache; only war_state.json and
+#     current.json are committed.
+#   - Ledger missing while the season is already advanced = HARD ABORT.
+#     A missing --state makes war_tick silently start a fresh war, so a
+#     cache eviction must never reset a live season. Disaster recovery:
+#     re-run with resume_from_public=RESUME (baselines rebuild from the
+#     published state; a player can over-credit at most one day's budget).
+#   - The board fetch fails CLOSED (script exits 1, no board.json, job dies,
+#     generatedAtEpoch untouched, the next healthy tick catches up <= 8
+#     days). A present-but-corrupt board aborts BY DESIGN — do not "fix"
+#     the workflow to swallow it.
+#   - The PRIVATE game source is checked out into game/ INSIDE this working
+#     tree: only explicit files are ever git-added, .gitignore blocks
+#     game/ build/ out/ state/, and build output is suppressed so private
+#     source never reaches the public Action logs.
+#   - Third-party actions are SHA-pinned; triggers are schedule +
+#     workflow_dispatch only, so fork PRs can never run this with secrets.
+name: war-tick
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every six hours
+  workflow_dispatch:
+    inputs:
+      force_days:
+        description: "Force N war days (empty = wall clock)"
+        required: false
+        default: ""
+      resume_from_public:
+        description: "Disaster recovery - type RESUME to rebuild a lost ledger from the published state"
+        required: false
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: war-tick
+  cancel-in-progress: false
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_DAYS: ${{ github.event.inputs.force_days }}
+      RESUME_FROM_PUBLIC: ${{ github.event.inputs.resume_from_public }}
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          repository: gbvanrenswoude/freefighter32
+          ssh-key: ${{ secrets.FF32_DEPLOY_KEY }}
+          path: game
+      - name: Toolchain
+        run: |
+          sudo apt-get update -qq > /dev/null
+          sudo apt-get install -y -qq cmake libsdl2-dev libsdl2-mixer-dev > /dev/null
+      - name: Build war_tick (quiet - private source)
+        run: |
+          cmake -S game -B build -DCMAKE_BUILD_TYPE=Release > /dev/null 2>&1 || { echo "CONFIGURE FAILED"; exit 1; }
+          cmake --build build --target war_tick -j 4 > /dev/null 2>&1 || { echo "BUILD FAILED"; exit 1; }
+      - name: Restore private ledger (Actions cache - never the public tree)
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: state/war_state_full.json
+          key: war-ledger-restore-never-exact-matches
+          restore-keys: |
+            war-ledger-
+      - name: Fetch season board (fails closed)
+        env:
+          STEAM_PUBLISHER_KEY: ${{ secrets.STEAM_PUBLISHER_KEY }}
+        run: python3 game/tools/war_fetch_board.py --out board.json --season game/data/war/season.json
+      - name: Advance the war
+        run: |
+          SEASON=$(python3 -c "import json;print(json.load(open('game/data/war/season.json'))['id'])")
+          echo "SEASON=$SEASON" >> "$GITHUB_ENV"
+          ARGS="--season game/data/war/season.json --theater game/data/war/theater.json --doctrine game/data/war/doctrine.json"
+          if [ -f state/war_state_full.json ]; then
+            ARGS="$ARGS --state state/war_state_full.json"
+          else
+            TICK=$(python3 -c "import json;print(json.load(open('current.json'))['tickIndex'])" 2>/dev/null || echo 0)
+            if [ "$TICK" != "0" ]; then
+              if [ "$RESUME_FROM_PUBLIC" = "RESUME" ]; then
+                echo "::warning::private ledger lost - resuming from the published state (per-player baselines reset)"
+                ARGS="$ARGS --state $SEASON/war_state.json"
+              else
+                echo "::error::private ledger missing but the season is at tick $TICK - refusing a silent season reset. Investigate the Actions cache; to accept a baseline reset, re-run with resume_from_public=RESUME."
+                exit 1
+              fi
+            fi
+          fi
+          [ -f board.json ] && ARGS="$ARGS --board board.json"
+          [ -n "$FORCE_DAYS" ] && ARGS="$ARGS --force-days $FORCE_DAYS"
+          ./build/war_tick $ARGS --now "$(date +%s)" --out out
+          mkdir -p "$SEASON" state
+          cp out/war_state.json "$SEASON/war_state.json"
+          cp out/current.json current.json
+          cp out/private/war_state_full.json state/war_state_full.json
+      - name: Save private ledger
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: state/war_state_full.json
+          key: war-ledger-${{ github.run_id }}
+      - name: Publish (public files ONLY)
+        run: |
+          git config user.name "war-tick"
+          git config user.email "war-tick@users.noreply.github.com"
+          git add current.json "$SEASON/war_state.json"
+          git diff --cached --quiet && { echo "no change"; exit 0; }
+          git commit -m "war tick $(date -u +%FT%TZ)"
+          git push

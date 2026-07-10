@@ -1,0 +1,11 @@
+# The war-tick Action checks the PRIVATE game repo out into game/ and builds
+# into build/ — nothing under these may ever be committed to this public repo.
+game/
+build/
+out/
+state/
+board.json
+
+# The anti-cheat ledger (SteamIDs + per-player delta baselines) lives in the
+# Actions cache between ticks — never in the tree, never on Pages.
+war_state_full.json

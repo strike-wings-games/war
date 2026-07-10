@@ -1,0 +1,576 @@
+{
+  "absorbedQ8": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "generatedAtEpoch": 1783695584,
+  "populationX16": 0,
+  "schema": "strikewings.warshared/v1",
+  "season": {
+    "board": "SW_WAR_S01",
+    "endEpoch": 1790121600,
+    "id": "S01",
+    "name": "THE SUNDERING WAR - SEASON ONE",
+    "seed": 7791550101,
+    "startEpoch": 1784073600,
+    "tickSeconds": 21600,
+    "warDaysPerTick": 1
+  },
+  "stateHash": "0ef3eea0bfaad4fc",
+  "tickIndex": 0,
+  "war": {
+    "buildPool": [
+      0,
+      0
+    ],
+    "day": 0,
+    "fleets": [
+      {
+        "faction": 1,
+        "fighterReserve": 220,
+        "fighterReserveMax": 220,
+        "id": "HOME FLEET",
+        "peakCost": 334,
+        "posture": "defend",
+        "ships": [
+          {
+            "name": "TAS BULWARK",
+            "type": "cruiser",
+            "vet": 4
+          },
+          {
+            "name": "TAS HALBERD",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "TAS IRONWOOD",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "TAS SOVEREIGN",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS TEMPERANCE",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS VIGILANT",
+            "type": "strikecarrier",
+            "vet": 4
+          },
+          {
+            "name": "TAS AVALON",
+            "type": "longbow",
+            "vet": 4
+          },
+          {
+            "name": "TAS CLAYMORE",
+            "type": "longbow",
+            "vet": 4
+          },
+          {
+            "ace": true,
+            "name": "QUICKSILVER",
+            "type": "crusader",
+            "vet": 5
+          },
+          {
+            "ace": true,
+            "name": "BANNERET",
+            "type": "crusader",
+            "vet": 5
+          }
+        ],
+        "system": "EARTH"
+      },
+      {
+        "faction": 1,
+        "fighterReserve": 220,
+        "fighterReserveMax": 220,
+        "id": "SECOND FLEET",
+        "peakCost": 334,
+        "posture": "defend",
+        "ships": [
+          {
+            "name": "TAS LIONHEART",
+            "type": "cruiser",
+            "vet": 4
+          },
+          {
+            "name": "TAS DAUNTLESS",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "TAS GRANITE",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "TAS BASTION",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS WARBRIDGE",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS ORION",
+            "type": "strikecarrier",
+            "vet": 4
+          },
+          {
+            "name": "TAS RESOLUTE",
+            "type": "longbow",
+            "vet": 4
+          },
+          {
+            "name": "TAS MERIDIAN",
+            "type": "longbow",
+            "vet": 4
+          },
+          {
+            "ace": true,
+            "name": "PILGRIM",
+            "type": "crusader",
+            "vet": 5
+          },
+          {
+            "ace": true,
+            "name": "IRONSIDE",
+            "type": "crusader",
+            "vet": 5
+          }
+        ],
+        "system": "EPSILON INDI"
+      },
+      {
+        "faction": 1,
+        "fighterReserve": 180,
+        "fighterReserveMax": 180,
+        "id": "TF HALBERD",
+        "peakCost": 251,
+        "posture": "attack",
+        "ships": [
+          {
+            "name": "TAS TEMPERANCE II",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "TAS VIGILANT II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS AVALON II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS CLAYMORE II",
+            "type": "strikecarrier",
+            "vet": 4
+          },
+          {
+            "name": "TAS RESOLUTE II",
+            "type": "longbow",
+            "vet": 4
+          },
+          {
+            "name": "TAS MERIDIAN II",
+            "type": "longbow",
+            "vet": 4
+          },
+          {
+            "ace": true,
+            "name": "LONGSHOT",
+            "type": "paladin",
+            "vet": 5
+          },
+          {
+            "ace": true,
+            "name": "DEACON",
+            "type": "archfiend",
+            "vet": 5
+          }
+        ],
+        "system": "TAU CETI"
+      },
+      {
+        "faction": 1,
+        "fighterReserve": 140,
+        "fighterReserveMax": 140,
+        "id": "ANTWERP SQUADRON",
+        "peakCost": 186,
+        "posture": "defend",
+        "ships": [
+          {
+            "name": "TAS GRANITE II",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "TAS BASTION II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS WARBRIDGE II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS ORION II",
+            "type": "marksman",
+            "vet": 4
+          },
+          {
+            "name": "TAS BULWARK II",
+            "type": "marksman",
+            "vet": 4
+          },
+          {
+            "ace": true,
+            "name": "FALCONER",
+            "type": "talon",
+            "vet": 5
+          }
+        ],
+        "system": "NEW ANTWERP"
+      },
+      {
+        "faction": 2,
+        "fighterReserve": 220,
+        "fighterReserveMax": 220,
+        "id": "PHOBOS GUARD",
+        "peakCost": 330,
+        "posture": "defend",
+        "ships": [
+          {
+            "name": "SSV PERDITION",
+            "type": "cruiser",
+            "vet": 4
+          },
+          {
+            "name": "SSV NOCTURNE",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "SSV RIPTIDE",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "SSV OBSIDIAN",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "SSV CALDERA",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "SSV HARROW",
+            "type": "strikecarrier",
+            "vet": 4
+          },
+          {
+            "name": "SSV DUSKWATCH",
+            "type": "tempest",
+            "vet": 4
+          },
+          {
+            "name": "SSV IRONMAW",
+            "type": "tempest",
+            "vet": 4
+          },
+          {
+            "ace": true,
+            "name": "SABLE",
+            "type": "manticore",
+            "vet": 5
+          },
+          {
+            "ace": true,
+            "name": "RIMFIRE",
+            "type": "manticore",
+            "vet": 5
+          }
+        ],
+        "system": "MARS"
+      },
+      {
+        "faction": 2,
+        "fighterReserve": 220,
+        "fighterReserveMax": 220,
+        "id": "STEPPERS GUARD",
+        "peakCost": 330,
+        "posture": "defend",
+        "ships": [
+          {
+            "name": "SSV UNDERTOW",
+            "type": "cruiser",
+            "vet": 4
+          },
+          {
+            "name": "SSV VESPERINE",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "SSV WOLFRAM",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "SSV KRAIT",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "SSV MAELSTROM",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "SSV VORTEX",
+            "type": "strikecarrier",
+            "vet": 4
+          },
+          {
+            "name": "SSV PALEFIRE",
+            "type": "tempest",
+            "vet": 4
+          },
+          {
+            "name": "SSV REDSHIFT",
+            "type": "tempest",
+            "vet": 4
+          },
+          {
+            "ace": true,
+            "name": "HAVOC",
+            "type": "manticore",
+            "vet": 5
+          },
+          {
+            "ace": true,
+            "name": "TALLYMAN",
+            "type": "manticore",
+            "vet": 5
+          }
+        ],
+        "system": "PROCYON"
+      },
+      {
+        "faction": 2,
+        "fighterReserve": 180,
+        "fighterReserveMax": 180,
+        "id": "TF KRAIT",
+        "peakCost": 264,
+        "posture": "attack",
+        "ships": [
+          {
+            "name": "SSV CALDERA II",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "SSV HARROW II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "SSV DUSKWATCH II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "SSV IRONMAW II",
+            "type": "strikecarrier",
+            "vet": 4
+          },
+          {
+            "name": "SSV PALEFIRE II",
+            "type": "cataclysm",
+            "vet": 4
+          },
+          {
+            "name": "SSV REDSHIFT II",
+            "type": "cataclysm",
+            "vet": 4
+          },
+          {
+            "ace": true,
+            "name": "WIDOW",
+            "type": "wraith",
+            "vet": 5
+          },
+          {
+            "ace": true,
+            "name": "STATIC",
+            "type": "lancer",
+            "vet": 5
+          }
+        ],
+        "system": "HALCYON"
+      },
+      {
+        "faction": 2,
+        "fighterReserve": 140,
+        "fighterReserveMax": 140,
+        "id": "LUCIA OCCUPATION",
+        "peakCost": 193,
+        "posture": "defend",
+        "ships": [
+          {
+            "name": "SSV WOLFRAM II",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "SSV KRAIT II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "SSV MAELSTROM II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "SSV VORTEX II",
+            "type": "bristleback",
+            "vet": 4
+          },
+          {
+            "name": "SSV PERDITION II",
+            "type": "bristleback",
+            "vet": 4
+          },
+          {
+            "ace": true,
+            "name": "COLDBURN",
+            "type": "reaper",
+            "vet": 5
+          }
+        ],
+        "system": "ETA CASSIOPEIAE"
+      }
+    ],
+    "log": [
+      "DAY 0 - WAR DECLARED - THE SUNDERING WAR"
+    ],
+    "memorial": [],
+    "playerFaction": 1,
+    "schema": "strikewings.war/v1",
+    "seasonId": "S01",
+    "seed": 7791550101,
+    "sortieWins": 0,
+    "sorties": 0,
+    "squadron": [
+      {
+        "name": "WINTER",
+        "type": "basilisk",
+        "vet": 4
+      },
+      {
+        "name": "VIPER",
+        "type": "talon",
+        "vet": 4
+      }
+    ],
+    "systems": [
+      {
+        "name": "EARTH",
+        "owner": 1
+      },
+      {
+        "name": "TAU CETI",
+        "owner": 1
+      },
+      {
+        "name": "EPSILON INDI",
+        "owner": 1
+      },
+      {
+        "name": "NEW ANTWERP",
+        "owner": 1
+      },
+      {
+        "name": "MARS",
+        "owner": 2
+      },
+      {
+        "name": "PROCYON",
+        "owner": 2
+      },
+      {
+        "name": "HALCYON",
+        "owner": 2
+      },
+      {
+        "name": "ETA CASSIOPEIAE",
+        "owner": 2
+      },
+      {
+        "name": "82 ERIDANI",
+        "owner": 2
+      },
+      {
+        "name": "ALPHA CENTAURI",
+        "owner": 0
+      },
+      {
+        "name": "SIRIUS",
+        "owner": 0
+      },
+      {
+        "name": "BARNARD",
+        "owner": 0
+      },
+      {
+        "name": "SELACH",
+        "owner": 0
+      },
+      {
+        "name": "ROSS 128",
+        "owner": 0
+      },
+      {
+        "name": "GLIESE 581",
+        "owner": 0
+      },
+      {
+        "name": "ARATHIL",
+        "owner": 0
+      }
+    ],
+    "version": 1,
+    "winner": 0
+  }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STRIKE WINGS — THE SUNDERING WAR</title>
+<style>
+  :root { --amber:#ffbf00; --dim:#96803c; --terran:#78cd82; --ssa:#7d9bdc; --neutral:#969488; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#04060c; color:#b4b4c8; font-family:"Courier New",monospace;
+         min-height:100vh; display:flex; flex-direction:column; align-items:center; }
+  header { padding:28px 16px 8px; text-align:center; }
+  h1 { color:var(--amber); letter-spacing:.35em; font-size:22px; font-weight:700; }
+  .sub { color:var(--dim); letter-spacing:.2em; font-size:12px; margin-top:6px; }
+  .strip { margin:10px auto 0; width:min(680px,90vw); height:1px;
+           background:linear-gradient(90deg,transparent,var(--dim),transparent); }
+  #meta { color:#8c8ca0; font-size:12px; letter-spacing:.12em; margin:10px 0 2px; text-align:center; }
+  #meta b { color:var(--amber); font-weight:700; }
+  .wrap { width:min(1100px,96vw); }
+  canvas { width:100%; display:block; margin:8px auto; border:1px solid #2a2418; background:#05070e; }
+  .legend { display:flex; gap:22px; justify-content:center; font-size:11px;
+            letter-spacing:.15em; color:#8c8ca0; padding:4px 0 10px; }
+  .dot { display:inline-block; width:9px; height:9px; margin-right:6px; border-radius:50%; }
+  #log { width:min(900px,94vw); margin:6px auto 40px; font-size:12px; line-height:1.75;
+         letter-spacing:.06em; }
+  #log h2 { color:var(--amber); font-size:13px; letter-spacing:.3em; margin-bottom:8px; }
+  #log div { color:#9aa; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  #log .lost { color:#e06a52; }  #log .take1 { color:var(--terran); }
+  #log .take2 { color:var(--ssa); }  #log .honor { color:var(--amber); }
+  footer { color:#55506a; font-size:11px; letter-spacing:.15em; padding:14px 0 26px; }
+  a { color:var(--dim); }
+</style>
+</head>
+<body>
+<header>
+  <h1>THE SUNDERING WAR</h1>
+  <div class="sub">STRIKE WINGS — LIVE SEASON FRONT LINES</div>
+  <div class="strip"></div>
+  <div id="meta">CONTACTING WAR COMMAND...</div>
+</header>
+<div class="wrap"><canvas id="map" width="1100" height="760"></canvas></div>
+<div class="legend">
+  <span><span class="dot" style="background:var(--terran)"></span>TERRAN ALLIANCE</span>
+  <span><span class="dot" style="background:var(--ssa)"></span>SSA</span>
+  <span><span class="dot" style="background:var(--neutral)"></span>NEUTRAL</span>
+</div>
+<div id="log"><h2>DISPATCHES</h2><div>AWAITING SIGNAL...</div></div>
+<footer>OFFICIAL STATE ADVANCES EVERY SIX HOURS — FLY THE WAR IN STRIKE WINGS</footer>
+<script>
+// Canonical Known Sphere chart coordinates (light-years, +x east, +y south),
+// mirrored from the game's star chart so the web map matches the WAR ROOM.
+const SYSTEMS = {
+  "SOL":[0,0],"ALPHA CENTAURI":[-3.1,3.1],"SIRIUS":[6,6.1],"PROCYON":[10.6,-4.4],
+  "BARNARD":[2,-5.9],"ETA CASSIOPEIAE":[13.5,-13.5],"TAU CETI":[3,11.6],
+  "EPSILON INDI":[5,10.9],"82 ERIDANI":[18.8,-6.8],"SELACH":[5.5,2],
+  "NEW ANTWERP":[-5.7,5.7],"HALCYON":[11,-4.7],"ROSS 128":[-7.7,-7.7],
+  "GLIESE 581":[14.4,14.4],"ARATHIL":[-10.6,10.6]};
+const LANES = [["SOL","ALPHA CENTAURI"],["SOL","BARNARD"],["SOL","TAU CETI"],
+  ["SOL","SELACH"],["SOL","NEW ANTWERP"],["TAU CETI","EPSILON INDI"],
+  ["TAU CETI","SELACH"],["EPSILON INDI","GLIESE 581"],["NEW ANTWERP","ARATHIL"],
+  ["NEW ANTWERP","ROSS 128"],["ALPHA CENTAURI","ROSS 128"],["ROSS 128","BARNARD"],
+  ["BARNARD","PROCYON"],["BARNARD","SIRIUS"],["SELACH","SIRIUS"],
+  ["SELACH","HALCYON"],["SIRIUS","PROCYON"],["PROCYON","HALCYON"],
+  ["PROCYON","ETA CASSIOPEIAE"],["HALCYON","82 ERIDANI"],
+  ["HALCYON","ETA CASSIOPEIAE"],["82 ERIDANI","ETA CASSIOPEIAE"],
+  ["GLIESE 581","82 ERIDANI"]];
+const COLORS = {0:"#969488",1:"#78cd82",2:"#7d9bdc"};
+const cv = document.getElementById("map"), cx2d = cv.getContext("2d");
+let WAR = null, STARS = [];
+for (let i=0;i<220;i++) STARS.push([Math.random(),Math.random(),Math.random()*1.4+.3]);
+
+function px(name){
+  const c = SYSTEMS[name]; if(!c) return [cv.width/2,cv.height/2];
+  const sx = cv.width*0.5 + c[0]*(cv.width*0.026);
+  const sy = cv.height*0.5 + c[1]*(cv.height*0.032);
+  return [sx,sy];
+}
+function draw(t){
+  const w=cv.width,h=cv.height; cx2d.clearRect(0,0,w,h);
+  cx2d.fillStyle="#05070e"; cx2d.fillRect(0,0,w,h);
+  for(const s of STARS){ cx2d.globalAlpha=.25+.25*Math.sin(t*.0007+s[0]*40);
+    cx2d.fillStyle="#cdd4ff"; cx2d.fillRect(s[0]*w,s[1]*h,s[2],s[2]); }
+  cx2d.globalAlpha=1;
+  const owners={}, press={};
+  if(WAR) for(const s of WAR.war.systems){ owners[s.name]=s.owner||0; press[s.name]=s.pressure||0; }
+  for(const [a,b] of LANES){
+    const [ax,ay]=px(a),[bx,by]=px(b);
+    const oa=owners[a]??0, ob=owners[b]??0;
+    if(oa!==ob && oa!==undefined){ cx2d.setLineDash([6,7]); cx2d.strokeStyle="rgba(220,90,70,.55)"; }
+    else { cx2d.setLineDash([]); cx2d.strokeStyle="rgba(120,130,160,.18)"; }
+    cx2d.beginPath(); cx2d.moveTo(ax,ay); cx2d.lineTo(bx,by); cx2d.stroke();
+  }
+  cx2d.setLineDash([]);
+  for(const name in SYSTEMS){
+    const [x,y]=px(name); const o=owners[name]??0; const c=COLORS[o]||COLORS[0];
+    const g=cx2d.createRadialGradient(x,y,0,x,y,26);
+    g.addColorStop(0,c+"cc"); g.addColorStop(1,c+"00");
+    cx2d.fillStyle=g; cx2d.beginPath(); cx2d.arc(x,y,26,0,7); cx2d.fill();
+    cx2d.fillStyle="#fff"; cx2d.beginPath(); cx2d.arc(x,y,3,0,7); cx2d.fill();
+    const p=press[name]||0;
+    if(Math.abs(p)>0.5){
+      const frac=Math.min(1,Math.abs(p)/100);
+      cx2d.strokeStyle=COLORS[p>0?1:2]; cx2d.lineWidth=2;
+      cx2d.beginPath(); cx2d.arc(x,y,11,-Math.PI/2,-Math.PI/2+(p>0?1:-1)*frac*Math.PI*2,p<0); cx2d.stroke();
+      cx2d.lineWidth=1;
+    }
+    cx2d.fillStyle=c; cx2d.font="11px 'Courier New'"; cx2d.textAlign="center";
+    cx2d.fillText(name,x,y+22);
+  }
+  requestAnimationFrame(draw);
+}
+function classify(line){
+  if(/ LOST |WAS KILLED|SCATTERED/.test(line)) return "lost";
+  if(/TERRAN FORCES (TOOK|ANNEXED)/.test(line)) return "take1";
+  if(/SSA FORCES (TOOK|ANNEXED)/.test(line)) return "take2";
+  if(/PROMOTED|PRIZE CREW|HAS WON/.test(line)) return "honor";
+  return "";
+}
+async function load(){
+  try{
+    const cur = await (await fetch("current.json",{cache:"no-store"})).json();
+    const st = await (await fetch(cur.season+"/war_state.json",{cache:"no-store"})).json();
+    WAR = st;
+    const held={0:0,1:0,2:0};
+    for(const s of st.war.systems) held[s.owner||0]++;
+    const when = new Date((st.generatedAtEpoch||0)*1000).toUTCString();
+    document.getElementById("meta").innerHTML =
+      `SEASON <b>${st.season.id}</b> — DAY <b>${st.war.day}</b> — TICK <b>${st.tickIndex}</b>` +
+      ` — TERRAN <b>${held[1]}</b> / SSA <b>${held[2]}</b> / NEUTRAL <b>${held[0]}</b>` +
+      (st.war.winner? ` — <b>${st.war.winner===1?"THE ALLIANCE":"THE SSA"} HAS WON</b>`:"") +
+      `<br>OFFICIAL AS OF ${when} — REV ${st.stateHash||"?"}`;
+    const log = document.getElementById("log");
+    log.innerHTML = "<h2>DISPATCHES</h2>" +
+      (st.war.log||[]).slice(-24).reverse()
+        .map(l=>`<div class="${classify(l)}">${l.replace(/[<>&]/g,"")}</div>`).join("");
+  }catch(e){
+    document.getElementById("meta").textContent =
+      "THE SEASON HAS NOT OPENED YET - FIRST TICK PENDING";
+  }
+}
+load(); setInterval(load, 120000); requestAnimationFrame(draw);
+</script>
+</body>
+</html>
