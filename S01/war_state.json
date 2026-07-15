@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784058738,
+  "generatedAtEpoch": 1784086917,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,18 +30,18 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "0ef3eea0bfaad4fc",
-  "tickIndex": 0,
+  "stateHash": "2d4a5f8d9c349ae7",
+  "tickIndex": 1,
   "war": {
     "buildPool": [
       0,
       0
     ],
-    "day": 0,
+    "day": 1,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 220,
+        "fighterReserve": 203,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
         "peakCost": 334,
@@ -98,13 +98,18 @@
             "name": "BANNERET",
             "type": "crusader",
             "vet": 5
+          },
+          {
+            "name": "TAS LIONHEART II",
+            "type": "cyclone",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 220,
+        "fighterReserve": 213,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -220,7 +225,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 140,
+        "fighterReserve": 128,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -262,10 +267,10 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 220,
+        "fighterReserve": 201,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 330,
+        "peakCost": 344,
         "posture": "defend",
         "ships": [
           {
@@ -319,13 +324,29 @@
             "name": "RIMFIRE",
             "type": "manticore",
             "vet": 5
+          },
+          {
+            "name": "SSV NOCTURNE II",
+            "type": "tempest",
+            "vet": 3
+          },
+          {
+            "name": "SSV RIPTIDE II",
+            "type": "cataclysm",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "NINELIVES",
+            "type": "manticore",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 220,
+        "fighterReserve": 208,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -483,7 +504,11 @@
       }
     ],
     "log": [
-      "DAY 0 - WAR DECLARED - THE SUNDERING WAR"
+      "DAY 0 - WAR DECLARED - THE SUNDERING WAR",
+      "DAY 1 - TAS LIONHEART II COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 1 - SSV NOCTURNE II COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 1 - SSV RIPTIDE II COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 1 - NINELIVES COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -543,31 +568,38 @@
       },
       {
         "name": "ALPHA CENTAURI",
-        "owner": 0
+        "owner": 0,
+        "pressure": -5.09765625
       },
       {
         "name": "SIRIUS",
-        "owner": 0
+        "owner": 0,
+        "pressure": -6.9296875
       },
       {
         "name": "BARNARD",
-        "owner": 0
+        "owner": 0,
+        "pressure": -6.16796875
       },
       {
         "name": "SELACH",
-        "owner": 0
+        "owner": 0,
+        "pressure": -2.08203125
       },
       {
         "name": "ROSS 128",
-        "owner": 0
+        "owner": 0,
+        "pressure": 5.77734375
       },
       {
         "name": "GLIESE 581",
-        "owner": 0
+        "owner": 0,
+        "pressure": 7.39453125
       },
       {
         "name": "ARATHIL",
-        "owner": 0
+        "owner": 0,
+        "pressure": 6.62109375
       }
     ],
     "version": 1,
