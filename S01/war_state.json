@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784212337,
+  "generatedAtEpoch": 1784231032,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,18 +30,18 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "190fd7bb6ecf24e5",
-  "tickIndex": 6,
+  "stateHash": "fb110335eab74b0d",
+  "tickIndex": 7,
   "war": {
     "buildPool": [
       0,
-      1
+      0
     ],
-    "day": 6,
+    "day": 7,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 105,
+        "fighterReserve": 87,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
         "peakCost": 334,
@@ -150,13 +150,18 @@
             "name": "HATCHET",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS BULWARK II",
+            "type": "cyclone",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 168,
+        "fighterReserve": 156,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -272,7 +277,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 63,
+        "fighterReserve": 48,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -292,21 +297,16 @@
             "name": "TAS ORION II",
             "type": "marksman",
             "vet": 4
-          },
-          {
-            "name": "TAS BULWARK II",
-            "type": "marksman",
-            "vet": 4
           }
         ],
         "system": "NEW ANTWERP"
       },
       {
         "faction": 2,
-        "fighterReserve": 122,
+        "fighterReserve": 109,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 364,
+        "peakCost": 369,
         "posture": "defend",
         "ships": [
           {
@@ -428,13 +428,30 @@
             "name": "SSV PALEFIRE III",
             "type": "frigate",
             "vet": 3
+          },
+          {
+            "name": "SSV WOLFRAM III",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "EMBER",
+            "type": "sledge",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "CROSSCUT",
+            "type": "sledge",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 172,
+        "fighterReserve": 159,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -497,7 +514,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 180,
+        "fighterReserve": 174,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -617,7 +634,12 @@
       "DAY 6 - TAS WARBRIDGE II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 6 - HATCHET COMMISSIONED AT EARTH",
       "DAY 6 - SSV MAELSTROM III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 6 - SSV PALEFIRE III COMMISSIONED AT MARS"
+      "DAY 6 - SSV PALEFIRE III COMMISSIONED AT MARS",
+      "DAY 7 - TAS BULWARK II LOST AT ARATHIL",
+      "DAY 7 - TAS BULWARK II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 7 - SSV WOLFRAM III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 7 - EMBER COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 7 - CROSSCUT COMMISSIONED - CREWS REPORTING AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -678,37 +700,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 13.18359375
+        "pressure": 17.81640625
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -37.328125
+        "pressure": -46.10546875
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -44.734375
+        "pressure": -51.7734375
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -19.6328125
+        "pressure": -6.0
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 16.67578125
+        "pressure": 10.22265625
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 48.578125
+        "pressure": 55.41015625
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 37.26171875
+        "pressure": 29.65625
       }
     ],
     "version": 1,
