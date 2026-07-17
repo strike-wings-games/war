@@ -1,10 +1,10 @@
 {
   "endEpoch": 1790121600,
-  "generatedAtEpoch": 1784260089,
+  "generatedAtEpoch": 1784277589,
   "path": "war/S01/war_state.json",
   "season": "S01",
   "seasonOver": false,
-  "stateHash": "b9e58d7d6bd78c85",
-  "tickIndex": 8,
+  "stateHash": "94f31a9bc3485930",
+  "tickIndex": 9,
   "winner": 0
 }
