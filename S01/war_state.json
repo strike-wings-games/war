@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784277589,
+  "generatedAtEpoch": 1784297493,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,21 +30,21 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "94f31a9bc3485930",
-  "tickIndex": 9,
+  "stateHash": "96a1651f7d07659d",
+  "tickIndex": 10,
   "war": {
     "buildPool": [
       1,
-      0
+      1
     ],
-    "day": 9,
+    "day": 10,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 54,
+        "fighterReserve": 44,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 334,
+        "peakCost": 336,
         "posture": "defend",
         "ships": [
           {
@@ -170,13 +170,29 @@
             "name": "TAS SOVEREIGN III",
             "type": "marksman",
             "vet": 3
+          },
+          {
+            "name": "TAS TEMPERANCE III",
+            "type": "marksman",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "CAVALIER",
+            "type": "crusader",
+            "vet": 3
+          },
+          {
+            "name": "TAS WARBRIDGE III",
+            "type": "marksman",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 135,
+        "fighterReserve": 121,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -292,7 +308,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 45,
+        "fighterReserve": 29,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -308,7 +324,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 71,
+        "fighterReserve": 55,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
         "peakCost": 369,
@@ -459,13 +475,18 @@
             "name": "SSV UNDERTOW III",
             "type": "tempest",
             "vet": 3
+          },
+          {
+            "name": "SSV VORTEX III",
+            "type": "caisson",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 137,
+        "fighterReserve": 130,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -522,7 +543,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 166,
+        "fighterReserve": 169,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -657,7 +678,11 @@
       "DAY 9 - TAS BASTION II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 9 - TAS SOVEREIGN III COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 9 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 9 - SSV UNDERTOW III COMMISSIONED - CREWS REPORTING AT MARS"
+      "DAY 9 - SSV UNDERTOW III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 10 - TAS TEMPERANCE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 10 - CAVALIER COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 10 - TAS WARBRIDGE III COMMISSIONED AT EARTH",
+      "DAY 10 - SSV VORTEX III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -718,36 +743,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 9.078125
+        "pressure": 6.01953125
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -51.2734375
+        "pressure": -59.69140625
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -65.71875
+        "pressure": -71.921875
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -10.8671875
+        "pressure": -18.12109375
       },
       {
         "name": "ROSS 128",
-        "owner": 0
+        "owner": 0,
+        "pressure": 4.69921875
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 69.40625
+        "pressure": 80.39453125
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 32.41796875
+        "pressure": 37.4140625
       }
     ],
     "version": 1,
