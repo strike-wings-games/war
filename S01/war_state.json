@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784383056,
+  "generatedAtEpoch": 1784403911,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "0609b4d557d21eac",
-  "tickIndex": 14,
+  "stateHash": "009c02d5fddc8546",
+  "tickIndex": 15,
   "war": {
     "buildPool": [
       1,
-      8
+      14
     ],
     "chronicle": [
       [
@@ -46,14 +46,14 @@
         ""
       ]
     ],
-    "day": 14,
+    "day": 15,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 383,
+        "peakCost": 397,
         "posture": "defend",
         "ships": [
           {
@@ -239,13 +239,18 @@
             "name": "TAS DAUNTLESS III",
             "type": "marksman",
             "vet": 3
+          },
+          {
+            "name": "TAS ORION III",
+            "type": "cyclone",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 91,
+        "fighterReserve": 86,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -554,12 +559,6 @@
             "name": "SSV CALDERA III",
             "type": "frigate",
             "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "TALLYMAN II",
-            "type": "sledge",
-            "vet": 3
           }
         ],
         "system": "BARNARD"
@@ -623,7 +622,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 169,
+        "fighterReserve": 165,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -725,8 +724,15 @@
         "posture": "defend",
         "ships": [
           {
-            "name": "SSV HARROW III",
-            "type": "tempest",
+            "ace": true,
+            "name": "SABLE II",
+            "type": "manticore",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "STATIC II",
+            "type": "manticore",
             "vet": 3
           }
         ],
@@ -734,11 +740,6 @@
       }
     ],
     "log": [
-      "DAY 2 - LOCKJAW COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 2 - SSV OBSIDIAN II COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 3 - FALCONER LOST AT ROSS 128",
-      "DAY 3 - TAS IRONWOOD II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 3 - FALCONER COMMISSIONED AT EARTH",
       "DAY 3 - SSV UNDERTOW II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 3 - SSV VESPERINE II COMMISSIONED AT MARS",
       "DAY 3 - JACKAL COMMISSIONED AT MARS",
@@ -793,7 +794,12 @@
       "DAY 14 - TAS SOVEREIGN II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 14 - TAS DAUNTLESS III COMMISSIONED AT EARTH",
       "DAY 14 - SSV HARROW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 14 - SSV RESERVE GROUP ARRIVES AT THE LINE - MARS"
+      "DAY 14 - SSV RESERVE GROUP ARRIVES AT THE LINE - MARS",
+      "DAY 15 - SSV HARROW III LOST AT ALPHA CENTAURI",
+      "DAY 15 - TALLYMAN II LOST AT SIRIUS",
+      "DAY 15 - TAS ORION III COMMISSIONED AT EARTH",
+      "DAY 15 - SABLE II COMMISSIONED AT MARS",
+      "DAY 15 - STATIC II COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -854,12 +860,12 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 10.78125
+        "pressure": 19.6640625
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -90.11328125
+        "pressure": -83.109375
       },
       {
         "name": "BARNARD",
@@ -868,7 +874,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -43.359375
+        "pressure": -44.92578125
       },
       {
         "name": "ROSS 128",
@@ -877,12 +883,12 @@
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 84.734375
+        "pressure": 93.15625
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 19.9140625
+        "pressure": 12.9921875
       }
     ],
     "version": 1,
