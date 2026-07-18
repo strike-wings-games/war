@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784362688,
+  "generatedAtEpoch": 1784383056,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,21 +30,30 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "5dc70bdbb556f99c",
-  "tickIndex": 13,
+  "stateHash": "0609b4d557d21eac",
+  "tickIndex": 14,
   "war": {
     "buildPool": [
-      0,
-      0
+      1,
+      8
     ],
-    "day": 13,
+    "chronicle": [
+      [
+        14,
+        1,
+        11,
+        2,
+        ""
+      ]
+    ],
+    "day": 14,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 375,
+        "peakCost": 383,
         "posture": "defend",
         "ships": [
           {
@@ -123,11 +132,6 @@
             "ace": true,
             "name": "FALCONER",
             "type": "crusader",
-            "vet": 3
-          },
-          {
-            "name": "TAS SOVEREIGN II",
-            "type": "marksman",
             "vet": 3
           },
           {
@@ -225,13 +229,23 @@
             "name": "LONGSHOT II",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS SOVEREIGN II",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "name": "TAS DAUNTLESS III",
+            "type": "marksman",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 103,
+        "fighterReserve": 91,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -352,7 +366,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 2,
+        "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
         "peakCost": 369,
@@ -548,11 +562,11 @@
             "vet": 3
           }
         ],
-        "system": "MARS"
+        "system": "BARNARD"
       },
       {
         "faction": 2,
-        "fighterReserve": 113,
+        "fighterReserve": 109,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -609,7 +623,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 174,
+        "fighterReserve": 169,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -701,15 +715,25 @@
           }
         ],
         "system": "ETA CASSIOPEIAE"
+      },
+      {
+        "faction": 2,
+        "fighterReserve": 0,
+        "fighterReserveMax": 120,
+        "id": "SSV RESERVE GROUP",
+        "peakCost": 12,
+        "posture": "defend",
+        "ships": [
+          {
+            "name": "SSV HARROW III",
+            "type": "tempest",
+            "vet": 3
+          }
+        ],
+        "system": "MARS"
       }
     ],
     "log": [
-      "DAY 1 - TAS LIONHEART II COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 1 - SSV NOCTURNE II COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 1 - SSV RIPTIDE II COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 1 - NINELIVES COMMISSIONED AT MARS",
-      "DAY 2 - TAS DAUNTLESS II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 2 - TAS HALBERD II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 2 - LOCKJAW COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 2 - SSV OBSIDIAN II COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 3 - FALCONER LOST AT ROSS 128",
@@ -763,7 +787,13 @@
       "DAY 13 - LONGSHOT II COMMISSIONED AT EARTH",
       "DAY 13 - SSV DUSKWATCH III COMMISSIONED AT MARS",
       "DAY 13 - SSV CALDERA III COMMISSIONED AT MARS",
-      "DAY 13 - TALLYMAN II COMMISSIONED AT MARS"
+      "DAY 13 - TALLYMAN II COMMISSIONED AT MARS",
+      "DAY 14 - TAS SOVEREIGN II LOST AT SELACH",
+      "DAY 14 - SSA FORCES TOOK BARNARD - THE LINE MOVES",
+      "DAY 14 - TAS SOVEREIGN II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 14 - TAS DAUNTLESS III COMMISSIONED AT EARTH",
+      "DAY 14 - SSV HARROW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 14 - SSV RESERVE GROUP ARRIVES AT THE LINE - MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -824,22 +854,21 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 10.109375
+        "pressure": 10.78125
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -80.71875
+        "pressure": -90.11328125
       },
       {
         "name": "BARNARD",
-        "owner": 0,
-        "pressure": -98.26171875
+        "owner": 2
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -31.859375
+        "pressure": -43.359375
       },
       {
         "name": "ROSS 128",
@@ -848,12 +877,12 @@
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 88.359375
+        "pressure": 84.734375
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 23.42578125
+        "pressure": 19.9140625
       }
     ],
     "version": 1,
