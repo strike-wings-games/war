@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784345974,
+  "generatedAtEpoch": 1784362688,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,21 +30,21 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "8a113f348d0a5277",
-  "tickIndex": 12,
+  "stateHash": "5dc70bdbb556f99c",
+  "tickIndex": 13,
   "war": {
     "buildPool": [
-      1,
-      2
+      0,
+      0
     ],
-    "day": 12,
+    "day": 13,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 350,
+        "peakCost": 375,
         "posture": "defend",
         "ships": [
           {
@@ -214,13 +214,24 @@
             "name": "TAS WARBRIDGE",
             "type": "longbow",
             "vet": 3
+          },
+          {
+            "name": "TAS VIGILANT III",
+            "type": "destroyer",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "LONGSHOT II",
+            "type": "crusader",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 107,
+        "fighterReserve": 103,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -341,7 +352,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 21,
+        "fighterReserve": 2,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
         "peakCost": 369,
@@ -519,13 +530,29 @@
             "name": "SSV OBSIDIAN III",
             "type": "frigate",
             "vet": 3
+          },
+          {
+            "name": "SSV DUSKWATCH III",
+            "type": "cataclysm",
+            "vet": 3
+          },
+          {
+            "name": "SSV CALDERA III",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "TALLYMAN II",
+            "type": "sledge",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 121,
+        "fighterReserve": 113,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -582,7 +609,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 175,
+        "fighterReserve": 174,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -677,7 +704,6 @@
       }
     ],
     "log": [
-      "DAY 0 - WAR DECLARED - THE SUNDERING WAR",
       "DAY 1 - TAS LIONHEART II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 1 - SSV NOCTURNE II COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 1 - SSV RIPTIDE II COMMISSIONED - CREWS REPORTING AT MARS",
@@ -732,7 +758,12 @@
       "DAY 12 - PILGRIM II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 12 - TAS WARBRIDGE COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 12 - HAVOC COMMISSIONED AT MARS",
-      "DAY 12 - SSV OBSIDIAN III COMMISSIONED - CREWS REPORTING AT MARS"
+      "DAY 12 - SSV OBSIDIAN III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 13 - TAS VIGILANT III COMMISSIONED AT EARTH",
+      "DAY 13 - LONGSHOT II COMMISSIONED AT EARTH",
+      "DAY 13 - SSV DUSKWATCH III COMMISSIONED AT MARS",
+      "DAY 13 - SSV CALDERA III COMMISSIONED AT MARS",
+      "DAY 13 - TALLYMAN II COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -793,22 +824,22 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 14.953125
+        "pressure": 10.109375
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -72.6640625
+        "pressure": -80.71875
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -87.97265625
+        "pressure": -98.26171875
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -32.33984375
+        "pressure": -31.859375
       },
       {
         "name": "ROSS 128",
@@ -817,12 +848,12 @@
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 80.91015625
+        "pressure": 88.359375
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 28.31640625
+        "pressure": 23.42578125
       }
     ],
     "version": 1,
