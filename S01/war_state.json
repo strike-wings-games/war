@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784450625,
+  "generatedAtEpoch": 1784470036,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "93b04c8a1816d68e",
-  "tickIndex": 17,
+  "stateHash": "c2e25a5efe37f9b0",
+  "tickIndex": 18,
   "war": {
     "buildPool": [
-      0,
-      38
+      2,
+      50
     ],
     "chronicle": [
       [
@@ -53,14 +53,14 @@
         ""
       ]
     ],
-    "day": 17,
+    "day": 18,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 438,
+        "peakCost": 453,
         "posture": "defend",
         "ships": [
           {
@@ -267,13 +267,23 @@
             "name": "IRONSIDE II",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS AVALON III",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "name": "TAS BASTION III",
+            "type": "marksman",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 60,
+        "fighterReserve": 50,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -645,7 +655,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 163,
+        "fighterReserve": 161,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -763,8 +773,6 @@
       }
     ],
     "log": [
-      "DAY 4 - TAS CLAYMORE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 4 - SSV KRAIT III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 4 - SSV PERDITION III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 5 - TAS LIONHEART III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 5 - SSV NOCTURNE III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
@@ -822,7 +830,9 @@
       "DAY 16 - TAS HALBERD III COMMISSIONED AT EARTH",
       "DAY 17 - TERRAN FORCES TOOK GLIESE 581 - RESISTANCE COLLAPSED",
       "DAY 17 - TAS GRANITE III COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 17 - IRONSIDE II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
+      "DAY 17 - IRONSIDE II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 18 - TAS AVALON III COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 18 - TAS BASTION III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -878,17 +888,18 @@
       },
       {
         "name": "82 ERIDANI",
-        "owner": 2
+        "owner": 2,
+        "pressure": 9.359375
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 33.62890625
+        "pressure": 26.67578125
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -96.06640625
+        "pressure": -90.203125
       },
       {
         "name": "BARNARD",
@@ -897,12 +908,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -30.20703125
+        "pressure": -17.73046875
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -4.48828125
+        "pressure": -14.30859375
       },
       {
         "name": "GLIESE 581",
@@ -911,7 +922,7 @@
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 15.96484375
+        "pressure": 10.84375
       }
     ],
     "version": 1,
