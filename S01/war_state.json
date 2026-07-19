@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784403911,
+  "generatedAtEpoch": 1784434028,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "009c02d5fddc8546",
-  "tickIndex": 15,
+  "stateHash": "49fc5f00eb53f7a0",
+  "tickIndex": 16,
   "war": {
     "buildPool": [
-      1,
-      14
+      0,
+      26
     ],
     "chronicle": [
       [
@@ -46,14 +46,14 @@
         ""
       ]
     ],
-    "day": 15,
+    "day": 16,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 397,
+        "peakCost": 413,
         "posture": "defend",
         "ships": [
           {
@@ -244,13 +244,18 @@
             "name": "TAS ORION III",
             "type": "cyclone",
             "vet": 3
+          },
+          {
+            "name": "TAS HALBERD III",
+            "type": "ingot",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 86,
+        "fighterReserve": 73,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -622,7 +627,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 165,
+        "fighterReserve": 161,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -740,7 +745,6 @@
       }
     ],
     "log": [
-      "DAY 3 - SSV UNDERTOW II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 3 - SSV VESPERINE II COMMISSIONED AT MARS",
       "DAY 3 - JACKAL COMMISSIONED AT MARS",
       "DAY 4 - TAS SOVEREIGN II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
@@ -799,7 +803,8 @@
       "DAY 15 - TALLYMAN II LOST AT SIRIUS",
       "DAY 15 - TAS ORION III COMMISSIONED AT EARTH",
       "DAY 15 - SABLE II COMMISSIONED AT MARS",
-      "DAY 15 - STATIC II COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
+      "DAY 15 - STATIC II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 16 - TAS HALBERD III COMMISSIONED AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -860,12 +865,12 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 19.6640625
+        "pressure": 27.82421875
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -83.109375
+        "pressure": -91.578125
       },
       {
         "name": "BARNARD",
@@ -874,21 +879,22 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -44.92578125
+        "pressure": -31.6015625
       },
       {
         "name": "ROSS 128",
-        "owner": 0
+        "owner": 0,
+        "pressure": -10.9921875
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 93.15625
+        "pressure": 99.94921875
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 12.9921875
+        "pressure": 6.11328125
       }
     ],
     "version": 1,
