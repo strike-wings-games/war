@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784434028,
+  "generatedAtEpoch": 1784450625,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "49fc5f00eb53f7a0",
-  "tickIndex": 16,
+  "stateHash": "93b04c8a1816d68e",
+  "tickIndex": 17,
   "war": {
     "buildPool": [
       0,
-      26
+      38
     ],
     "chronicle": [
       [
@@ -44,16 +44,23 @@
         11,
         2,
         ""
+      ],
+      [
+        17,
+        1,
+        14,
+        1,
+        ""
       ]
     ],
-    "day": 16,
+    "day": 17,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 413,
+        "peakCost": 438,
         "posture": "defend",
         "ships": [
           {
@@ -249,13 +256,24 @@
             "name": "TAS HALBERD III",
             "type": "ingot",
             "vet": 3
+          },
+          {
+            "name": "TAS GRANITE III",
+            "type": "destroyer",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "IRONSIDE II",
+            "type": "crusader",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 73,
+        "fighterReserve": 60,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -309,7 +327,7 @@
             "vet": 5
           }
         ],
-        "system": "EPSILON INDI"
+        "system": "GLIESE 581"
       },
       {
         "faction": 1,
@@ -627,7 +645,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 161,
+        "fighterReserve": 163,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -745,9 +763,6 @@
       }
     ],
     "log": [
-      "DAY 3 - SSV VESPERINE II COMMISSIONED AT MARS",
-      "DAY 3 - JACKAL COMMISSIONED AT MARS",
-      "DAY 4 - TAS SOVEREIGN II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 4 - TAS CLAYMORE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 4 - SSV KRAIT III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 4 - SSV PERDITION III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
@@ -804,7 +819,10 @@
       "DAY 15 - TAS ORION III COMMISSIONED AT EARTH",
       "DAY 15 - SABLE II COMMISSIONED AT MARS",
       "DAY 15 - STATIC II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 16 - TAS HALBERD III COMMISSIONED AT EARTH"
+      "DAY 16 - TAS HALBERD III COMMISSIONED AT EARTH",
+      "DAY 17 - TERRAN FORCES TOOK GLIESE 581 - RESISTANCE COLLAPSED",
+      "DAY 17 - TAS GRANITE III COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 17 - IRONSIDE II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -865,12 +883,12 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 27.82421875
+        "pressure": 33.62890625
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -91.578125
+        "pressure": -96.06640625
       },
       {
         "name": "BARNARD",
@@ -879,22 +897,21 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -31.6015625
+        "pressure": -30.20703125
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -10.9921875
+        "pressure": -4.48828125
       },
       {
         "name": "GLIESE 581",
-        "owner": 0,
-        "pressure": 99.94921875
+        "owner": 1
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 6.11328125
+        "pressure": 15.96484375
       }
     ],
     "version": 1,
