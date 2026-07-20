@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784558689,
+  "generatedAtEpoch": 1784566194,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "9f84068911db1d2a",
-  "tickIndex": 22,
+  "stateHash": "20fe0f5f36cf8a35",
+  "tickIndex": 23,
   "war": {
     "buildPool": [
-      23,
-      98
+      35,
+      108
     ],
     "chronicle": [
       [
@@ -60,7 +60,7 @@
         ""
       ]
     ],
-    "day": 22,
+    "day": 23,
     "fleets": [
       {
         "faction": 1,
@@ -672,7 +672,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 166,
+        "fighterReserve": 174,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -770,18 +770,17 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 18,
+        "peakCost": 27,
         "posture": "defend",
         "ships": [
           {
-            "ace": true,
-            "name": "SABLE II",
-            "type": "manticore",
+            "name": "SSV HARROW III",
+            "type": "tempest",
             "vet": 3
           },
           {
-            "name": "SSV HARROW III",
-            "type": "tempest",
+            "name": "SSV IRONMAW III",
+            "type": "cataclysm",
             "vet": 3
           }
         ],
@@ -789,8 +788,6 @@
       }
     ],
     "log": [
-      "DAY 6 - SSV PALEFIRE III COMMISSIONED AT MARS",
-      "DAY 7 - TAS BULWARK II LOST AT ARATHIL",
       "DAY 7 - TAS BULWARK II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 7 - SSV WOLFRAM III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 7 - EMBER COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
@@ -848,7 +845,9 @@
       "DAY 19 - SSV HARROW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 21 - SSA FORCES TOOK SIRIUS - THE LINE MOVES",
       "DAY 22 - TAS TEMPERANCE LOST AT ALPHA CENTAURI",
-      "DAY 22 - TAS TEMPERANCE COMMISSIONED AT EARTH"
+      "DAY 22 - TAS TEMPERANCE COMMISSIONED AT EARTH",
+      "DAY 23 - SABLE II LOST AT ALPHA CENTAURI",
+      "DAY 23 - SSV IRONMAW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -905,12 +904,12 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 39.078125
+        "pressure": 45.3046875
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 41.52734375
+        "pressure": 50.125
       },
       {
         "name": "SIRIUS",
@@ -923,7 +922,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -34.7421875
+        "pressure": -43.60546875
       },
       {
         "name": "ROSS 128",
