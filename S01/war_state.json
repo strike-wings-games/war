@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784540811,
+  "generatedAtEpoch": 1784558689,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "7f0b96535c2f50e7",
-  "tickIndex": 21,
+  "stateHash": "9f84068911db1d2a",
+  "tickIndex": 22,
   "war": {
     "buildPool": [
-      25,
-      84
+      23,
+      98
     ],
     "chronicle": [
       [
@@ -60,14 +60,14 @@
         ""
       ]
     ],
-    "day": 21,
+    "day": 22,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 472,
+        "peakCost": 482,
         "posture": "defend",
         "ships": [
           {
@@ -87,11 +87,6 @@
           },
           {
             "name": "TAS SOVEREIGN",
-            "type": "frigate",
-            "vet": 4
-          },
-          {
-            "name": "TAS TEMPERANCE",
             "type": "frigate",
             "vet": 4
           },
@@ -294,13 +289,18 @@
             "name": "TAS IRONWOOD III",
             "type": "marksman",
             "vet": 3
+          },
+          {
+            "name": "TAS TEMPERANCE",
+            "type": "cruiser",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 12,
+        "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -672,7 +672,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 158,
+        "fighterReserve": 166,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -789,8 +789,6 @@
       }
     ],
     "log": [
-      "DAY 6 - HATCHET COMMISSIONED AT EARTH",
-      "DAY 6 - SSV MAELSTROM III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 6 - SSV PALEFIRE III COMMISSIONED AT MARS",
       "DAY 7 - TAS BULWARK II LOST AT ARATHIL",
       "DAY 7 - TAS BULWARK II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
@@ -848,7 +846,9 @@
       "DAY 19 - TAS BULWARK III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 19 - TAS IRONWOOD III COMMISSIONED AT EARTH",
       "DAY 19 - SSV HARROW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 21 - SSA FORCES TOOK SIRIUS - THE LINE MOVES"
+      "DAY 21 - SSA FORCES TOOK SIRIUS - THE LINE MOVES",
+      "DAY 22 - TAS TEMPERANCE LOST AT ALPHA CENTAURI",
+      "DAY 22 - TAS TEMPERANCE COMMISSIONED AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -905,12 +905,12 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 32.3828125
+        "pressure": 39.078125
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 45.10546875
+        "pressure": 41.52734375
       },
       {
         "name": "SIRIUS",
@@ -923,7 +923,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -33.05859375
+        "pressure": -34.7421875
       },
       {
         "name": "ROSS 128",
