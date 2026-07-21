@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784624643,
+  "generatedAtEpoch": 1784644661,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "1019f280719a1c6a",
-  "tickIndex": 26,
+  "stateHash": "9ec4fc47712be42a",
+  "tickIndex": 27,
   "war": {
     "buildPool": [
-      65,
-      150
+      71,
+      164
     ],
     "chronicle": [
       [
@@ -60,14 +60,14 @@
         ""
       ]
     ],
-    "day": 26,
+    "day": 27,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 483,
+        "peakCost": 484,
         "posture": "defend",
         "ships": [
           {
@@ -240,11 +240,6 @@
             "vet": 3
           },
           {
-            "name": "TAS DAUNTLESS III",
-            "type": "marksman",
-            "vet": 3
-          },
-          {
             "name": "TAS ORION III",
             "type": "cyclone",
             "vet": 3
@@ -292,6 +287,11 @@
           },
           {
             "name": "TAS RESOLUTE III",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "name": "TAS MERIDIAN III",
             "type": "frigate",
             "vet": 3
           }
@@ -788,8 +788,6 @@
       }
     ],
     "log": [
-      "DAY 7 - EMBER COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 7 - CROSSCUT COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 8 - CROSSCUT LOST AT ALPHA CENTAURI",
       "DAY 8 - HAVOC LOST AT SIRIUS",
       "DAY 8 - TAS ORION II LOST AT ROSS 128",
@@ -847,7 +845,9 @@
       "DAY 23 - SABLE II LOST AT ALPHA CENTAURI",
       "DAY 23 - SSV IRONMAW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 24 - TAS WARBRIDGE III LOST AT ALPHA CENTAURI",
-      "DAY 24 - TAS RESOLUTE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
+      "DAY 24 - TAS RESOLUTE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 27 - TAS DAUNTLESS III LOST AT ALPHA CENTAURI",
+      "DAY 27 - TAS MERIDIAN III COMMISSIONED AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -904,12 +904,12 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 65.33984375
+        "pressure": 75.1328125
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 42.546875
+        "pressure": 38.046875
       },
       {
         "name": "SIRIUS",
@@ -922,7 +922,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -49.078125
+        "pressure": -36.828125
       },
       {
         "name": "ROSS 128",
