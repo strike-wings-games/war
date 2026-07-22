@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784664500,
+  "generatedAtEpoch": 1784692574,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "adae596afdd0ae45",
-  "tickIndex": 28,
+  "stateHash": "69be868e557be7e7",
+  "tickIndex": 29,
   "war": {
     "buildPool": [
-      69,
-      174
+      81,
+      188
     ],
     "chronicle": [
       [
@@ -60,7 +60,7 @@
         ""
       ]
     ],
-    "day": 28,
+    "day": 29,
     "fleets": [
       {
         "faction": 1,
@@ -904,12 +904,12 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 70.890625
+        "pressure": 76.5390625
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 47.484375
+        "pressure": 51.0234375
       },
       {
         "name": "SIRIUS",
@@ -922,7 +922,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -39.28515625
+        "pressure": -23.30078125
       },
       {
         "name": "ROSS 128",
@@ -935,8 +935,7 @@
       },
       {
         "name": "ARATHIL",
-        "owner": 0,
-        "pressure": 5.07421875
+        "owner": 0
       }
     ],
     "version": 1,
