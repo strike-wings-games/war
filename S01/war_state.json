@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784779001,
+  "generatedAtEpoch": 1784796907,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "4483292a50bfa099",
-  "tickIndex": 33,
+  "stateHash": "9b90507a9f201b98",
+  "tickIndex": 34,
   "war": {
     "buildPool": [
-      130,
-      237
+      143,
+      238
     ],
     "chronicle": [
       [
@@ -67,7 +67,7 @@
         ""
       ]
     ],
-    "day": 33,
+    "day": 34,
     "fleets": [
       {
         "faction": 1,
@@ -679,7 +679,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 180,
+        "fighterReserve": 170,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -762,12 +762,6 @@
             "name": "SSV PERDITION II",
             "type": "bristleback",
             "vet": 4
-          },
-          {
-            "ace": true,
-            "name": "COLDBURN",
-            "type": "reaper",
-            "vet": 5
           }
         ],
         "system": "ETA CASSIOPEIAE"
@@ -777,7 +771,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 27,
+        "peakCost": 39,
         "posture": "defend",
         "ships": [
           {
@@ -789,14 +783,17 @@
             "name": "SSV HARROW III",
             "type": "frigate",
             "vet": 3
+          },
+          {
+            "name": "SSV OBSIDIAN IV",
+            "type": "strikecarrier",
+            "vet": 3
           }
         ],
         "system": "MARS"
       }
     ],
     "log": [
-      "DAY 9 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 9 - SSV UNDERTOW III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 10 - TAS TEMPERANCE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 10 - CAVALIER COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 10 - TAS WARBRIDGE III COMMISSIONED AT EARTH",
@@ -854,7 +851,9 @@
       "DAY 30 - 82 ERIDANI AT +83 - THE LINE IS BREAKING",
       "DAY 33 - SSV HARROW III LOST AT ALPHA CENTAURI",
       "DAY 33 - TERRAN FORCES TOOK 82 ERIDANI - RESISTANCE COLLAPSED",
-      "DAY 33 - SSV HARROW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
+      "DAY 33 - SSV HARROW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 34 - COLDBURN LOST AT ETA CASSIOPEIAE",
+      "DAY 34 - SSV OBSIDIAN IV COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -902,20 +901,23 @@
       },
       {
         "name": "HALCYON",
-        "owner": 2
+        "owner": 2,
+        "pressure": 5.47265625
       },
       {
         "name": "ETA CASSIOPEIAE",
-        "owner": 2
+        "owner": 2,
+        "pressure": 4.46875
       },
       {
         "name": "82 ERIDANI",
-        "owner": 1
+        "owner": 1,
+        "pressure": -5.765625
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 56.28515625
+        "pressure": 49.3359375
       },
       {
         "name": "SIRIUS",
@@ -928,7 +930,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -11.5703125
+        "pressure": -6.20703125
       },
       {
         "name": "ROSS 128",
