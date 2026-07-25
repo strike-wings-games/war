@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784968811,
+  "generatedAtEpoch": 1784989067,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "b214b9a0d5626db8",
-  "tickIndex": 41,
+  "stateHash": "9536a0e11e607d3a",
+  "tickIndex": 42,
   "war": {
     "buildPool": [
-      194,
-      291
+      207,
+      304
     ],
     "chronicle": [
       [
@@ -67,7 +67,7 @@
         ""
       ]
     ],
-    "day": 41,
+    "day": 42,
     "fleets": [
       {
         "faction": 1,
@@ -674,7 +674,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 110,
+        "fighterReserve": 97,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -901,22 +901,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -6.359375
+        "pressure": -11.59375
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -15.0234375
+        "pressure": -22.125
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -5.19140625
+        "pressure": -13.55859375
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 84.140625
+        "pressure": 81.23828125
       },
       {
         "name": "SIRIUS",
@@ -928,7 +928,8 @@
       },
       {
         "name": "SELACH",
-        "owner": 0
+        "owner": 0,
+        "pressure": 1.234375
       },
       {
         "name": "ROSS 128",
@@ -942,7 +943,7 @@
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 5.29296875
+        "pressure": 1.74609375
       }
     ],
     "version": 1,
