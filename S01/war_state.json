@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784923407,
+  "generatedAtEpoch": 1784951505,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "e9f9a80156e5f9bb",
-  "tickIndex": 39,
+  "stateHash": "1731a75917db75ca",
+  "tickIndex": 40,
   "war": {
     "buildPool": [
-      185,
-      271
+      198,
+      278
     ],
     "chronicle": [
       [
@@ -67,7 +67,7 @@
         ""
       ]
     ],
-    "day": 39,
+    "day": 40,
     "fleets": [
       {
         "faction": 1,
@@ -674,7 +674,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 130,
+        "fighterReserve": 123,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -712,12 +712,6 @@
           },
           {
             "ace": true,
-            "name": "WIDOW",
-            "type": "wraith",
-            "vet": 5
-          },
-          {
-            "ace": true,
             "name": "STATIC",
             "type": "lancer",
             "vet": 5
@@ -727,7 +721,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 136,
+        "fighterReserve": 139,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -766,7 +760,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 65,
+        "peakCost": 73,
         "posture": "defend",
         "ships": [
           {
@@ -788,14 +782,17 @@
             "name": "SSV HARROW III",
             "type": "cruiser",
             "vet": 3
+          },
+          {
+            "name": "SSV HARROW IV",
+            "type": "frigate",
+            "vet": 3
           }
         ],
         "system": "MARS"
       }
     ],
     "log": [
-      "DAY 12 - HATCHET II COMMISSIONED AT EARTH",
-      "DAY 12 - PILGRIM II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 12 - TAS WARBRIDGE COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 12 - HAVOC COMMISSIONED AT MARS",
       "DAY 12 - SSV OBSIDIAN III COMMISSIONED - CREWS REPORTING AT MARS",
@@ -853,7 +850,9 @@
       "DAY 38 - TAS RESOLUTE COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 38 - SSV VESPERINE IV COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 39 - SSV HARROW III LOST AT ALPHA CENTAURI",
-      "DAY 39 - SSV HARROW III COMMISSIONED AT MARS"
+      "DAY 39 - SSV HARROW III COMMISSIONED AT MARS",
+      "DAY 40 - WIDOW LOST AT HALCYON",
+      "DAY 40 - SSV HARROW IV COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -902,22 +901,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -7.6015625
+        "pressure": -3.18359375
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -0.03125
+        "pressure": -7.625
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -6.11328125
+        "pressure": 2.3671875
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 68.9921875
+        "pressure": 78.8203125
       },
       {
         "name": "SIRIUS",
@@ -930,7 +929,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 1.08203125
+        "pressure": 3.35546875
       },
       {
         "name": "ROSS 128",
@@ -943,8 +942,7 @@
       },
       {
         "name": "ARATHIL",
-        "owner": 0,
-        "pressure": 1.4375
+        "owner": 0
       }
     ],
     "version": 1,
