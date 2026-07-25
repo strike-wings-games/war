@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1784951505,
+  "generatedAtEpoch": 1784968811,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "1731a75917db75ca",
-  "tickIndex": 40,
+  "stateHash": "b214b9a0d5626db8",
+  "tickIndex": 41,
   "war": {
     "buildPool": [
-      198,
-      278
+      194,
+      291
     ],
     "chronicle": [
       [
@@ -67,14 +67,14 @@
         ""
       ]
     ],
-    "day": 40,
+    "day": 41,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 539,
+        "peakCost": 561,
         "posture": "defend",
         "ships": [
           {
@@ -317,6 +317,11 @@
             "name": "TAS RESOLUTE",
             "type": "supercarrier",
             "vet": 3
+          },
+          {
+            "name": "TAS MERIDIAN",
+            "type": "monsoon",
+            "vet": 3
           }
         ],
         "system": "EARTH"
@@ -336,11 +341,6 @@
           },
           {
             "name": "TAS DAUNTLESS",
-            "type": "destroyer",
-            "vet": 4
-          },
-          {
-            "name": "TAS GRANITE",
             "type": "destroyer",
             "vet": 4
           },
@@ -674,7 +674,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 123,
+        "fighterReserve": 110,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -721,7 +721,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 139,
+        "fighterReserve": 135,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -793,8 +793,6 @@
       }
     ],
     "log": [
-      "DAY 12 - TAS WARBRIDGE COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 12 - HAVOC COMMISSIONED AT MARS",
       "DAY 12 - SSV OBSIDIAN III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 13 - TAS VIGILANT III COMMISSIONED AT EARTH",
       "DAY 13 - LONGSHOT II COMMISSIONED AT EARTH",
@@ -852,7 +850,9 @@
       "DAY 39 - SSV HARROW III LOST AT ALPHA CENTAURI",
       "DAY 39 - SSV HARROW III COMMISSIONED AT MARS",
       "DAY 40 - WIDOW LOST AT HALCYON",
-      "DAY 40 - SSV HARROW IV COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
+      "DAY 40 - SSV HARROW IV COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 41 - TAS GRANITE LOST AT HALCYON",
+      "DAY 41 - TAS MERIDIAN COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -901,22 +901,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -3.18359375
+        "pressure": -6.359375
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -7.625
+        "pressure": -15.0234375
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": 2.3671875
+        "pressure": -5.19140625
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 78.8203125
+        "pressure": 84.140625
       },
       {
         "name": "SIRIUS",
@@ -928,8 +928,7 @@
       },
       {
         "name": "SELACH",
-        "owner": 0,
-        "pressure": 3.35546875
+        "owner": 0
       },
       {
         "name": "ROSS 128",
@@ -942,7 +941,8 @@
       },
       {
         "name": "ARATHIL",
-        "owner": 0
+        "owner": 0,
+        "pressure": 5.29296875
       }
     ],
     "version": 1,
