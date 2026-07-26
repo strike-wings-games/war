@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1785038701,
+  "generatedAtEpoch": 1785056161,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "baf01becd09516fe",
-  "tickIndex": 44,
+  "stateHash": "5006ccc5220bbced",
+  "tickIndex": 45,
   "war": {
     "buildPool": [
-      230,
-      326
+      244,
+      325
     ],
     "chronicle": [
       [
@@ -65,9 +65,16 @@
         8,
         1,
         ""
+      ],
+      [
+        45,
+        1,
+        9,
+        1,
+        ""
       ]
     ],
-    "day": 44,
+    "day": 45,
     "fleets": [
       {
         "faction": 1,
@@ -330,7 +337,7 @@
             "vet": 3
           }
         ],
-        "system": "EARTH"
+        "system": "ALPHA CENTAURI"
       },
       {
         "faction": 1,
@@ -674,7 +681,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 94,
+        "fighterReserve": 86,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -715,7 +722,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 116,
+        "fighterReserve": 112,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -754,7 +761,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 85,
+        "peakCost": 95,
         "posture": "defend",
         "ships": [
           {
@@ -778,13 +785,13 @@
             "vet": 3
           },
           {
-            "name": "SSV HARROW IV",
-            "type": "frigate",
+            "name": "SSV WOLFRAM IV",
+            "type": "tempest",
             "vet": 3
           },
           {
-            "name": "SSV WOLFRAM IV",
-            "type": "tempest",
+            "name": "SSV IRONMAW IV",
+            "type": "cruiser",
             "vet": 3
           }
         ],
@@ -792,9 +799,6 @@
       }
     ],
     "log": [
-      "DAY 13 - SSV CALDERA III COMMISSIONED AT MARS",
-      "DAY 13 - TALLYMAN II COMMISSIONED AT MARS",
-      "DAY 14 - TAS SOVEREIGN II LOST AT SELACH",
       "DAY 14 - SSA FORCES TOOK BARNARD - THE LINE MOVES",
       "DAY 14 - TAS SOVEREIGN II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 14 - TAS DAUNTLESS III COMMISSIONED AT EARTH",
@@ -851,7 +855,10 @@
       "DAY 43 - PILGRIM LOST AT 82 ERIDANI",
       "DAY 43 - PILGRIM COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 44 - STATIC LOST AT HALCYON",
-      "DAY 44 - SSV WOLFRAM IV COMMISSIONED - CREWS REPORTING AT MARS"
+      "DAY 44 - SSV WOLFRAM IV COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 45 - SSV HARROW IV LOST AT ALPHA CENTAURI",
+      "DAY 45 - TERRAN FORCES TOOK ALPHA CENTAURI",
+      "DAY 45 - SSV IRONMAW IV COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -900,22 +907,21 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -11.24609375
+        "pressure": -14.5859375
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -18.58984375
+        "pressure": -8.15234375
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -18.953125
+        "pressure": -27.9609375
       },
       {
         "name": "ALPHA CENTAURI",
-        "owner": 0,
-        "pressure": 96.0390625
+        "owner": 1
       },
       {
         "name": "SIRIUS",
@@ -928,7 +934,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -0.96875
+        "pressure": 9.91796875
       },
       {
         "name": "ROSS 128",
