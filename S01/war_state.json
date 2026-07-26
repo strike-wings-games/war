@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1785008666,
+  "generatedAtEpoch": 1785038701,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "ba234d709bb3cf69",
-  "tickIndex": 43,
+  "stateHash": "baf01becd09516fe",
+  "tickIndex": 44,
   "war": {
     "buildPool": [
-      217,
-      317
+      230,
+      326
     ],
     "chronicle": [
       [
@@ -67,7 +67,7 @@
         ""
       ]
     ],
-    "day": 43,
+    "day": 44,
     "fleets": [
       {
         "faction": 1,
@@ -674,7 +674,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 92,
+        "fighterReserve": 94,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -709,19 +709,13 @@
             "name": "SSV REDSHIFT II",
             "type": "cataclysm",
             "vet": 4
-          },
-          {
-            "ace": true,
-            "name": "STATIC",
-            "type": "lancer",
-            "vet": 5
           }
         ],
         "system": "HALCYON"
       },
       {
         "faction": 2,
-        "fighterReserve": 127,
+        "fighterReserve": 116,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -760,7 +754,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 73,
+        "peakCost": 85,
         "posture": "defend",
         "ships": [
           {
@@ -787,14 +781,17 @@
             "name": "SSV HARROW IV",
             "type": "frigate",
             "vet": 3
+          },
+          {
+            "name": "SSV WOLFRAM IV",
+            "type": "tempest",
+            "vet": 3
           }
         ],
         "system": "MARS"
       }
     ],
     "log": [
-      "DAY 13 - LONGSHOT II COMMISSIONED AT EARTH",
-      "DAY 13 - SSV DUSKWATCH III COMMISSIONED AT MARS",
       "DAY 13 - SSV CALDERA III COMMISSIONED AT MARS",
       "DAY 13 - TALLYMAN II COMMISSIONED AT MARS",
       "DAY 14 - TAS SOVEREIGN II LOST AT SELACH",
@@ -852,7 +849,9 @@
       "DAY 41 - TAS GRANITE LOST AT HALCYON",
       "DAY 41 - TAS MERIDIAN COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 43 - PILGRIM LOST AT 82 ERIDANI",
-      "DAY 43 - PILGRIM COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
+      "DAY 43 - PILGRIM COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 44 - STATIC LOST AT HALCYON",
+      "DAY 44 - SSV WOLFRAM IV COMMISSIONED - CREWS REPORTING AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -901,22 +900,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -17.65234375
+        "pressure": -11.24609375
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -11.33984375
+        "pressure": -18.58984375
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -22.6328125
+        "pressure": -18.953125
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 89.3671875
+        "pressure": 96.0390625
       },
       {
         "name": "SIRIUS",
@@ -929,7 +928,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 2.9765625
+        "pressure": -0.96875
       },
       {
         "name": "ROSS 128",
