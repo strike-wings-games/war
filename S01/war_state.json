@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1785125344,
+  "generatedAtEpoch": 1785147383,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "a7630310910edba3",
-  "tickIndex": 48,
+  "stateHash": "60fcc249a6213822",
+  "tickIndex": 49,
   "war": {
     "buildPool": [
-      274,
-      342
+      278,
+      355
     ],
     "chronicle": [
       [
@@ -74,7 +74,7 @@
         ""
       ]
     ],
-    "day": 48,
+    "day": 49,
     "fleets": [
       {
         "faction": 1,
@@ -403,19 +403,13 @@
             "name": "LONGSHOT",
             "type": "paladin",
             "vet": 5
-          },
-          {
-            "ace": true,
-            "name": "DEACON",
-            "type": "archfiend",
-            "vet": 5
           }
         ],
         "system": "TAU CETI"
       },
       {
         "faction": 1,
-        "fighterReserve": 8,
+        "fighterReserve": 9,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -670,7 +664,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 71,
+        "fighterReserve": 61,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -711,7 +705,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 97,
+        "fighterReserve": 98,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -791,7 +785,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "TAS RESERVE GROUP",
-        "peakCost": 25,
+        "peakCost": 38,
         "posture": "defend",
         "ships": [
           {
@@ -804,14 +798,17 @@
             "name": "TAS CLAYMORE",
             "type": "destroyer",
             "vet": 3
+          },
+          {
+            "name": "TAS GRANITE",
+            "type": "caisson",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       }
     ],
     "log": [
-      "DAY 15 - TAS ORION III COMMISSIONED AT EARTH",
-      "DAY 15 - SABLE II COMMISSIONED AT MARS",
       "DAY 15 - STATIC II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 16 - TAS HALBERD III COMMISSIONED AT EARTH",
       "DAY 17 - TERRAN FORCES TOOK GLIESE 581 - RESISTANCE COLLAPSED",
@@ -869,7 +866,9 @@
       "DAY 48 - IRONSIDE LOST AT 82 ERIDANI",
       "DAY 48 - SSV VESPERINE IV LOST AT ALPHA CENTAURI",
       "DAY 48 - TAS CLAYMORE COMMISSIONED AT EARTH",
-      "DAY 48 - SSV PALEFIRE IV COMMISSIONED AT MARS"
+      "DAY 48 - SSV PALEFIRE IV COMMISSIONED AT MARS",
+      "DAY 49 - DEACON LOST AT SELACH",
+      "DAY 49 - TAS GRANITE COMMISSIONED AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -910,7 +909,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 9.1015625
+        "pressure": 16.73046875
       },
       {
         "name": "PROCYON",
@@ -919,22 +918,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -19.51953125
+        "pressure": -26.296875
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -10.4765625
+        "pressure": -17.84375
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -35.81640625
+        "pressure": -49.21875
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 1.1640625
+        "pressure": 8.37109375
       },
       {
         "name": "SIRIUS",
@@ -947,7 +946,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 26.19140625
+        "pressure": 11.82421875
       },
       {
         "name": "ROSS 128",
