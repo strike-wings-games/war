@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1785147383,
+  "generatedAtEpoch": 1785165552,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "60fcc249a6213822",
-  "tickIndex": 49,
+  "stateHash": "a71f562f3acc9d0b",
+  "tickIndex": 50,
   "war": {
     "buildPool": [
-      278,
-      355
+      292,
+      368
     ],
     "chronicle": [
       [
@@ -74,7 +74,7 @@
         ""
       ]
     ],
-    "day": 49,
+    "day": 50,
     "fleets": [
       {
         "faction": 1,
@@ -362,7 +362,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 180,
+        "fighterReserve": 177,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -409,7 +409,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 9,
+        "fighterReserve": 12,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -705,7 +705,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 98,
+        "fighterReserve": 91,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -909,7 +909,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 16.73046875
+        "pressure": 27.5859375
       },
       {
         "name": "PROCYON",
@@ -918,22 +918,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -26.296875
+        "pressure": -19.359375
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -17.84375
+        "pressure": -23.2109375
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -49.21875
+        "pressure": -58.90625
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 8.37109375
+        "pressure": 12.328125
       },
       {
         "name": "SIRIUS",
@@ -946,12 +946,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 11.82421875
+        "pressure": 25.71484375
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -14.5859375
+        "pressure": -8.44140625
       },
       {
         "name": "GLIESE 581",
@@ -959,7 +959,8 @@
       },
       {
         "name": "ARATHIL",
-        "owner": 0
+        "owner": 0,
+        "pressure": 5.62109375
       }
     ],
     "version": 1,
