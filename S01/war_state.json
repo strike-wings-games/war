@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1785182334,
+  "generatedAtEpoch": 1785210094,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "1fe93b858d984769",
-  "tickIndex": 51,
+  "stateHash": "0c730035674ea06b",
+  "tickIndex": 52,
   "war": {
     "buildPool": [
-      306,
-      367
+      320,
+      346
     ],
     "chronicle": [
       [
@@ -74,7 +74,7 @@
         ""
       ]
     ],
-    "day": 51,
+    "day": 52,
     "fleets": [
       {
         "faction": 1,
@@ -362,7 +362,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 172,
+        "fighterReserve": 176,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -409,7 +409,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 16,
+        "fighterReserve": 19,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -664,7 +664,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 61,
+        "fighterReserve": 52,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -673,11 +673,6 @@
           {
             "name": "SSV CALDERA II",
             "type": "destroyer",
-            "vet": 4
-          },
-          {
-            "name": "SSV HARROW II",
-            "type": "frigate",
             "vet": 4
           },
           {
@@ -705,7 +700,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 81,
+        "fighterReserve": 76,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -739,14 +734,9 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 125,
+        "peakCost": 152,
         "posture": "defend",
         "ships": [
-          {
-            "name": "SSV IRONMAW III",
-            "type": "cataclysm",
-            "vet": 3
-          },
           {
             "name": "SSV OBSIDIAN IV",
             "type": "strikecarrier",
@@ -774,6 +764,16 @@
           },
           {
             "name": "SSV MAELSTROM II",
+            "type": "cruiser",
+            "vet": 3
+          },
+          {
+            "name": "SSV HARROW II",
+            "type": "supercarrier",
+            "vet": 3
+          },
+          {
+            "name": "SSV IRONMAW III",
             "type": "cruiser",
             "vet": 3
           }
@@ -809,10 +809,6 @@
       }
     ],
     "log": [
-      "DAY 17 - TERRAN FORCES TOOK GLIESE 581 - RESISTANCE COLLAPSED",
-      "DAY 17 - TAS GRANITE III COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 17 - IRONSIDE II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 18 - TAS AVALON III COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 18 - TAS BASTION III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 19 - STATIC II LOST AT ALPHA CENTAURI",
       "DAY 19 - TAS BULWARK III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
@@ -868,7 +864,11 @@
       "DAY 49 - DEACON LOST AT SELACH",
       "DAY 49 - TAS GRANITE COMMISSIONED AT EARTH",
       "DAY 51 - SSV MAELSTROM II LOST AT ETA CASSIOPEIAE",
-      "DAY 51 - SSV MAELSTROM II COMMISSIONED AT MARS"
+      "DAY 51 - SSV MAELSTROM II COMMISSIONED AT MARS",
+      "DAY 52 - SSV IRONMAW III LOST AT MARS",
+      "DAY 52 - SSV HARROW II LOST AT 82 ERIDANI",
+      "DAY 52 - SSV HARROW II COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 52 - SSV IRONMAW III COMMISSIONED - CREWS REPORTING AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -909,7 +909,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 34.4453125
+        "pressure": 40.51953125
       },
       {
         "name": "PROCYON",
@@ -918,22 +918,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -23.94140625
+        "pressure": -18.9765625
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -17.4296875
+        "pressure": -6.94921875
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -55.078125
+        "pressure": -47.0546875
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 19.70703125
+        "pressure": 24.69921875
       },
       {
         "name": "SIRIUS",
@@ -946,12 +946,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 25.39453125
+        "pressure": 29.8125
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -4.0078125
+        "pressure": 0.43359375
       },
       {
         "name": "GLIESE 581",
@@ -960,7 +960,7 @@
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 13.62890625
+        "pressure": 7.33984375
       }
     ],
     "version": 1,
