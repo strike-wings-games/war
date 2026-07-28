@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1785210094,
+  "generatedAtEpoch": 1785229056,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "0c730035674ea06b",
-  "tickIndex": 52,
+  "stateHash": "fd93c00855ae61e9",
+  "tickIndex": 53,
   "war": {
     "buildPool": [
-      320,
-      346
+      325,
+      359
     ],
     "chronicle": [
       [
@@ -74,7 +74,7 @@
         ""
       ]
     ],
-    "day": 52,
+    "day": 53,
     "fleets": [
       {
         "faction": 1,
@@ -348,11 +348,6 @@
             "vet": 4
           },
           {
-            "name": "TAS DAUNTLESS",
-            "type": "destroyer",
-            "vet": 4
-          },
-          {
             "name": "TAS ORION",
             "type": "strikecarrier",
             "vet": 4
@@ -362,7 +357,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 176,
+        "fighterReserve": 170,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -409,7 +404,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 19,
+        "fighterReserve": 16,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -664,7 +659,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 52,
+        "fighterReserve": 38,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -785,7 +780,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "TAS RESERVE GROUP",
-        "peakCost": 38,
+        "peakCost": 50,
         "posture": "defend",
         "ships": [
           {
@@ -803,14 +798,17 @@
             "name": "TAS GRANITE",
             "type": "caisson",
             "vet": 3
+          },
+          {
+            "name": "TAS DAUNTLESS",
+            "type": "destroyer",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       }
     ],
     "log": [
-      "DAY 18 - TAS BASTION III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 19 - STATIC II LOST AT ALPHA CENTAURI",
       "DAY 19 - TAS BULWARK III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 19 - TAS IRONWOOD III COMMISSIONED AT EARTH",
       "DAY 19 - SSV HARROW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
@@ -868,7 +866,9 @@
       "DAY 52 - SSV IRONMAW III LOST AT MARS",
       "DAY 52 - SSV HARROW II LOST AT 82 ERIDANI",
       "DAY 52 - SSV HARROW II COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 52 - SSV IRONMAW III COMMISSIONED - CREWS REPORTING AT MARS"
+      "DAY 52 - SSV IRONMAW III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 53 - TAS DAUNTLESS LOST AT 82 ERIDANI",
+      "DAY 53 - TAS DAUNTLESS COMMISSIONED AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -909,7 +909,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 40.51953125
+        "pressure": 45.2109375
       },
       {
         "name": "PROCYON",
@@ -918,22 +918,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -18.9765625
+        "pressure": -23.60546875
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -6.94921875
+        "pressure": 3.4921875
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -47.0546875
+        "pressure": -58.69921875
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 24.69921875
+        "pressure": 17.05859375
       },
       {
         "name": "SIRIUS",
@@ -946,12 +946,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 29.8125
+        "pressure": 36.640625
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 0.43359375
+        "pressure": 7.40234375
       },
       {
         "name": "GLIESE 581",
@@ -960,7 +960,7 @@
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 7.33984375
+        "pressure": 13.03515625
       }
     ],
     "version": 1,
