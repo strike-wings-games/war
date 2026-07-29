@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1785268840,
+  "generatedAtEpoch": 1785296693,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "561e155d4c28c8c0",
-  "tickIndex": 55,
+  "stateHash": "cdae1b2b835482e9",
+  "tickIndex": 56,
   "war": {
     "buildPool": [
-      347,
-      378
+      341,
+      388
     ],
     "chronicle": [
       [
@@ -74,7 +74,7 @@
         ""
       ]
     ],
-    "day": 55,
+    "day": 56,
     "fleets": [
       {
         "faction": 1,
@@ -341,18 +341,12 @@
         "id": "SECOND FLEET",
         "peakCost": 334,
         "posture": "defend",
-        "ships": [
-          {
-            "name": "TAS ORION",
-            "type": "strikecarrier",
-            "vet": 4
-          }
-        ],
+        "ships": [],
         "system": "82 ERIDANI"
       },
       {
         "faction": 1,
-        "fighterReserve": 170,
+        "fighterReserve": 164,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -399,7 +393,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 8,
+        "fighterReserve": 9,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -572,12 +566,6 @@
             "vet": 3
           },
           {
-            "ace": true,
-            "name": "HAVOC",
-            "type": "manticore",
-            "vet": 3
-          },
-          {
             "name": "SSV OBSIDIAN III",
             "type": "frigate",
             "vet": 3
@@ -654,7 +642,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 31,
+        "fighterReserve": 25,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -690,7 +678,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 72,
+        "fighterReserve": 69,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -724,7 +712,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 152,
+        "peakCost": 154,
         "posture": "defend",
         "ships": [
           {
@@ -766,6 +754,12 @@
             "name": "SSV CALDERA IV",
             "type": "cataclysm",
             "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "HAVOC",
+            "type": "sledge",
+            "vet": 3
           }
         ],
         "system": "MARS"
@@ -775,7 +769,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "TAS RESERVE GROUP",
-        "peakCost": 58,
+        "peakCost": 82,
         "posture": "defend",
         "ships": [
           {
@@ -803,16 +797,17 @@
             "name": "TAS LIONHEART",
             "type": "frigate",
             "vet": 3
+          },
+          {
+            "name": "TAS ORION",
+            "type": "supercarrier",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       }
     ],
     "log": [
-      "DAY 23 - SABLE II LOST AT ALPHA CENTAURI",
-      "DAY 23 - SSV IRONMAW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 24 - TAS WARBRIDGE III LOST AT ALPHA CENTAURI",
-      "DAY 24 - TAS RESOLUTE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 27 - TAS DAUNTLESS III LOST AT ALPHA CENTAURI",
       "DAY 27 - TAS MERIDIAN III COMMISSIONED AT EARTH",
       "DAY 28 - TAS BASTION LOST AT 82 ERIDANI",
@@ -868,7 +863,11 @@
       "DAY 55 - TAS LIONHEART LOST AT HALCYON",
       "DAY 55 - COLDBURN LOST AT ALPHA CENTAURI",
       "DAY 55 - TAS LIONHEART COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 55 - SSV CALDERA IV COMMISSIONED - CREWS REPORTING AT MARS"
+      "DAY 55 - SSV CALDERA IV COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 56 - TAS ORION LOST AT HALCYON",
+      "DAY 56 - HAVOC LOST AT SELACH",
+      "DAY 56 - TAS ORION COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 56 - HAVOC COMMISSIONED - CREWS REPORTING AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -909,7 +908,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 59.1328125
+        "pressure": 68.2421875
       },
       {
         "name": "PROCYON",
@@ -918,22 +917,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -32.9140625
+        "pressure": -36.8515625
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -7.9375
+        "pressure": -11.62890625
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -62.046875
+        "pressure": -68.70703125
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 26.12109375
+        "pressure": 32.19140625
       },
       {
         "name": "SIRIUS",
@@ -946,12 +945,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 46.828125
+        "pressure": 61.0
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 5.546875
+        "pressure": 12.15234375
       },
       {
         "name": "GLIESE 581",
@@ -960,7 +959,7 @@
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 12.96484375
+        "pressure": 23.078125
       }
     ],
     "version": 1,
