@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1785335845,
+  "generatedAtEpoch": 1785354416,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "2d2d06ea863505dc",
-  "tickIndex": 58,
+  "stateHash": "bd75eabd8b706479",
+  "tickIndex": 59,
   "war": {
     "buildPool": [
-      369,
-      414
+      383,
+      427
     ],
     "chronicle": [
       [
@@ -74,7 +74,7 @@
         ""
       ]
     ],
-    "day": 58,
+    "day": 59,
     "fleets": [
       {
         "faction": 1,
@@ -393,7 +393,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 16,
+        "fighterReserve": 17,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -642,7 +642,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 41,
+        "fighterReserve": 49,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -678,7 +678,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 71,
+        "fighterReserve": 68,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -908,7 +908,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 70.73046875
+        "pressure": 79.93359375
       },
       {
         "name": "PROCYON",
@@ -917,7 +917,7 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -20.8515625
+        "pressure": -12.8515625
       },
       {
         "name": "ETA CASSIOPEIAE",
@@ -926,12 +926,12 @@
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -81.1171875
+        "pressure": -88.55078125
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 31.97265625
+        "pressure": 26.35546875
       },
       {
         "name": "SIRIUS",
@@ -944,12 +944,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 67.625
+        "pressure": 64.7265625
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 31.8125
+        "pressure": 39.296875
       },
       {
         "name": "GLIESE 581",
@@ -958,7 +958,7 @@
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 11.890625
+        "pressure": 18.02734375
       }
     ],
     "version": 1,
