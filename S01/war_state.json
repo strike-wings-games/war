@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1785382293,
+  "generatedAtEpoch": 1785401611,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -30,12 +30,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "c7853d25c155fc28",
-  "tickIndex": 60,
+  "stateHash": "b16931693d3c9dfb",
+  "tickIndex": 61,
   "war": {
     "buildPool": [
-      375,
-      440
+      388,
+      454
     ],
     "chronicle": [
       [
@@ -72,9 +72,16 @@
         9,
         1,
         ""
+      ],
+      [
+        61,
+        1,
+        8,
+        2,
+        ""
       ]
     ],
-    "day": 60,
+    "day": 61,
     "fleets": [
       {
         "faction": 1,
@@ -340,13 +347,13 @@
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
-        "posture": "defend",
+        "posture": "retreating",
         "ships": [],
-        "system": "82 ERIDANI"
+        "system": "GLIESE 581"
       },
       {
         "faction": 1,
-        "fighterReserve": 157,
+        "fighterReserve": 160,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -388,7 +395,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 20,
+        "fighterReserve": 18,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -637,7 +644,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 52,
+        "fighterReserve": 50,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -700,7 +707,7 @@
             "vet": 4
           }
         ],
-        "system": "ETA CASSIOPEIAE"
+        "system": "82 ERIDANI"
       },
       {
         "faction": 2,
@@ -808,9 +815,6 @@
       }
     ],
     "log": [
-      "DAY 28 - SSV HARROW III LOST AT ALPHA CENTAURI",
-      "DAY 28 - TAS BASTION COMMISSIONED AT EARTH",
-      "DAY 28 - SSV HARROW III COMMISSIONED AT MARS",
       "DAY 30 - 82 ERIDANI AT +83 - THE LINE IS BREAKING",
       "DAY 33 - SSV HARROW III LOST AT ALPHA CENTAURI",
       "DAY 33 - TERRAN FORCES TOOK 82 ERIDANI - RESISTANCE COLLAPSED",
@@ -867,7 +871,10 @@
       "DAY 56 - HAVOC COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 58 - 82 ERIDANI AT -81 - THE LINE IS BREAKING",
       "DAY 60 - TAS RESOLUTE II LOST AT SELACH",
-      "DAY 60 - TAS RESOLUTE II COMMISSIONED AT EARTH"
+      "DAY 60 - TAS RESOLUTE II COMMISSIONED AT EARTH",
+      "DAY 61 - SSA FORCES TOOK 82 ERIDANI - THE LINE MOVES",
+      "DAY 61 - SECOND FLEET FELL BACK TO GLIESE 581 (SYSTEM LOST)",
+      "DAY 61 - MARS AT +84 - THE LINE IS BREAKING"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -908,7 +915,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 73.66015625
+        "pressure": 83.83203125
       },
       {
         "name": "PROCYON",
@@ -916,8 +923,7 @@
       },
       {
         "name": "HALCYON",
-        "owner": 2,
-        "pressure": -4.8515625
+        "owner": 2
       },
       {
         "name": "ETA CASSIOPEIAE",
@@ -925,13 +931,12 @@
       },
       {
         "name": "82 ERIDANI",
-        "owner": 1,
-        "pressure": -96.1640625
+        "owner": 2
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 20.5
+        "pressure": 26.7421875
       },
       {
         "name": "SIRIUS",
@@ -944,12 +949,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 52.32421875
+        "pressure": 58.66015625
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 48.98828125
+        "pressure": 56.4296875
       },
       {
         "name": "GLIESE 581",
@@ -958,7 +963,7 @@
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 14.48828125
+        "pressure": 9.265625
       }
     ],
     "version": 1,
