@@ -17,13 +17,14 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1787424971,
+  "generatedAtEpoch": 1787440489,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
     "board": "SW_WAR_S01",
     "endEpoch": 1790121600,
     "id": "S01",
+    "interbellumSecs": 172800,
     "name": "THE SUNDERING WAR - SEASON ONE",
     "seed": 7791550101,
     "startEpoch": 1784073600,
@@ -980,5 +981,12 @@
     ],
     "version": 1,
     "winner": 1
-  }
+  },
+  "warEndedAtEpoch": 1787440489,
+  "warIndex": 1,
+  "warsWon": [
+    0,
+    0,
+    0
+  ]
 }
