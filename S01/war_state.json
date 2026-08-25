@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1787598327,
+  "generatedAtEpoch": 1787623088,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,79 +31,30 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "34327ed2284c0676",
-  "tickIndex": 63,
+  "stateHash": "a8df86bc9ec5971e",
+  "tickIndex": 64,
   "war": {
     "buildPool": [
-      401,
-      456
+      1,
+      2
     ],
     "chronicle": [
       [
-        14,
-        1,
-        11,
-        2,
-        ""
-      ],
-      [
-        17,
-        1,
-        14,
-        1,
-        ""
-      ],
-      [
-        21,
-        1,
-        10,
-        2,
-        ""
-      ],
-      [
-        33,
-        1,
-        8,
-        1,
-        ""
-      ],
-      [
-        45,
-        1,
-        9,
-        1,
-        ""
-      ],
-      [
-        61,
-        1,
-        8,
-        2,
-        ""
-      ],
-      [
-        63,
-        1,
-        4,
-        1,
-        ""
-      ],
-      [
-        63,
-        2,
-        4,
-        1,
-        "MARS"
+        0,
+        0,
+        -1,
+        0,
+        "THE SUNDERING WAR"
       ]
     ],
-    "day": 63,
+    "day": 1,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 0,
+        "fighterReserve": 204,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 574,
+        "peakCost": 334,
         "posture": "defend",
         "ships": [
           {
@@ -127,12 +78,22 @@
             "vet": 4
           },
           {
+            "name": "TAS TEMPERANCE",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
             "name": "TAS VIGILANT",
             "type": "strikecarrier",
             "vet": 4
           },
           {
             "name": "TAS AVALON",
+            "type": "longbow",
+            "vet": 4
+          },
+          {
+            "name": "TAS CLAYMORE",
             "type": "longbow",
             "vet": 4
           },
@@ -149,226 +110,84 @@
             "vet": 5
           },
           {
-            "name": "TAS LIONHEART II",
-            "type": "cyclone",
-            "vet": 3
-          },
-          {
-            "name": "TAS DAUNTLESS II",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
             "name": "TAS HALBERD II",
-            "type": "marksman",
+            "type": "frigate",
             "vet": 3
           },
           {
             "name": "TAS IRONWOOD II",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "FALCONER",
-            "type": "crusader",
-            "vet": 3
-          },
-          {
-            "name": "TAS CLAYMORE III",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
-            "name": "TAS LIONHEART III",
-            "type": "cyclone",
-            "vet": 3
-          },
-          {
-            "name": "TAS WARBRIDGE II",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "HATCHET",
-            "type": "crusader",
-            "vet": 3
-          },
-          {
-            "name": "TAS BULWARK II",
-            "type": "cyclone",
-            "vet": 3
-          },
-          {
-            "name": "TAS ORION II",
-            "type": "cyclone",
-            "vet": 3
-          },
-          {
-            "name": "TAS BASTION II",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
-            "name": "TAS SOVEREIGN III",
-            "type": "marksman",
-            "vet": 3
-          },
-          {
-            "name": "TAS TEMPERANCE III",
-            "type": "marksman",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "CAVALIER",
-            "type": "crusader",
-            "vet": 3
-          },
-          {
-            "name": "TAS GRANITE II",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "MONARCH",
-            "type": "crusader",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "HATCHET II",
-            "type": "crusader",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "PILGRIM II",
-            "type": "crusader",
-            "vet": 3
-          },
-          {
-            "name": "TAS WARBRIDGE",
             "type": "longbow",
             "vet": 3
-          },
+          }
+        ],
+        "system": "EARTH"
+      },
+      {
+        "faction": 1,
+        "fighterReserve": 206,
+        "fighterReserveMax": 220,
+        "id": "SECOND FLEET",
+        "peakCost": 334,
+        "posture": "defend",
+        "ships": [
           {
-            "name": "TAS VIGILANT III",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "LONGSHOT II",
-            "type": "crusader",
-            "vet": 3
-          },
-          {
-            "name": "TAS SOVEREIGN II",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
-            "name": "TAS ORION III",
-            "type": "cyclone",
-            "vet": 3
-          },
-          {
-            "name": "TAS HALBERD III",
-            "type": "ingot",
-            "vet": 3
-          },
-          {
-            "name": "TAS GRANITE III",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "IRONSIDE II",
-            "type": "crusader",
-            "vet": 3
-          },
-          {
-            "name": "TAS AVALON III",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
-            "name": "TAS BASTION III",
-            "type": "marksman",
-            "vet": 3
-          },
-          {
-            "name": "TAS BULWARK III",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "name": "TAS IRONWOOD III",
-            "type": "marksman",
-            "vet": 3
-          },
-          {
-            "name": "TAS TEMPERANCE",
+            "name": "TAS LIONHEART",
             "type": "cruiser",
-            "vet": 3
+            "vet": 4
           },
           {
-            "name": "TAS RESOLUTE III",
-            "type": "frigate",
-            "vet": 3
+            "name": "TAS DAUNTLESS",
+            "type": "destroyer",
+            "vet": 4
           },
           {
-            "name": "TAS MERIDIAN III",
-            "type": "frigate",
-            "vet": 3
+            "name": "TAS GRANITE",
+            "type": "destroyer",
+            "vet": 4
           },
           {
             "name": "TAS BASTION",
-            "type": "cruiser",
-            "vet": 3
+            "type": "frigate",
+            "vet": 4
           },
           {
-            "ace": true,
-            "name": "WINTER II",
-            "type": "crusader",
-            "vet": 3
+            "name": "TAS WARBRIDGE",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS ORION",
+            "type": "strikecarrier",
+            "vet": 4
           },
           {
             "name": "TAS RESOLUTE",
-            "type": "supercarrier",
-            "vet": 3
+            "type": "longbow",
+            "vet": 4
           },
           {
             "name": "TAS MERIDIAN",
-            "type": "monsoon",
-            "vet": 3
+            "type": "longbow",
+            "vet": 4
           },
           {
             "ace": true,
             "name": "PILGRIM",
             "type": "crusader",
-            "vet": 3
+            "vet": 5
+          },
+          {
+            "ace": true,
+            "name": "IRONSIDE",
+            "type": "crusader",
+            "vet": 5
           }
         ],
-        "system": "MARS"
+        "system": "EPSILON INDI"
       },
       {
         "faction": 1,
-        "fighterReserve": 0,
-        "fighterReserveMax": 220,
-        "id": "SECOND FLEET",
-        "peakCost": 334,
-        "posture": "retreating",
-        "ships": [],
-        "system": "GLIESE 581"
-      },
-      {
-        "faction": 1,
-        "fighterReserve": 155,
+        "fighterReserve": 180,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -395,6 +214,11 @@
             "vet": 4
           },
           {
+            "name": "TAS RESOLUTE II",
+            "type": "longbow",
+            "vet": 4
+          },
+          {
             "name": "TAS MERIDIAN II",
             "type": "longbow",
             "vet": 4
@@ -404,26 +228,64 @@
             "name": "LONGSHOT",
             "type": "paladin",
             "vet": 5
+          },
+          {
+            "ace": true,
+            "name": "DEACON",
+            "type": "archfiend",
+            "vet": 5
           }
         ],
         "system": "TAU CETI"
       },
       {
         "faction": 1,
-        "fighterReserve": 5,
+        "fighterReserve": 127,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
         "posture": "defend",
-        "ships": [],
+        "ships": [
+          {
+            "name": "TAS GRANITE II",
+            "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "TAS BASTION II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS WARBRIDGE II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
+            "name": "TAS ORION II",
+            "type": "marksman",
+            "vet": 4
+          },
+          {
+            "name": "TAS BULWARK II",
+            "type": "marksman",
+            "vet": 4
+          },
+          {
+            "ace": true,
+            "name": "FALCONER",
+            "type": "talon",
+            "vet": 5
+          }
+        ],
         "system": "NEW ANTWERP"
       },
       {
         "faction": 2,
-        "fighterReserve": 0,
+        "fighterReserve": 207,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 369,
+        "peakCost": 330,
         "posture": "defend",
         "ships": [
           {
@@ -474,129 +336,28 @@
           },
           {
             "ace": true,
-            "name": "RIMFIRE",
+            "name": "NINELIVES",
             "type": "manticore",
-            "vet": 5
-          },
-          {
-            "name": "SSV NOCTURNE II",
-            "type": "tempest",
-            "vet": 3
-          },
-          {
-            "name": "SSV RIPTIDE II",
-            "type": "cataclysm",
-            "vet": 3
-          },
-          {
-            "name": "SSV OBSIDIAN II",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
-            "name": "SSV UNDERTOW II",
-            "type": "tempest",
-            "vet": 3
-          },
-          {
-            "name": "SSV VESPERINE II",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "JACKAL",
-            "type": "manticore",
-            "vet": 3
-          },
-          {
-            "name": "SSV KRAIT III",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
-            "name": "SSV PERDITION III",
-            "type": "cataclysm",
-            "vet": 3
-          },
-          {
-            "name": "SSV NOCTURNE III",
-            "type": "ingot",
-            "vet": 3
-          },
-          {
-            "name": "SSV MAELSTROM III",
-            "type": "tempest",
-            "vet": 3
-          },
-          {
-            "name": "SSV PALEFIRE III",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
-            "name": "SSV WOLFRAM III",
-            "type": "frigate",
             "vet": 3
           },
           {
             "ace": true,
             "name": "EMBER",
-            "type": "sledge",
-            "vet": 3
-          },
-          {
-            "name": "SSV REDSHIFT III",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "name": "SSV VESPERINE III",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "name": "SSV UNDERTOW III",
-            "type": "tempest",
-            "vet": 3
-          },
-          {
-            "name": "SSV VORTEX III",
-            "type": "caisson",
-            "vet": 3
-          },
-          {
-            "name": "SSV RIPTIDE III",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "CROSSCUT",
             "type": "manticore",
             "vet": 3
           },
           {
-            "name": "SSV OBSIDIAN III",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
-            "name": "SSV DUSKWATCH III",
-            "type": "cataclysm",
-            "vet": 3
-          },
-          {
-            "name": "SSV CALDERA III",
-            "type": "frigate",
+            "ace": true,
+            "name": "RIMFIRE",
+            "type": "sledge",
             "vet": 3
           }
         ],
-        "system": "SIRIUS"
+        "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 109,
+        "fighterReserve": 210,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -644,6 +405,12 @@
           },
           {
             "ace": true,
+            "name": "HAVOC",
+            "type": "manticore",
+            "vet": 5
+          },
+          {
+            "ace": true,
             "name": "TALLYMAN",
             "type": "manticore",
             "vet": 5
@@ -653,7 +420,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 58,
+        "fighterReserve": 176,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -662,6 +429,11 @@
           {
             "name": "SSV CALDERA II",
             "type": "destroyer",
+            "vet": 4
+          },
+          {
+            "name": "SSV HARROW II",
+            "type": "frigate",
             "vet": 4
           },
           {
@@ -683,13 +455,25 @@
             "name": "SSV REDSHIFT II",
             "type": "cataclysm",
             "vet": 4
+          },
+          {
+            "ace": true,
+            "name": "WIDOW",
+            "type": "wraith",
+            "vet": 5
+          },
+          {
+            "ace": true,
+            "name": "STATIC",
+            "type": "lancer",
+            "vet": 5
           }
         ],
         "system": "HALCYON"
       },
       {
         "faction": 2,
-        "fighterReserve": 50,
+        "fighterReserve": 140,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -706,6 +490,11 @@
             "vet": 4
           },
           {
+            "name": "SSV MAELSTROM II",
+            "type": "frigate",
+            "vet": 4
+          },
+          {
             "name": "SSV VORTEX II",
             "type": "bristleback",
             "vet": 4
@@ -714,197 +503,42 @@
             "name": "SSV PERDITION II",
             "type": "bristleback",
             "vet": 4
-          }
-        ],
-        "system": "82 ERIDANI"
-      },
-      {
-        "faction": 2,
-        "fighterReserve": 0,
-        "fighterReserveMax": 120,
-        "id": "SSV RESERVE GROUP",
-        "peakCost": 170,
-        "posture": "retreating",
-        "ships": [
-          {
-            "name": "SSV OBSIDIAN IV",
-            "type": "strikecarrier",
-            "vet": 3
-          },
-          {
-            "name": "SSV HARROW III",
-            "type": "cruiser",
-            "vet": 3
-          },
-          {
-            "name": "SSV WOLFRAM IV",
-            "type": "tempest",
-            "vet": 3
-          },
-          {
-            "name": "SSV PALEFIRE IV",
-            "type": "dreadnaught",
-            "vet": 3
-          },
-          {
-            "name": "SSV MAELSTROM II",
-            "type": "cruiser",
-            "vet": 3
-          },
-          {
-            "name": "SSV HARROW II",
-            "type": "supercarrier",
-            "vet": 3
-          },
-          {
-            "name": "SSV IRONMAW III",
-            "type": "cruiser",
-            "vet": 3
-          },
-          {
-            "name": "SSV CALDERA IV",
-            "type": "cataclysm",
-            "vet": 3
           },
           {
             "ace": true,
-            "name": "HAVOC",
-            "type": "sledge",
-            "vet": 3
-          },
-          {
-            "name": "SSV REDSHIFT IV",
-            "type": "ingot",
-            "vet": 3
+            "name": "COLDBURN",
+            "type": "reaper",
+            "vet": 5
           }
         ],
-        "system": "BARNARD"
-      },
-      {
-        "faction": 1,
-        "fighterReserve": 0,
-        "fighterReserveMax": 120,
-        "id": "TAS RESERVE GROUP",
-        "peakCost": 110,
-        "posture": "defend",
-        "ships": [
-          {
-            "ace": true,
-            "name": "DEACON II",
-            "type": "crusader",
-            "vet": 3
-          },
-          {
-            "name": "TAS CLAYMORE",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "name": "TAS GRANITE",
-            "type": "caisson",
-            "vet": 3
-          },
-          {
-            "name": "TAS DAUNTLESS",
-            "type": "destroyer",
-            "vet": 3
-          },
-          {
-            "name": "TAS LIONHEART",
-            "type": "frigate",
-            "vet": 3
-          },
-          {
-            "name": "TAS ORION",
-            "type": "supercarrier",
-            "vet": 3
-          },
-          {
-            "name": "TAS RESOLUTE II",
-            "type": "dreadnaught",
-            "vet": 3
-          }
-        ],
-        "system": "EARTH"
+        "system": "ETA CASSIOPEIAE"
       }
     ],
     "log": [
-      "DAY 34 - SSV OBSIDIAN IV COMMISSIONED AT MARS",
-      "DAY 36 - TAS MERIDIAN LOST AT 82 ERIDANI",
-      "DAY 36 - WINTER II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 37 - LOCKJAW LOST AT SELACH",
-      "DAY 37 - SSV KRAIT IV COMMISSIONED AT MARS",
-      "DAY 38 - TAS RESOLUTE LOST AT HALCYON",
-      "DAY 38 - SSV KRAIT IV LOST AT ALPHA CENTAURI",
-      "DAY 38 - TAS RESOLUTE COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 38 - SSV VESPERINE IV COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 39 - SSV HARROW III LOST AT ALPHA CENTAURI",
-      "DAY 39 - SSV HARROW III COMMISSIONED AT MARS",
-      "DAY 40 - WIDOW LOST AT HALCYON",
-      "DAY 40 - SSV HARROW IV COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 41 - TAS GRANITE LOST AT HALCYON",
-      "DAY 41 - TAS MERIDIAN COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 43 - PILGRIM LOST AT 82 ERIDANI",
-      "DAY 43 - PILGRIM COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 44 - STATIC LOST AT HALCYON",
-      "DAY 44 - SSV WOLFRAM IV COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 45 - SSV HARROW IV LOST AT ALPHA CENTAURI",
-      "DAY 45 - TERRAN FORCES TOOK ALPHA CENTAURI",
-      "DAY 45 - SSV IRONMAW IV COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 46 - TAS CLAYMORE LOST AT MARS",
-      "DAY 46 - DEACON II COMMISSIONED AT EARTH",
-      "DAY 46 - TAS RESERVE GROUP ARRIVES AT THE LINE - EARTH",
-      "DAY 48 - IRONSIDE LOST AT 82 ERIDANI",
-      "DAY 48 - SSV VESPERINE IV LOST AT ALPHA CENTAURI",
-      "DAY 48 - TAS CLAYMORE COMMISSIONED AT EARTH",
-      "DAY 48 - SSV PALEFIRE IV COMMISSIONED AT MARS",
-      "DAY 49 - DEACON LOST AT SELACH",
-      "DAY 49 - TAS GRANITE COMMISSIONED AT EARTH",
-      "DAY 51 - SSV MAELSTROM II LOST AT ETA CASSIOPEIAE",
-      "DAY 51 - SSV MAELSTROM II COMMISSIONED AT MARS",
-      "DAY 52 - SSV IRONMAW III LOST AT MARS",
-      "DAY 52 - SSV HARROW II LOST AT 82 ERIDANI",
-      "DAY 52 - SSV HARROW II COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 52 - SSV IRONMAW III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 53 - TAS DAUNTLESS LOST AT 82 ERIDANI",
-      "DAY 53 - TAS DAUNTLESS COMMISSIONED AT EARTH",
-      "DAY 54 - SSV IRONMAW IV LOST AT ALPHA CENTAURI",
-      "DAY 54 - COLDBURN COMMISSIONED AT MARS",
-      "DAY 55 - TAS LIONHEART LOST AT HALCYON",
-      "DAY 55 - COLDBURN LOST AT ALPHA CENTAURI",
-      "DAY 55 - TAS LIONHEART COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 55 - SSV CALDERA IV COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 56 - TAS ORION LOST AT HALCYON",
-      "DAY 56 - HAVOC LOST AT SELACH",
-      "DAY 56 - TAS ORION COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 56 - HAVOC COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 58 - 82 ERIDANI AT -81 - THE LINE IS BREAKING",
-      "DAY 60 - TAS RESOLUTE II LOST AT SELACH",
-      "DAY 60 - TAS RESOLUTE II COMMISSIONED AT EARTH",
-      "DAY 61 - SSA FORCES TOOK 82 ERIDANI - THE LINE MOVES",
-      "DAY 61 - SECOND FLEET FELL BACK TO GLIESE 581 (SYSTEM LOST)",
-      "DAY 61 - MARS AT +84 - THE LINE IS BREAKING",
-      "DAY 62 - NINELIVES LOST AT SELACH",
-      "DAY 62 - SSV REDSHIFT IV COMMISSIONED AT MARS",
-      "DAY 63 - TERRAN FORCES TOOK MARS - RESISTANCE COLLAPSED",
-      "DAY 63 - SSV RESERVE GROUP FELL BACK TO BARNARD (SYSTEM LOST)",
-      "DAY 63 - THE ALLIANCE HAS WON THE WAR - MARS HAS FALLEN"
+      "DAY 0 - WAR DECLARED - THE SUNDERING WAR",
+      "DAY 0 - THE GUNS SPEAK AGAIN - WAR 2 OF THE SEASON",
+      "DAY 1 - RIMFIRE LOST AT BARNARD",
+      "DAY 1 - TAS HALBERD II COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 1 - TAS IRONWOOD II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 1 - NINELIVES COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 1 - EMBER COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 1 - RIMFIRE COMMISSIONED - CREWS REPORTING AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
     "schema": "strikewings.war/v1",
     "seasonId": "S01",
-    "seed": 7791550101,
+    "seed": 15232056118924274112,
     "sortieWins": 0,
     "sorties": 0,
     "squadron": [
       {
-        "name": "WINTER",
-        "type": "basilisk",
+        "name": "VIPER",
+        "type": "crusader",
         "vet": 4
       },
       {
-        "name": "VIPER",
+        "name": "CAVALIER",
         "type": "talon",
         "vet": 4
       }
@@ -928,7 +562,7 @@
       },
       {
         "name": "MARS",
-        "owner": 1
+        "owner": 2
       },
       {
         "name": "PROCYON",
@@ -948,45 +582,47 @@
       },
       {
         "name": "ALPHA CENTAURI",
-        "owner": 1,
-        "pressure": 37.14115524291992
+        "owner": 0,
+        "pressure": -1.2421875
       },
       {
         "name": "SIRIUS",
-        "owner": 2
+        "owner": 0,
+        "pressure": -5.15234375
       },
       {
         "name": "BARNARD",
-        "owner": 2
+        "owner": 0
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 67.85760498046875
+        "pressure": -11.1796875
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 62.39760208129883
+        "pressure": 8.59375
       },
       {
         "name": "GLIESE 581",
-        "owner": 1,
-        "pressure": -14.638751983642578
+        "owner": 0,
+        "pressure": 7.59375
       },
       {
         "name": "ARATHIL",
-        "owner": 0
+        "owner": 0,
+        "pressure": 4.6640625
       }
     ],
     "version": 1,
-    "winner": 1
+    "winner": 0
   },
-  "warEndedAtEpoch": 1787440489,
-  "warIndex": 1,
+  "warEndedAtEpoch": 0,
+  "warIndex": 2,
   "warsWon": [
     0,
-    0,
+    1,
     0
   ]
 }
