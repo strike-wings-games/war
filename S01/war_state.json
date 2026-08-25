@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1787663776,
+  "generatedAtEpoch": 1787684586,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "2862b593077a691a",
-  "tickIndex": 66,
+  "stateHash": "df88f429884ddaea",
+  "tickIndex": 67,
   "war": {
     "buildPool": [
-      2,
-      2
+      1,
+      0
     ],
     "chronicle": [
       [
@@ -47,11 +47,11 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 3,
+    "day": 4,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 158,
+        "fighterReserve": 131,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
         "peakCost": 334,
@@ -129,13 +129,18 @@
             "name": "HATCHET",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS LIONHEART II",
+            "type": "strikecarrier",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 193,
+        "fighterReserve": 185,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -251,7 +256,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 117,
+        "fighterReserve": 112,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -293,10 +298,10 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 178,
+        "fighterReserve": 156,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 334,
+        "peakCost": 337,
         "posture": "defend",
         "ships": [
           {
@@ -391,13 +396,23 @@
             "name": "COLDBURN II",
             "type": "sledge",
             "vet": 3
+          },
+          {
+            "name": "SSV UNDERTOW II",
+            "type": "destroyer",
+            "vet": 3
+          },
+          {
+            "name": "SSV VESPERINE II",
+            "type": "cataclysm",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 193,
+        "fighterReserve": 185,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -460,7 +475,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 174,
+        "fighterReserve": 169,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -571,7 +586,10 @@
       "DAY 3 - HATCHET COMMISSIONED AT EARTH",
       "DAY 3 - LOCKJAW COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 3 - JACKAL COMMISSIONED AT MARS",
-      "DAY 3 - COLDBURN II COMMISSIONED - CREWS REPORTING AT MARS"
+      "DAY 3 - COLDBURN II COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 4 - TAS LIONHEART II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 4 - SSV UNDERTOW II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 4 - SSV VESPERINE II COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -632,37 +650,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": -10.2734375
+        "pressure": -9.4296875
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -17.828125
+        "pressure": -22.44140625
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -14.7734375
+        "pressure": -22.98828125
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -33.58984375
+        "pressure": -18.67578125
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 12.20703125
+        "pressure": 22.83984375
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 9.05859375
+        "pressure": 14.05078125
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 16.41796875
+        "pressure": 10.39453125
       }
     ],
     "version": 1,
