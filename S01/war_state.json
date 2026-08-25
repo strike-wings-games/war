@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1787642050,
+  "generatedAtEpoch": 1787663776,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "22067f42e21fb833",
-  "tickIndex": 65,
+  "stateHash": "2862b593077a691a",
+  "tickIndex": 66,
   "war": {
     "buildPool": [
-      0,
-      0
+      2,
+      2
     ],
     "chronicle": [
       [
@@ -47,11 +47,11 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 2,
+    "day": 3,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 181,
+        "fighterReserve": 158,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
         "peakCost": 334,
@@ -93,11 +93,6 @@
             "vet": 4
           },
           {
-            "name": "TAS CLAYMORE",
-            "type": "longbow",
-            "vet": 4
-          },
-          {
             "ace": true,
             "name": "QUICKSILVER",
             "type": "crusader",
@@ -123,13 +118,24 @@
             "name": "TAS SOVEREIGN II",
             "type": "ingot",
             "vet": 3
+          },
+          {
+            "name": "TAS CLAYMORE",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "HATCHET",
+            "type": "crusader",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 201,
+        "fighterReserve": 193,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -245,7 +251,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 124,
+        "fighterReserve": 117,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -287,7 +293,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 195,
+        "fighterReserve": 178,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
         "peakCost": 334,
@@ -367,13 +373,31 @@
             "name": "CROSSCUT",
             "type": "sledge",
             "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "LOCKJAW",
+            "type": "sledge",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "JACKAL",
+            "type": "leyden",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "COLDBURN II",
+            "type": "sledge",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 197,
+        "fighterReserve": 193,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -436,7 +460,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 172,
+        "fighterReserve": 174,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -541,7 +565,13 @@
       "DAY 1 - RIMFIRE COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 2 - TAS SOVEREIGN II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 2 - SSV NOCTURNE II COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 2 - CROSSCUT COMMISSIONED - CREWS REPORTING AT MARS"
+      "DAY 2 - CROSSCUT COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 3 - TAS CLAYMORE LOST AT ALPHA CENTAURI",
+      "DAY 3 - TAS CLAYMORE COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 3 - HATCHET COMMISSIONED AT EARTH",
+      "DAY 3 - LOCKJAW COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 3 - JACKAL COMMISSIONED AT MARS",
+      "DAY 3 - COLDBURN II COMMISSIONED - CREWS REPORTING AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -602,37 +632,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 3.3203125
+        "pressure": -10.2734375
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -13.41015625
+        "pressure": -17.828125
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -10.33984375
+        "pressure": -14.7734375
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -20.64453125
+        "pressure": -33.58984375
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 17.859375
+        "pressure": 12.20703125
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 1.953125
+        "pressure": 9.05859375
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 10.62890625
+        "pressure": 16.41796875
       }
     ],
     "version": 1,
