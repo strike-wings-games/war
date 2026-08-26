@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1787728369,
+  "generatedAtEpoch": 1787750610,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "1fc9b2e4f132066a",
-  "tickIndex": 69,
+  "stateHash": "fa4e3b4e6f80c697",
+  "tickIndex": 70,
   "war": {
     "buildPool": [
       0,
-      1
+      0
     ],
     "chronicle": [
       [
@@ -47,14 +47,14 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 6,
+    "day": 7,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 94,
+        "fighterReserve": 86,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 334,
+        "peakCost": 349,
         "posture": "defend",
         "ships": [
           {
@@ -167,13 +167,29 @@
             "name": "IRONSIDE II",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS BASTION III",
+            "type": "marksman",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "WINTER II",
+            "type": "crusader",
+            "vet": 3
+          },
+          {
+            "name": "TAS CLAYMORE III",
+            "type": "longbow",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 166,
+        "fighterReserve": 155,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -289,7 +305,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 93,
+        "fighterReserve": 83,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -331,10 +347,10 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 129,
+        "fighterReserve": 110,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 339,
+        "peakCost": 362,
         "posture": "defend",
         "ships": [
           {
@@ -455,13 +471,28 @@
             "name": "SSV OBSIDIAN II",
             "type": "ingot",
             "vet": 3
+          },
+          {
+            "name": "SSV IRONMAW III",
+            "type": "cataclysm",
+            "vet": 3
+          },
+          {
+            "name": "SSV RIPTIDE III",
+            "type": "cataclysm",
+            "vet": 3
+          },
+          {
+            "name": "SSV OBSIDIAN III",
+            "type": "tempest",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 163,
+        "fighterReserve": 157,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -524,7 +555,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 167,
+        "fighterReserve": 166,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -647,7 +678,13 @@
       "DAY 6 - TAS GRANITE III COMMISSIONED AT EARTH",
       "DAY 6 - MONARCH COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 6 - IRONSIDE II COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 6 - SSV OBSIDIAN II COMMISSIONED AT MARS"
+      "DAY 6 - SSV OBSIDIAN II COMMISSIONED AT MARS",
+      "DAY 7 - TAS BASTION III COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 7 - WINTER II COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 7 - TAS CLAYMORE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 7 - SSV IRONMAW III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 7 - SSV RIPTIDE III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 7 - SSV OBSIDIAN III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -708,37 +745,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 1.38671875
+        "pressure": 2.28515625
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -28.17578125
+        "pressure": -33.609375
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -40.6015625
+        "pressure": -49.703125
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -19.5234375
+        "pressure": -22.46484375
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 37.640625
+        "pressure": 43.0703125
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 18.73046875
+        "pressure": 25.1796875
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 12.96484375
+        "pressure": 19.30859375
       }
     ],
     "version": 1,
