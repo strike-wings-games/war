@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1787750610,
+  "generatedAtEpoch": 1787774748,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "fa4e3b4e6f80c697",
-  "tickIndex": 70,
+  "stateHash": "a867b49d9e9b38ad",
+  "tickIndex": 71,
   "war": {
     "buildPool": [
-      0,
-      0
+      2,
+      2
     ],
     "chronicle": [
       [
@@ -47,11 +47,11 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 7,
+    "day": 8,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 86,
+        "fighterReserve": 64,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
         "peakCost": 349,
@@ -183,13 +183,18 @@
             "name": "TAS CLAYMORE III",
             "type": "longbow",
             "vet": 3
+          },
+          {
+            "name": "TAS RESOLUTE III",
+            "type": "destroyer",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 155,
+        "fighterReserve": 150,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -305,7 +310,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 83,
+        "fighterReserve": 69,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -347,10 +352,10 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 110,
+        "fighterReserve": 100,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 362,
+        "peakCost": 366,
         "posture": "defend",
         "ships": [
           {
@@ -486,13 +491,24 @@
             "name": "SSV OBSIDIAN III",
             "type": "tempest",
             "vet": 3
+          },
+          {
+            "name": "SSV CALDERA III",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "NINELIVES II",
+            "type": "manticore",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 157,
+        "fighterReserve": 151,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -555,7 +571,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 166,
+        "fighterReserve": 168,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -684,7 +700,10 @@
       "DAY 7 - TAS CLAYMORE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 7 - SSV IRONMAW III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 7 - SSV RIPTIDE III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 7 - SSV OBSIDIAN III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
+      "DAY 7 - SSV OBSIDIAN III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 8 - TAS RESOLUTE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 8 - SSV CALDERA III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 8 - NINELIVES II COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -745,37 +764,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 2.28515625
+        "pressure": -6.71484375
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -33.609375
+        "pressure": -41.1953125
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -49.703125
+        "pressure": -60.0703125
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -22.46484375
+        "pressure": -23.7734375
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 43.0703125
+        "pressure": 50.29296875
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 25.1796875
+        "pressure": 36.05078125
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 19.30859375
+        "pressure": 12.484375
       }
     ],
     "version": 1,
