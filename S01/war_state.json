@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1787774748,
+  "generatedAtEpoch": 1787824255,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,11 +31,11 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "a867b49d9e9b38ad",
-  "tickIndex": 71,
+  "stateHash": "b05aa432c150184b",
+  "tickIndex": 72,
   "war": {
     "buildPool": [
-      2,
+      1,
       2
     ],
     "chronicle": [
@@ -47,14 +47,14 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 8,
+    "day": 10,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 64,
+        "fighterReserve": 27,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 349,
+        "peakCost": 356,
         "posture": "defend",
         "ships": [
           {
@@ -141,11 +141,6 @@
             "vet": 3
           },
           {
-            "name": "TAS DAUNTLESS III",
-            "type": "longbow",
-            "vet": 3
-          },
-          {
             "ace": true,
             "name": "WINTER",
             "type": "crusader",
@@ -188,13 +183,46 @@
             "name": "TAS RESOLUTE III",
             "type": "destroyer",
             "vet": 3
+          },
+          {
+            "name": "TAS DAUNTLESS III",
+            "type": "marksman",
+            "vet": 3
+          },
+          {
+            "name": "TAS ORION III",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "FALCONER",
+            "type": "crusader",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "CAVALIER II",
+            "type": "crusader",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "HATCHET II",
+            "type": "crusader",
+            "vet": 3
+          },
+          {
+            "name": "TAS MERIDIAN III",
+            "type": "longbow",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 150,
+        "fighterReserve": 129,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -310,7 +338,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 69,
+        "fighterReserve": 52,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -340,19 +368,13 @@
             "name": "TAS BULWARK II",
             "type": "marksman",
             "vet": 4
-          },
-          {
-            "ace": true,
-            "name": "FALCONER",
-            "type": "talon",
-            "vet": 5
           }
         ],
         "system": "NEW ANTWERP"
       },
       {
         "faction": 2,
-        "fighterReserve": 100,
+        "fighterReserve": 67,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
         "peakCost": 366,
@@ -403,12 +425,6 @@
             "name": "SABLE",
             "type": "manticore",
             "vet": 5
-          },
-          {
-            "ace": true,
-            "name": "NINELIVES",
-            "type": "manticore",
-            "vet": 3
           },
           {
             "ace": true,
@@ -502,13 +518,40 @@
             "name": "NINELIVES II",
             "type": "manticore",
             "vet": 3
+          },
+          {
+            "name": "SSV VORTEX III",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "name": "SSV WOLFRAM III",
+            "type": "tempest",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "NINELIVES",
+            "type": "leyden",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "HAVOC",
+            "type": "sledge",
+            "vet": 3
+          },
+          {
+            "name": "SSV HARROW III",
+            "type": "frigate",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 151,
+        "fighterReserve": 128,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -556,12 +599,6 @@
           },
           {
             "ace": true,
-            "name": "HAVOC",
-            "type": "manticore",
-            "vet": 5
-          },
-          {
-            "ace": true,
             "name": "TALLYMAN",
             "type": "manticore",
             "vet": 5
@@ -571,7 +608,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 168,
+        "fighterReserve": 162,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -703,7 +740,22 @@
       "DAY 7 - SSV OBSIDIAN III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 8 - TAS RESOLUTE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 8 - SSV CALDERA III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 8 - NINELIVES II COMMISSIONED AT MARS"
+      "DAY 8 - NINELIVES II COMMISSIONED AT MARS",
+      "DAY 9 - TAS DAUNTLESS III LOST AT ALPHA CENTAURI",
+      "DAY 9 - NINELIVES LOST AT BARNARD",
+      "DAY 9 - FALCONER LOST AT ARATHIL",
+      "DAY 9 - TAS DAUNTLESS III COMMISSIONED AT EARTH",
+      "DAY 9 - TAS ORION III COMMISSIONED AT EARTH",
+      "DAY 9 - FALCONER COMMISSIONED AT EARTH",
+      "DAY 9 - SSV VORTEX III COMMISSIONED AT MARS",
+      "DAY 9 - SSV WOLFRAM III COMMISSIONED AT MARS",
+      "DAY 9 - NINELIVES COMMISSIONED AT MARS",
+      "DAY 10 - HAVOC LOST AT SIRIUS",
+      "DAY 10 - CAVALIER II COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 10 - HATCHET II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 10 - TAS MERIDIAN III COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 10 - HAVOC COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 10 - SSV HARROW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -764,37 +816,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": -6.71484375
+        "pressure": -7.7109375
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -41.1953125
+        "pressure": -44.44921875
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -60.0703125
+        "pressure": -63.44921875
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -23.7734375
+        "pressure": -15.6953125
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 50.29296875
+        "pressure": 69.40234375
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 36.05078125
+        "pressure": 50.890625
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 12.484375
+        "pressure": 12.8671875
       }
     ],
     "version": 1,
