@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1787869171,
+  "generatedAtEpoch": 1787916544,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "ef27b78bff7b01f5",
-  "tickIndex": 73,
+  "stateHash": "e5f50190473b862a",
+  "tickIndex": 74,
   "war": {
     "buildPool": [
-      1,
-      2
+      2,
+      17
     ],
     "chronicle": [
       [
@@ -47,14 +47,14 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 12,
+    "day": 14,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 387,
+        "peakCost": 416,
         "posture": "defend",
         "ships": [
           {
@@ -244,13 +244,28 @@
             "name": "BANNERET II",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS WARBRIDGE III",
+            "type": "cyclone",
+            "vet": 3
+          },
+          {
+            "name": "TAS BULWARK II",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "name": "TAS IRONWOOD III",
+            "type": "longbow",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 107,
+        "fighterReserve": 91,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -366,7 +381,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 30,
+        "fighterReserve": 13,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -391,18 +406,13 @@
             "name": "TAS ORION II",
             "type": "marksman",
             "vet": 4
-          },
-          {
-            "name": "TAS BULWARK II",
-            "type": "marksman",
-            "vet": 4
           }
         ],
         "system": "NEW ANTWERP"
       },
       {
         "faction": 2,
-        "fighterReserve": 24,
+        "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
         "peakCost": 375,
@@ -594,13 +604,24 @@
             "name": "SSV REDSHIFT III",
             "type": "destroyer",
             "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "TALLYMAN II",
+            "type": "leyden",
+            "vet": 3
+          },
+          {
+            "name": "SSV UNDERTOW III",
+            "type": "tempest",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 111,
+        "fighterReserve": 101,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -657,7 +678,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 159,
+        "fighterReserve": 151,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -752,12 +773,6 @@
       }
     ],
     "log": [
-      "DAY 1 - RIMFIRE LOST AT BARNARD",
-      "DAY 1 - TAS HALBERD II COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 1 - TAS IRONWOOD II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 1 - NINELIVES COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 1 - EMBER COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 1 - RIMFIRE COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 2 - TAS SOVEREIGN II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 2 - SSV NOCTURNE II COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 2 - CROSSCUT COMMISSIONED - CREWS REPORTING AT MARS",
@@ -811,7 +826,13 @@
       "DAY 12 - TAS HALBERD III COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 12 - DEACON II COMMISSIONED AT EARTH",
       "DAY 12 - BANNERET II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 12 - SSV REDSHIFT III COMMISSIONED - CREWS REPORTING AT MARS"
+      "DAY 12 - SSV REDSHIFT III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 13 - TAS WARBRIDGE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 13 - TALLYMAN II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 13 - SSV UNDERTOW III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 14 - TAS BULWARK II LOST AT ROSS 128",
+      "DAY 14 - TAS BULWARK II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 14 - TAS IRONWOOD III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -872,37 +893,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": -8.703125
+        "pressure": 1.1875
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -61.546875
+        "pressure": -77.375
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -81.77734375
+        "pressure": -94.05078125
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -18.2265625
+        "pressure": -1.453125
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 88.65234375
+        "pressure": 93.140625
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 56.94921875
+        "pressure": 78.1171875
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 17.44140625
+        "pressure": 18.8046875
       }
     ],
     "version": 1,
