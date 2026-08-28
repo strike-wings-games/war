@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1787916544,
+  "generatedAtEpoch": 1787955856,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "e5f50190473b862a",
-  "tickIndex": 74,
+  "stateHash": "5aff1c3d744a931a",
+  "tickIndex": 75,
   "war": {
     "buildPool": [
-      2,
-      17
+      4,
+      16
     ],
     "chronicle": [
       [
@@ -47,14 +47,14 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 14,
+    "day": 15,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 416,
+        "peakCost": 428,
         "posture": "defend",
         "ships": [
           {
@@ -259,13 +259,18 @@
             "name": "TAS IRONWOOD III",
             "type": "longbow",
             "vet": 3
+          },
+          {
+            "name": "TAS ORION II",
+            "type": "destroyer",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 91,
+        "fighterReserve": 78,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -381,7 +386,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 13,
+        "fighterReserve": 8,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -400,11 +405,6 @@
           {
             "name": "TAS WARBRIDGE II",
             "type": "frigate",
-            "vet": 4
-          },
-          {
-            "name": "TAS ORION II",
-            "type": "marksman",
             "vet": 4
           }
         ],
@@ -615,13 +615,18 @@
             "name": "SSV UNDERTOW III",
             "type": "tempest",
             "vet": 3
+          },
+          {
+            "name": "SSV NOCTURNE III",
+            "type": "strikecarrier",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 101,
+        "fighterReserve": 90,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -666,19 +671,13 @@
             "name": "SSV REDSHIFT",
             "type": "tempest",
             "vet": 4
-          },
-          {
-            "ace": true,
-            "name": "TALLYMAN",
-            "type": "manticore",
-            "vet": 5
           }
         ],
         "system": "PROCYON"
       },
       {
         "faction": 2,
-        "fighterReserve": 151,
+        "fighterReserve": 154,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -773,10 +772,6 @@
       }
     ],
     "log": [
-      "DAY 2 - TAS SOVEREIGN II COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 2 - SSV NOCTURNE II COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 2 - CROSSCUT COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 3 - TAS CLAYMORE LOST AT ALPHA CENTAURI",
       "DAY 3 - TAS CLAYMORE COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 3 - HATCHET COMMISSIONED AT EARTH",
       "DAY 3 - LOCKJAW COMMISSIONED - CREWS REPORTING AT MARS",
@@ -832,7 +827,11 @@
       "DAY 13 - SSV UNDERTOW III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 14 - TAS BULWARK II LOST AT ROSS 128",
       "DAY 14 - TAS BULWARK II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 14 - TAS IRONWOOD III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
+      "DAY 14 - TAS IRONWOOD III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 15 - TALLYMAN LOST AT SIRIUS",
+      "DAY 15 - TAS ORION II LOST AT ROSS 128",
+      "DAY 15 - TAS ORION II COMMISSIONED AT EARTH",
+      "DAY 15 - SSV NOCTURNE III COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -893,37 +892,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 1.1875
+        "pressure": 3.04296875
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -77.375
+        "pressure": -72.0859375
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -94.05078125
+        "pressure": -98.54296875
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -1.453125
+        "pressure": -4.07421875
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 93.140625
+        "pressure": 87.9140625
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 78.1171875
+        "pressure": 71.05859375
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 18.8046875
+        "pressure": 28.28125
       }
     ],
     "version": 1,
