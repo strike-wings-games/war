@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788022027,
+  "generatedAtEpoch": 1788037221,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "674bd20f3b2ba484",
-  "tickIndex": 77,
+  "stateHash": "5213a0594e704569",
+  "tickIndex": 78,
   "war": {
     "buildPool": [
-      16,
-      38
+      28,
+      49
     ],
     "chronicle": [
       [
@@ -54,7 +54,7 @@
         ""
       ]
     ],
-    "day": 17,
+    "day": 18,
     "fleets": [
       {
         "faction": 1,
@@ -282,7 +282,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 58,
+        "fighterReserve": 47,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -633,7 +633,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 70,
+        "fighterReserve": 58,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -684,7 +684,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 150,
+        "fighterReserve": 146,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -899,22 +899,22 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 0.83984375
+        "pressure": 0.67578125
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -88.92578125
+        "pressure": -99.1953125
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -84.96875
+        "pressure": -84.89453125
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -9.34375
+        "pressure": -6.90234375
       },
       {
         "name": "ROSS 128",
@@ -923,12 +923,12 @@
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 87.3203125
+        "pressure": 92.65234375
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 16.91796875
+        "pressure": 8.91796875
       }
     ],
     "version": 1,
