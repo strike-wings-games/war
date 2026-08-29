@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1787955856,
+  "generatedAtEpoch": 1787987388,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "5aff1c3d744a931a",
-  "tickIndex": 75,
+  "stateHash": "96414e0772953587",
+  "tickIndex": 76,
   "war": {
     "buildPool": [
-      4,
-      16
+      15,
+      27
     ],
     "chronicle": [
       [
@@ -47,7 +47,7 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 15,
+    "day": 16,
     "fleets": [
       {
         "faction": 1,
@@ -270,7 +270,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 78,
+        "fighterReserve": 70,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -626,7 +626,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 90,
+        "fighterReserve": 83,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -677,7 +677,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 154,
+        "fighterReserve": 155,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -892,37 +892,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 3.04296875
+        "pressure": 11.38671875
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -72.0859375
+        "pressure": -79.27734375
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -98.54296875
+        "pressure": -91.1796875
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -4.07421875
+        "pressure": -2.48046875
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 87.9140625
+        "pressure": 95.26953125
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 71.05859375
+        "pressure": 80.94921875
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 28.28125
+        "pressure": 24.36328125
       }
     ],
     "version": 1,
