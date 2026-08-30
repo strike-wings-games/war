@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788037221,
+  "generatedAtEpoch": 1788067604,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "5213a0594e704569",
-  "tickIndex": 78,
+  "stateHash": "ae2bf81e635f0943",
+  "tickIndex": 79,
   "war": {
     "buildPool": [
-      28,
-      49
+      29,
+      47
     ],
     "chronicle": [
       [
@@ -54,14 +54,14 @@
         ""
       ]
     ],
-    "day": 18,
+    "day": 19,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 442,
+        "peakCost": 456,
         "posture": "defend",
         "ships": [
           {
@@ -276,13 +276,18 @@
             "name": "TAS WARBRIDGE II",
             "type": "cyclone",
             "vet": 3
+          },
+          {
+            "name": "TAS WARBRIDGE",
+            "type": "cyclone",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 47,
+        "fighterReserve": 38,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -305,11 +310,6 @@
           },
           {
             "name": "TAS BASTION",
-            "type": "frigate",
-            "vet": 4
-          },
-          {
-            "name": "TAS WARBRIDGE",
             "type": "frigate",
             "vet": 4
           },
@@ -422,7 +422,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 375,
+        "peakCost": 387,
         "posture": "defend",
         "ships": [
           {
@@ -627,13 +627,18 @@
             "name": "SSV NOCTURNE III",
             "type": "strikecarrier",
             "vet": 3
+          },
+          {
+            "name": "SSV PALEFIRE",
+            "type": "sirocco",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 58,
+        "fighterReserve": 49,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -670,11 +675,6 @@
             "vet": 4
           },
           {
-            "name": "SSV PALEFIRE",
-            "type": "tempest",
-            "vet": 4
-          },
-          {
             "name": "SSV REDSHIFT",
             "type": "tempest",
             "vet": 4
@@ -684,7 +684,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 146,
+        "fighterReserve": 150,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -779,10 +779,6 @@
       }
     ],
     "log": [
-      "DAY 3 - JACKAL COMMISSIONED AT MARS",
-      "DAY 3 - COLDBURN II COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 4 - TAS LIONHEART II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 4 - SSV UNDERTOW II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 4 - SSV VESPERINE II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 5 - TAS DAUNTLESS II COMMISSIONED AT EARTH",
       "DAY 5 - TAS DAUNTLESS III COMMISSIONED - CREWS REPORTING AT EARTH",
@@ -838,7 +834,11 @@
       "DAY 15 - SSV NOCTURNE III COMMISSIONED AT MARS",
       "DAY 17 - TAS WARBRIDGE II LOST AT ARATHIL",
       "DAY 17 - TERRAN FORCES TOOK ROSS 128 - RESISTANCE COLLAPSED",
-      "DAY 17 - TAS WARBRIDGE II COMMISSIONED AT EARTH"
+      "DAY 17 - TAS WARBRIDGE II COMMISSIONED AT EARTH",
+      "DAY 19 - SSV PALEFIRE LOST AT SIRIUS",
+      "DAY 19 - TAS WARBRIDGE LOST AT GLIESE 581",
+      "DAY 19 - TAS WARBRIDGE COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 19 - SSV PALEFIRE COMMISSIONED - CREWS REPORTING AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -899,22 +899,22 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 0.67578125
+        "pressure": -3.6640625
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -99.1953125
+        "pressure": -93.94921875
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -84.89453125
+        "pressure": -81.90625
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -6.90234375
+        "pressure": -17.09765625
       },
       {
         "name": "ROSS 128",
@@ -923,12 +923,12 @@
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 92.65234375
+        "pressure": 89.19921875
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 8.91796875
+        "pressure": 0.91796875
       }
     ],
     "version": 1,
