@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788154766,
+  "generatedAtEpoch": 1788184662,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "e6427c9184345562",
-  "tickIndex": 83,
+  "stateHash": "38e3f635b4442332",
+  "tickIndex": 84,
   "war": {
     "buildPool": [
-      75,
-      72
+      88,
+      81
     ],
     "chronicle": [
       [
@@ -68,7 +68,7 @@
         ""
       ]
     ],
-    "day": 23,
+    "day": 24,
     "fleets": [
       {
         "faction": 1,
@@ -313,7 +313,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 6,
+        "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -692,7 +692,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 140,
+        "fighterReserve": 141,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -794,8 +794,9 @@
         "posture": "defend",
         "ships": [
           {
-            "name": "SSV VESPERINE III",
-            "type": "ingot",
+            "ace": true,
+            "name": "LOCKJAW",
+            "type": "leyden",
             "vet": 3
           }
         ],
@@ -803,8 +804,6 @@
       }
     ],
     "log": [
-      "DAY 7 - WINTER II COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 7 - TAS CLAYMORE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 7 - SSV IRONMAW III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 7 - SSV RIPTIDE III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 7 - SSV OBSIDIAN III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
@@ -862,7 +861,9 @@
       "DAY 22 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 22 - SSV RESERVE GROUP ARRIVES AT THE LINE - MARS",
       "DAY 23 - TAS GRANITE II LOST AT ROSS 128",
-      "DAY 23 - MONARCH II COMMISSIONED AT EARTH"
+      "DAY 23 - MONARCH II COMMISSIONED AT EARTH",
+      "DAY 24 - SSV VESPERINE III LOST AT ALPHA CENTAURI",
+      "DAY 24 - LOCKJAW COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -919,32 +920,31 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 25.375
+        "pressure": 34.83984375
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 7.9765625
+        "pressure": 14.8203125
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -89.07421875
+        "pressure": -95.91796875
       },
       {
         "name": "BARNARD",
-        "owner": 2,
-        "pressure": 3.109375
+        "owner": 2
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -6.71484375
+        "pressure": -15.57421875
       },
       {
         "name": "ROSS 128",
         "owner": 1,
-        "pressure": -21.59375
+        "pressure": -29.79296875
       },
       {
         "name": "GLIESE 581",
