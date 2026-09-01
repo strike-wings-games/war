@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788263085,
+  "generatedAtEpoch": 1788281153,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "306ec15d77edd3ea",
-  "tickIndex": 87,
+  "stateHash": "ae8145583d1bcefb",
+  "tickIndex": 88,
   "war": {
     "buildPool": [
-      127,
-      123
+      140,
+      124
     ],
     "chronicle": [
       [
@@ -75,7 +75,7 @@
         ""
       ]
     ],
-    "day": 27,
+    "day": 28,
     "fleets": [
       {
         "faction": 1,
@@ -699,7 +699,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 155,
+        "fighterReserve": 163,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -801,9 +801,8 @@
         "posture": "defend",
         "ships": [
           {
-            "ace": true,
-            "name": "LOCKJAW",
-            "type": "leyden",
+            "name": "SSV MAELSTROM III",
+            "type": "sirocco",
             "vet": 3
           }
         ],
@@ -811,8 +810,6 @@
       }
     ],
     "log": [
-      "DAY 7 - SSV RIPTIDE III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 7 - SSV OBSIDIAN III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 8 - TAS RESOLUTE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 8 - SSV CALDERA III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 8 - NINELIVES II COMMISSIONED AT MARS",
@@ -870,7 +867,9 @@
       "DAY 23 - MONARCH II COMMISSIONED AT EARTH",
       "DAY 24 - SSV VESPERINE III LOST AT ALPHA CENTAURI",
       "DAY 24 - LOCKJAW COMMISSIONED AT MARS",
-      "DAY 25 - SSA FORCES TOOK SIRIUS - RESISTANCE COLLAPSED"
+      "DAY 25 - SSA FORCES TOOK SIRIUS - RESISTANCE COLLAPSED",
+      "DAY 28 - LOCKJAW LOST AT ALPHA CENTAURI",
+      "DAY 28 - SSV MAELSTROM III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -927,12 +926,12 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 53.3828125
+        "pressure": 60.5
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 37.4609375
+        "pressure": 43.0234375
       },
       {
         "name": "SIRIUS",
@@ -945,12 +944,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -6.4375
+        "pressure": -12.70703125
       },
       {
         "name": "ROSS 128",
         "owner": 1,
-        "pressure": -22.9375
+        "pressure": -14.9375
       },
       {
         "name": "GLIESE 581",
