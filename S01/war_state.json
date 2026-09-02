@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788348463,
+  "generatedAtEpoch": 1788367322,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "a30af13653d033b3",
-  "tickIndex": 91,
+  "stateHash": "d8c14ad6c52847cf",
+  "tickIndex": 92,
   "war": {
     "buildPool": [
-      179,
-      166
+      192,
+      180
     ],
     "chronicle": [
       [
@@ -75,7 +75,7 @@
         ""
       ]
     ],
-    "day": 31,
+    "day": 32,
     "fleets": [
       {
         "faction": 1,
@@ -810,7 +810,6 @@
       }
     ],
     "log": [
-      "DAY 8 - TAS RESOLUTE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 8 - SSV CALDERA III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 8 - NINELIVES II COMMISSIONED AT MARS",
       "DAY 9 - TAS DAUNTLESS III LOST AT ALPHA CENTAURI",
@@ -869,7 +868,8 @@
       "DAY 24 - LOCKJAW COMMISSIONED AT MARS",
       "DAY 25 - SSA FORCES TOOK SIRIUS - RESISTANCE COLLAPSED",
       "DAY 28 - LOCKJAW LOST AT ALPHA CENTAURI",
-      "DAY 28 - SSV MAELSTROM III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
+      "DAY 28 - SSV MAELSTROM III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 32 - 82 ERIDANI AT +86 - THE LINE IS BREAKING"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -926,12 +926,12 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 78.671875
+        "pressure": 86.15234375
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 54.33203125
+        "pressure": 51.52734375
       },
       {
         "name": "SIRIUS",
@@ -944,7 +944,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 0.51171875
+        "pressure": 2.83984375
       },
       {
         "name": "ROSS 128",
