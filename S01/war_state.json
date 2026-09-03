@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788434331,
+  "generatedAtEpoch": 1788453076,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "2f4da26655a49347",
-  "tickIndex": 95,
+  "stateHash": "f2a97cf75e4cfe4d",
+  "tickIndex": 96,
   "war": {
     "buildPool": [
-      232,
-      218
+      233,
+      213
     ],
     "chronicle": [
       [
@@ -82,14 +82,14 @@
         ""
       ]
     ],
-    "day": 35,
+    "day": 36,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 482,
+        "peakCost": 501,
         "posture": "defend",
         "ships": [
           {
@@ -321,6 +321,16 @@
             "name": "MONARCH II",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS BASTION",
+            "type": "longbow",
+            "vet": 3
+          },
+          {
+            "name": "TAS MERIDIAN",
+            "type": "destroyer",
+            "vet": 3
           }
         ],
         "system": "EARTH"
@@ -349,22 +359,12 @@
             "vet": 4
           },
           {
-            "name": "TAS BASTION",
-            "type": "frigate",
-            "vet": 4
-          },
-          {
             "name": "TAS ORION",
             "type": "strikecarrier",
             "vet": 4
           },
           {
             "name": "TAS RESOLUTE",
-            "type": "longbow",
-            "vet": 4
-          },
-          {
-            "name": "TAS MERIDIAN",
             "type": "longbow",
             "vet": 4
           },
@@ -706,7 +706,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 180,
+        "fighterReserve": 161,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -759,7 +759,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 140,
+        "fighterReserve": 137,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -789,12 +789,6 @@
             "name": "SSV PERDITION II",
             "type": "bristleback",
             "vet": 4
-          },
-          {
-            "ace": true,
-            "name": "COLDBURN",
-            "type": "reaper",
-            "vet": 5
           }
         ],
         "system": "ETA CASSIOPEIAE"
@@ -804,13 +798,17 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 16,
+        "peakCost": 24,
         "posture": "defend",
         "ships": [
           {
-            "ace": true,
-            "name": "LOCKJAW",
-            "type": "manticore",
+            "name": "SSV MAELSTROM III",
+            "type": "destroyer",
+            "vet": 3
+          },
+          {
+            "name": "SSV VESPERINE III",
+            "type": "destroyer",
             "vet": 3
           }
         ],
@@ -818,14 +816,6 @@
       }
     ],
     "log": [
-      "DAY 9 - NINELIVES LOST AT BARNARD",
-      "DAY 9 - FALCONER LOST AT ARATHIL",
-      "DAY 9 - TAS DAUNTLESS III COMMISSIONED AT EARTH",
-      "DAY 9 - TAS ORION III COMMISSIONED AT EARTH",
-      "DAY 9 - FALCONER COMMISSIONED AT EARTH",
-      "DAY 9 - SSV VORTEX III COMMISSIONED AT MARS",
-      "DAY 9 - SSV WOLFRAM III COMMISSIONED AT MARS",
-      "DAY 9 - NINELIVES COMMISSIONED AT MARS",
       "DAY 10 - HAVOC LOST AT SIRIUS",
       "DAY 10 - CAVALIER II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 10 - HATCHET II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
@@ -877,7 +867,15 @@
       "DAY 32 - 82 ERIDANI AT +86 - THE LINE IS BREAKING",
       "DAY 34 - SSV MAELSTROM III LOST AT ALPHA CENTAURI",
       "DAY 34 - LOCKJAW COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 35 - TERRAN FORCES TOOK 82 ERIDANI"
+      "DAY 35 - TERRAN FORCES TOOK 82 ERIDANI",
+      "DAY 36 - TAS MERIDIAN LOST AT HALCYON",
+      "DAY 36 - COLDBURN LOST AT ETA CASSIOPEIAE",
+      "DAY 36 - TAS BASTION LOST AT 82 ERIDANI",
+      "DAY 36 - LOCKJAW LOST AT ALPHA CENTAURI",
+      "DAY 36 - TAS BASTION COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 36 - TAS MERIDIAN COMMISSIONED AT EARTH",
+      "DAY 36 - SSV MAELSTROM III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 36 - SSV VESPERINE III COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -925,20 +923,23 @@
       },
       {
         "name": "HALCYON",
-        "owner": 2
+        "owner": 2,
+        "pressure": -4.51953125
       },
       {
         "name": "ETA CASSIOPEIAE",
-        "owner": 2
+        "owner": 2,
+        "pressure": 5.4453125
       },
       {
         "name": "82 ERIDANI",
-        "owner": 1
+        "owner": 1,
+        "pressure": -7.0703125
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 75.30078125
+        "pressure": 68.01953125
       },
       {
         "name": "SIRIUS",
@@ -951,7 +952,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 8.71484375
+        "pressure": -3.24609375
       },
       {
         "name": "ROSS 128",
