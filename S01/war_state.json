@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788383446,
+  "generatedAtEpoch": 1788409675,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "f2f6fc038d975ddc",
-  "tickIndex": 93,
+  "stateHash": "e49d143e0a33a743",
+  "tickIndex": 94,
   "war": {
     "buildPool": [
-      205,
-      194
+      218,
+      205
     ],
     "chronicle": [
       [
@@ -75,7 +75,7 @@
         ""
       ]
     ],
-    "day": 33,
+    "day": 34,
     "fleets": [
       {
         "faction": 1,
@@ -801,8 +801,9 @@
         "posture": "defend",
         "ships": [
           {
-            "name": "SSV MAELSTROM III",
-            "type": "sirocco",
+            "ace": true,
+            "name": "LOCKJAW",
+            "type": "manticore",
             "vet": 3
           }
         ],
@@ -810,8 +811,6 @@
       }
     ],
     "log": [
-      "DAY 8 - SSV CALDERA III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 8 - NINELIVES II COMMISSIONED AT MARS",
       "DAY 9 - TAS DAUNTLESS III LOST AT ALPHA CENTAURI",
       "DAY 9 - NINELIVES LOST AT BARNARD",
       "DAY 9 - FALCONER LOST AT ARATHIL",
@@ -869,7 +868,9 @@
       "DAY 25 - SSA FORCES TOOK SIRIUS - RESISTANCE COLLAPSED",
       "DAY 28 - LOCKJAW LOST AT ALPHA CENTAURI",
       "DAY 28 - SSV MAELSTROM III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 32 - 82 ERIDANI AT +86 - THE LINE IS BREAKING"
+      "DAY 32 - 82 ERIDANI AT +86 - THE LINE IS BREAKING",
+      "DAY 34 - SSV MAELSTROM III LOST AT ALPHA CENTAURI",
+      "DAY 34 - LOCKJAW COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -926,12 +927,12 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 90.8828125
+        "pressure": 97.66015625
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 58.609375
+        "pressure": 67.078125
       },
       {
         "name": "SIRIUS",
@@ -944,7 +945,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 6.96484375
+        "pressure": 5.78125
       },
       {
         "name": "ROSS 128",
