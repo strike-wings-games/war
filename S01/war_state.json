@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788521016,
+  "generatedAtEpoch": 1788539388,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "e484a63cc2d762a0",
-  "tickIndex": 99,
+  "stateHash": "3ea17721b1614e0f",
+  "tickIndex": 100,
   "war": {
     "buildPool": [
-      266,
-      249
+      281,
+      239
     ],
     "chronicle": [
       [
@@ -80,9 +80,16 @@
         8,
         1,
         ""
+      ],
+      [
+        40,
+        1,
+        9,
+        1,
+        ""
       ]
     ],
-    "day": 39,
+    "day": 40,
     "fleets": [
       {
         "faction": 1,
@@ -338,7 +345,7 @@
             "vet": 3
           }
         ],
-        "system": "EARTH"
+        "system": "ALPHA CENTAURI"
       },
       {
         "faction": 1,
@@ -706,7 +713,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 124,
+        "fighterReserve": 117,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -747,19 +754,13 @@
             "name": "WIDOW",
             "type": "wraith",
             "vet": 5
-          },
-          {
-            "ace": true,
-            "name": "STATIC",
-            "type": "lancer",
-            "vet": 5
           }
         ],
         "system": "HALCYON"
       },
       {
         "faction": 2,
-        "fighterReserve": 131,
+        "fighterReserve": 135,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -798,7 +799,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 24,
+        "peakCost": 42,
         "posture": "defend",
         "ships": [
           {
@@ -807,9 +808,13 @@
             "vet": 3
           },
           {
-            "ace": true,
-            "name": "HAVOC",
-            "type": "manticore",
+            "name": "SSV VESPERINE III",
+            "type": "destroyer",
+            "vet": 3
+          },
+          {
+            "name": "SSV PERDITION III",
+            "type": "cruiser",
             "vet": 3
           }
         ],
@@ -817,11 +822,6 @@
       }
     ],
     "log": [
-      "DAY 10 - HAVOC COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 10 - SSV HARROW III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 11 - TAS LIONHEART III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 11 - VIPER II COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 11 - SSV PALEFIRE III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 11 - SSV DUSKWATCH III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 11 - JACKAL II COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 12 - TAS HALBERD III COMMISSIONED - CREWS REPORTING AT EARTH",
@@ -876,7 +876,12 @@
       "DAY 39 - TAS RESOLUTE LOST AT 82 ERIDANI",
       "DAY 39 - SSV VESPERINE III LOST AT ALPHA CENTAURI",
       "DAY 39 - TAS RESOLUTE COMMISSIONED AT EARTH",
-      "DAY 39 - HAVOC COMMISSIONED AT MARS"
+      "DAY 39 - HAVOC COMMISSIONED AT MARS",
+      "DAY 40 - STATIC LOST AT 82 ERIDANI",
+      "DAY 40 - HAVOC LOST AT ALPHA CENTAURI",
+      "DAY 40 - TERRAN FORCES TOOK ALPHA CENTAURI",
+      "DAY 40 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 40 - SSV PERDITION III COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -925,22 +930,21 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -6.21875
+        "pressure": -10.75
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -14.2421875
+        "pressure": -19.921875
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -17.16796875
+        "pressure": -11.4609375
       },
       {
         "name": "ALPHA CENTAURI",
-        "owner": 0,
-        "pressure": 92.8828125
+        "owner": 1
       },
       {
         "name": "SIRIUS",
@@ -953,7 +957,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -1.4375
+        "pressure": -1.40625
       },
       {
         "name": "ROSS 128",
