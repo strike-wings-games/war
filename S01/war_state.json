@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788621532,
+  "generatedAtEpoch": 1788639926,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "134a0230562125a5",
-  "tickIndex": 104,
+  "stateHash": "b5005590b1a72983",
+  "tickIndex": 105,
   "war": {
     "buildPool": [
       319,
-      234
+      247
     ],
     "chronicle": [
       [
@@ -89,7 +89,7 @@
         ""
       ]
     ],
-    "day": 44,
+    "day": 45,
     "fleets": [
       {
         "faction": 1,
@@ -149,11 +149,6 @@
           {
             "name": "TAS HALBERD II",
             "type": "frigate",
-            "vet": 3
-          },
-          {
-            "name": "TAS IRONWOOD II",
-            "type": "longbow",
             "vet": 3
           },
           {
@@ -366,11 +361,6 @@
             "vet": 4
           },
           {
-            "name": "TAS GRANITE",
-            "type": "destroyer",
-            "vet": 4
-          },
-          {
             "name": "TAS ORION",
             "type": "strikecarrier",
             "vet": 4
@@ -392,7 +382,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 177,
+        "fighterReserve": 173,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -427,12 +417,6 @@
             "name": "TAS MERIDIAN II",
             "type": "longbow",
             "vet": 4
-          },
-          {
-            "ace": true,
-            "name": "DEACON",
-            "type": "archfiend",
-            "vet": 5
           }
         ],
         "system": "TAU CETI"
@@ -707,7 +691,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 91,
+        "fighterReserve": 87,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -743,7 +727,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 109,
+        "fighterReserve": 111,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -818,12 +802,28 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "TAS RESERVE GROUP",
-        "peakCost": 28,
+        "peakCost": 57,
         "posture": "defend",
         "ships": [
           {
             "name": "TAS GRANITE II",
             "type": "dreadnaught",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "LONGSHOT",
+            "type": "crusader",
+            "vet": 3
+          },
+          {
+            "name": "TAS GRANITE",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "name": "TAS BASTION II",
+            "type": "frigate",
             "vet": 3
           }
         ],
@@ -831,12 +831,6 @@
       }
     ],
     "log": [
-      "DAY 15 - SSV NOCTURNE III COMMISSIONED AT MARS",
-      "DAY 17 - TAS WARBRIDGE II LOST AT ARATHIL",
-      "DAY 17 - TERRAN FORCES TOOK ROSS 128 - RESISTANCE COLLAPSED",
-      "DAY 17 - TAS WARBRIDGE II COMMISSIONED AT EARTH",
-      "DAY 19 - SSV PALEFIRE LOST AT SIRIUS",
-      "DAY 19 - TAS WARBRIDGE LOST AT GLIESE 581",
       "DAY 19 - TAS WARBRIDGE COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 19 - SSV PALEFIRE COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 20 - LOCKJAW LOST AT ALPHA CENTAURI",
@@ -890,7 +884,13 @@
       "DAY 43 - TAS GRANITE II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 43 - SSV HARROW II COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 43 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 43 - TAS RESERVE GROUP ARRIVES AT THE LINE - EARTH"
+      "DAY 43 - TAS RESERVE GROUP ARRIVES AT THE LINE - EARTH",
+      "DAY 45 - TAS IRONWOOD II LOST AT MARS",
+      "DAY 45 - TAS GRANITE LOST AT ETA CASSIOPEIAE",
+      "DAY 45 - DEACON LOST AT SELACH",
+      "DAY 45 - LONGSHOT COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 45 - TAS GRANITE COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 45 - TAS BASTION II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -931,7 +931,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 35.31640625
+        "pressure": 29.875
       },
       {
         "name": "PROCYON",
@@ -940,22 +940,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -2.046875
+        "pressure": 8.11328125
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -40.4921875
+        "pressure": -46.34765625
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": 14.41796875
+        "pressure": 6.69140625
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 22.36328125
+        "pressure": 27.4765625
       },
       {
         "name": "SIRIUS",
@@ -968,7 +968,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -11.7578125
+        "pressure": -6.3984375
       },
       {
         "name": "ROSS 128",
