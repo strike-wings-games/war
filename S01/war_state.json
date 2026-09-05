@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788582735,
+  "generatedAtEpoch": 1788605074,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "d96d16f1143c0cbe",
-  "tickIndex": 102,
+  "stateHash": "30ba3b970fd6c2db",
+  "tickIndex": 103,
   "war": {
     "buildPool": [
-      311,
-      232
+      304,
+      221
     ],
     "chronicle": [
       [
@@ -89,7 +89,7 @@
         ""
       ]
     ],
-    "day": 42,
+    "day": 43,
     "fleets": [
       {
         "faction": 1,
@@ -392,7 +392,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 174,
+        "fighterReserve": 173,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -427,12 +427,6 @@
             "name": "TAS MERIDIAN II",
             "type": "longbow",
             "vet": 4
-          },
-          {
-            "ace": true,
-            "name": "LONGSHOT",
-            "type": "paladin",
-            "vet": 5
           },
           {
             "ace": true,
@@ -713,7 +707,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 97,
+        "fighterReserve": 88,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -722,11 +716,6 @@
           {
             "name": "SSV CALDERA II",
             "type": "destroyer",
-            "vet": 4
-          },
-          {
-            "name": "SSV HARROW II",
-            "type": "frigate",
             "vet": 4
           },
           {
@@ -754,7 +743,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 123,
+        "fighterReserve": 119,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -793,17 +782,12 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 64,
+        "peakCost": 84,
         "posture": "defend",
         "ships": [
           {
             "name": "SSV PERDITION III",
             "type": "cruiser",
-            "vet": 3
-          },
-          {
-            "name": "SSV VESPERINE III",
-            "type": "tempest",
             "vet": 3
           },
           {
@@ -815,19 +799,38 @@
             "name": "SSV PERDITION IV",
             "type": "cruiser",
             "vet": 3
+          },
+          {
+            "name": "SSV HARROW II",
+            "type": "strikecarrier",
+            "vet": 3
+          },
+          {
+            "name": "SSV VESPERINE III",
+            "type": "strikecarrier",
+            "vet": 3
           }
         ],
         "system": "MARS"
+      },
+      {
+        "faction": 1,
+        "fighterReserve": 0,
+        "fighterReserveMax": 120,
+        "id": "TAS RESERVE GROUP",
+        "peakCost": 28,
+        "posture": "defend",
+        "ships": [
+          {
+            "name": "TAS GRANITE II",
+            "type": "dreadnaught",
+            "vet": 3
+          }
+        ],
+        "system": "EARTH"
       }
     ],
     "log": [
-      "DAY 13 - SSV UNDERTOW III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 14 - TAS BULWARK II LOST AT ROSS 128",
-      "DAY 14 - TAS BULWARK II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 14 - TAS IRONWOOD III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 15 - TALLYMAN LOST AT SIRIUS",
-      "DAY 15 - TAS ORION II LOST AT ROSS 128",
-      "DAY 15 - TAS ORION II COMMISSIONED AT EARTH",
       "DAY 15 - SSV NOCTURNE III COMMISSIONED AT MARS",
       "DAY 17 - TAS WARBRIDGE II LOST AT ARATHIL",
       "DAY 17 - TERRAN FORCES TOOK ROSS 128 - RESISTANCE COLLAPSED",
@@ -880,7 +883,14 @@
       "DAY 42 - SSV VESPERINE III LOST AT ALPHA CENTAURI",
       "DAY 42 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 42 - SSV MAELSTROM III COMMISSIONED AT MARS",
-      "DAY 42 - SSV PERDITION IV COMMISSIONED AT MARS"
+      "DAY 42 - SSV PERDITION IV COMMISSIONED AT MARS",
+      "DAY 43 - SSV VESPERINE III LOST AT MARS",
+      "DAY 43 - SSV HARROW II LOST AT 82 ERIDANI",
+      "DAY 43 - LONGSHOT LOST AT SELACH",
+      "DAY 43 - TAS GRANITE II COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 43 - SSV HARROW II COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 43 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 43 - TAS RESERVE GROUP ARRIVES AT THE LINE - EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -921,7 +931,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 18.59375
+        "pressure": 26.96484375
       },
       {
         "name": "PROCYON",
@@ -930,22 +940,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -6.33203125
+        "pressure": -10.2890625
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -29.90234375
+        "pressure": -34.359375
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": 4.375
+        "pressure": 10.90625
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 10.4296875
+        "pressure": 15.9453125
       },
       {
         "name": "SIRIUS",
@@ -958,7 +968,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 8.1796875
+        "pressure": -6.34765625
       },
       {
         "name": "ROSS 128",
