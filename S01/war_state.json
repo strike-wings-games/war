@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788555332,
+  "generatedAtEpoch": 1788582735,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "a001cbe3789feb8c",
-  "tickIndex": 101,
+  "stateHash": "d96d16f1143c0cbe",
+  "tickIndex": 102,
   "war": {
     "buildPool": [
-      296,
-      249
+      311,
+      232
     ],
     "chronicle": [
       [
@@ -89,7 +89,7 @@
         ""
       ]
     ],
-    "day": 41,
+    "day": 42,
     "fleets": [
       {
         "faction": 1,
@@ -392,7 +392,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 180,
+        "fighterReserve": 174,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -713,7 +713,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 98,
+        "fighterReserve": 97,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -748,19 +748,13 @@
             "name": "SSV REDSHIFT II",
             "type": "cataclysm",
             "vet": 4
-          },
-          {
-            "ace": true,
-            "name": "WIDOW",
-            "type": "wraith",
-            "vet": 5
           }
         ],
         "system": "HALCYON"
       },
       {
         "faction": 2,
-        "fighterReserve": 135,
+        "fighterReserve": 123,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -799,23 +793,27 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 42,
+        "peakCost": 64,
         "posture": "defend",
         "ships": [
-          {
-            "name": "SSV VESPERINE III",
-            "type": "destroyer",
-            "vet": 3
-          },
           {
             "name": "SSV PERDITION III",
             "type": "cruiser",
             "vet": 3
           },
           {
-            "ace": true,
-            "name": "TALLYMAN",
-            "type": "manticore",
+            "name": "SSV VESPERINE III",
+            "type": "tempest",
+            "vet": 3
+          },
+          {
+            "name": "SSV MAELSTROM III",
+            "type": "strikecarrier",
+            "vet": 3
+          },
+          {
+            "name": "SSV PERDITION IV",
+            "type": "cruiser",
             "vet": 3
           }
         ],
@@ -823,12 +821,6 @@
       }
     ],
     "log": [
-      "DAY 12 - TAS HALBERD III COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 12 - DEACON II COMMISSIONED AT EARTH",
-      "DAY 12 - BANNERET II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 12 - SSV REDSHIFT III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 13 - TAS WARBRIDGE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 13 - TALLYMAN II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 13 - SSV UNDERTOW III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 14 - TAS BULWARK II LOST AT ROSS 128",
       "DAY 14 - TAS BULWARK II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
@@ -882,7 +874,13 @@
       "DAY 40 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 40 - SSV PERDITION III COMMISSIONED AT MARS",
       "DAY 41 - SSV MAELSTROM III LOST AT ALPHA CENTAURI",
-      "DAY 41 - TALLYMAN COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
+      "DAY 41 - TALLYMAN COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 42 - TALLYMAN LOST AT MARS",
+      "DAY 42 - WIDOW LOST AT HALCYON",
+      "DAY 42 - SSV VESPERINE III LOST AT ALPHA CENTAURI",
+      "DAY 42 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 42 - SSV MAELSTROM III COMMISSIONED AT MARS",
+      "DAY 42 - SSV PERDITION IV COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -923,7 +921,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 10.56640625
+        "pressure": 18.59375
       },
       {
         "name": "PROCYON",
@@ -932,22 +930,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -14.9375
+        "pressure": -6.33203125
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -25.1484375
+        "pressure": -29.90234375
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -2.33984375
+        "pressure": 4.375
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 6.40625
+        "pressure": 10.4296875
       },
       {
         "name": "SIRIUS",
@@ -960,7 +958,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 1.23046875
+        "pressure": 8.1796875
       },
       {
         "name": "ROSS 128",
