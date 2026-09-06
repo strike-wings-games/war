@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788669759,
+  "generatedAtEpoch": 1788692387,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "beda19e2b6ab9174",
-  "tickIndex": 106,
+  "stateHash": "4d11c5742d7a5ab4",
+  "tickIndex": 107,
   "war": {
     "buildPool": [
-      334,
-      246
+      349,
+      247
     ],
     "chronicle": [
       [
@@ -89,7 +89,7 @@
         ""
       ]
     ],
-    "day": 46,
+    "day": 47,
     "fleets": [
       {
         "faction": 1,
@@ -691,7 +691,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 89,
+        "fighterReserve": 74,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -727,7 +727,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 100,
+        "fighterReserve": 96,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -770,11 +770,6 @@
         "posture": "defend",
         "ships": [
           {
-            "name": "SSV PERDITION III",
-            "type": "cruiser",
-            "vet": 3
-          },
-          {
             "name": "SSV MAELSTROM III",
             "type": "strikecarrier",
             "vet": 3
@@ -792,6 +787,11 @@
           {
             "name": "SSV VESPERINE III",
             "type": "cruiser",
+            "vet": 3
+          },
+          {
+            "name": "SSV PERDITION III",
+            "type": "ingot",
             "vet": 3
           }
         ],
@@ -831,8 +831,6 @@
       }
     ],
     "log": [
-      "DAY 20 - LOCKJAW LOST AT ALPHA CENTAURI",
-      "DAY 20 - TAS BASTION II LOST AT BARNARD",
       "DAY 20 - TERRAN FORCES TOOK GLIESE 581 - RESISTANCE COLLAPSED",
       "DAY 20 - FALCONER II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 20 - SSV KRAIT III COMMISSIONED - CREWS REPORTING AT MARS",
@@ -890,7 +888,9 @@
       "DAY 45 - TAS GRANITE COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 45 - TAS BASTION II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 46 - SSV VESPERINE III LOST AT MARS",
-      "DAY 46 - SSV VESPERINE III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
+      "DAY 46 - SSV VESPERINE III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 47 - SSV PERDITION III LOST AT MARS",
+      "DAY 47 - SSV PERDITION III COMMISSIONED - CREWS REPORTING AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -931,7 +931,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 40.4453125
+        "pressure": 49.609375
       },
       {
         "name": "PROCYON",
@@ -940,22 +940,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": 1.890625
+        "pressure": -5.3984375
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -53.94140625
+        "pressure": -58.67578125
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -2.23046875
+        "pressure": -13.80859375
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 30.7265625
+        "pressure": 34.828125
       },
       {
         "name": "SIRIUS",
@@ -968,7 +968,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -2.22265625
+        "pressure": 0.15234375
       },
       {
         "name": "ROSS 128",
