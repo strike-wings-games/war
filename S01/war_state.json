@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788866641,
+  "generatedAtEpoch": 1788885780,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "284494a215ca7a62",
-  "tickIndex": 114,
+  "stateHash": "508aa74a3b85caf5",
+  "tickIndex": 115,
   "war": {
     "buildPool": [
-      410,
-      270
+      425,
+      273
     ],
     "chronicle": [
       [
@@ -89,7 +89,7 @@
         ""
       ]
     ],
-    "day": 54,
+    "day": 55,
     "fleets": [
       {
         "faction": 1,
@@ -361,7 +361,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 158,
+        "fighterReserve": 159,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -659,7 +659,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 30,
+        "fighterReserve": 27,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -690,7 +690,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 60,
+        "fighterReserve": 49,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -758,13 +758,13 @@
             "vet": 3
           },
           {
-            "name": "SSV DUSKWATCH II",
-            "type": "strikecarrier",
+            "name": "SSV IRONMAW IV",
+            "type": "sirocco",
             "vet": 3
           },
           {
-            "name": "SSV IRONMAW IV",
-            "type": "sirocco",
+            "name": "SSV DUSKWATCH II",
+            "type": "caisson",
             "vet": 3
           }
         ],
@@ -830,8 +830,6 @@
       }
     ],
     "log": [
-      "DAY 36 - TAS BASTION COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 36 - TAS MERIDIAN COMMISSIONED AT EARTH",
       "DAY 36 - SSV MAELSTROM III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 36 - SSV VESPERINE III COMMISSIONED AT MARS",
       "DAY 39 - TAS RESOLUTE LOST AT 82 ERIDANI",
@@ -889,7 +887,9 @@
       "DAY 54 - TAS VIGILANT II LOST AT SELACH",
       "DAY 54 - TAS CLAYMORE COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 54 - TAS VIGILANT II COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 54 - DEACON COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
+      "DAY 54 - DEACON COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 55 - SSV DUSKWATCH II LOST AT MARS",
+      "DAY 55 - SSV DUSKWATCH II COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -930,7 +930,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 64.57421875
+        "pressure": 71.9921875
       },
       {
         "name": "PROCYON",
@@ -939,22 +939,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -8.38671875
+        "pressure": 0.9921875
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -68.04296875
+        "pressure": -60.1484375
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -55.44140625
+        "pressure": -62.60546875
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 57.8203125
+        "pressure": 64.5859375
       },
       {
         "name": "SIRIUS",
@@ -967,7 +967,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 11.06640625
+        "pressure": 12.27734375
       },
       {
         "name": "ROSS 128",
