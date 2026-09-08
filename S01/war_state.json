@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788842329,
+  "generatedAtEpoch": 1788866641,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "c9379a14a45bda38",
-  "tickIndex": 113,
+  "stateHash": "284494a215ca7a62",
+  "tickIndex": 114,
   "war": {
     "buildPool": [
-      416,
-      257
+      410,
+      270
     ],
     "chronicle": [
       [
@@ -89,7 +89,7 @@
         ""
       ]
     ],
-    "day": 53,
+    "day": 54,
     "fleets": [
       {
         "faction": 1,
@@ -154,11 +154,6 @@
           {
             "name": "TAS SOVEREIGN II",
             "type": "ingot",
-            "vet": 3
-          },
-          {
-            "name": "TAS CLAYMORE",
-            "type": "frigate",
             "vet": 3
           },
           {
@@ -360,19 +355,13 @@
             "name": "PILGRIM",
             "type": "crusader",
             "vet": 5
-          },
-          {
-            "ace": true,
-            "name": "IRONSIDE",
-            "type": "crusader",
-            "vet": 5
           }
         ],
         "system": "82 ERIDANI"
       },
       {
         "faction": 1,
-        "fighterReserve": 164,
+        "fighterReserve": 158,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -381,11 +370,6 @@
           {
             "name": "TAS TEMPERANCE II",
             "type": "destroyer",
-            "vet": 4
-          },
-          {
-            "name": "TAS VIGILANT II",
-            "type": "frigate",
             "vet": 4
           },
           {
@@ -675,7 +659,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 44,
+        "fighterReserve": 30,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -706,7 +690,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 59,
+        "fighterReserve": 60,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -791,7 +775,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "TAS RESERVE GROUP",
-        "peakCost": 87,
+        "peakCost": 125,
         "posture": "defend",
         "ships": [
           {
@@ -824,18 +808,28 @@
             "name": "TAS DAUNTLESS",
             "type": "cruiser",
             "vet": 3
+          },
+          {
+            "name": "TAS CLAYMORE",
+            "type": "cruiser",
+            "vet": 3
+          },
+          {
+            "name": "TAS VIGILANT II",
+            "type": "marksman",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "DEACON",
+            "type": "crusader",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       }
     ],
     "log": [
-      "DAY 34 - LOCKJAW COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 35 - TERRAN FORCES TOOK 82 ERIDANI",
-      "DAY 36 - TAS MERIDIAN LOST AT HALCYON",
-      "DAY 36 - COLDBURN LOST AT ETA CASSIOPEIAE",
-      "DAY 36 - TAS BASTION LOST AT 82 ERIDANI",
-      "DAY 36 - LOCKJAW LOST AT ALPHA CENTAURI",
       "DAY 36 - TAS BASTION COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 36 - TAS MERIDIAN COMMISSIONED AT EARTH",
       "DAY 36 - SSV MAELSTROM III COMMISSIONED - CREWS REPORTING AT MARS",
@@ -889,7 +883,13 @@
       "DAY 53 - COLDBURN LOST AT MARS",
       "DAY 53 - SSV DUSKWATCH II LOST AT HALCYON",
       "DAY 53 - SSV DUSKWATCH II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 53 - SSV IRONMAW IV COMMISSIONED - CREWS REPORTING AT MARS"
+      "DAY 53 - SSV IRONMAW IV COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 54 - TAS CLAYMORE LOST AT MARS",
+      "DAY 54 - IRONSIDE LOST AT HALCYON",
+      "DAY 54 - TAS VIGILANT II LOST AT SELACH",
+      "DAY 54 - TAS CLAYMORE COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 54 - TAS VIGILANT II COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 54 - DEACON COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -930,7 +930,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 69.4140625
+        "pressure": 64.57421875
       },
       {
         "name": "PROCYON",
@@ -939,22 +939,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -2.10546875
+        "pressure": -8.38671875
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -64.95703125
+        "pressure": -68.04296875
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -42.7734375
+        "pressure": -55.44140625
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 50.28515625
+        "pressure": 57.8203125
       },
       {
         "name": "SIRIUS",
@@ -967,7 +967,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 28.8828125
+        "pressure": 11.06640625
       },
       {
         "name": "ROSS 128",
