@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788817016,
+  "generatedAtEpoch": 1788842329,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "f84c087bcbd85db3",
-  "tickIndex": 112,
+  "stateHash": "c9379a14a45bda38",
+  "tickIndex": 113,
   "war": {
     "buildPool": [
-      401,
-      269
+      416,
+      257
     ],
     "chronicle": [
       [
@@ -89,7 +89,7 @@
         ""
       ]
     ],
-    "day": 52,
+    "day": 53,
     "fleets": [
       {
         "faction": 1,
@@ -372,7 +372,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 169,
+        "fighterReserve": 164,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -687,11 +687,6 @@
             "vet": 4
           },
           {
-            "name": "SSV DUSKWATCH II",
-            "type": "frigate",
-            "vet": 4
-          },
-          {
             "name": "SSV IRONMAW II",
             "type": "strikecarrier",
             "vet": 4
@@ -711,7 +706,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 60,
+        "fighterReserve": 59,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -745,7 +740,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 120,
         "id": "SSV RESERVE GROUP",
-        "peakCost": 118,
+        "peakCost": 144,
         "posture": "defend",
         "ships": [
           {
@@ -779,9 +774,13 @@
             "vet": 3
           },
           {
-            "ace": true,
-            "name": "COLDBURN",
-            "type": "manticore",
+            "name": "SSV DUSKWATCH II",
+            "type": "strikecarrier",
+            "vet": 3
+          },
+          {
+            "name": "SSV IRONMAW IV",
+            "type": "sirocco",
             "vet": 3
           }
         ],
@@ -831,10 +830,6 @@
       }
     ],
     "log": [
-      "DAY 28 - LOCKJAW LOST AT ALPHA CENTAURI",
-      "DAY 28 - SSV MAELSTROM III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 32 - 82 ERIDANI AT +86 - THE LINE IS BREAKING",
-      "DAY 34 - SSV MAELSTROM III LOST AT ALPHA CENTAURI",
       "DAY 34 - LOCKJAW COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 35 - TERRAN FORCES TOOK 82 ERIDANI",
       "DAY 36 - TAS MERIDIAN LOST AT HALCYON",
@@ -890,7 +885,11 @@
       "DAY 50 - SSV VORTEX II COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 50 - COLDBURN COMMISSIONED AT MARS",
       "DAY 51 - TAS DAUNTLESS LOST AT HALCYON",
-      "DAY 51 - TAS DAUNTLESS COMMISSIONED AT EARTH"
+      "DAY 51 - TAS DAUNTLESS COMMISSIONED AT EARTH",
+      "DAY 53 - COLDBURN LOST AT MARS",
+      "DAY 53 - SSV DUSKWATCH II LOST AT HALCYON",
+      "DAY 53 - SSV DUSKWATCH II COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 53 - SSV IRONMAW IV COMMISSIONED - CREWS REPORTING AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -931,7 +930,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 62.34375
+        "pressure": 69.4140625
       },
       {
         "name": "PROCYON",
@@ -940,22 +939,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -7.59765625
+        "pressure": -2.10546875
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -57.671875
+        "pressure": -64.95703125
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -30.16796875
+        "pressure": -42.7734375
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 60.953125
+        "pressure": 50.28515625
       },
       {
         "name": "SIRIUS",
@@ -968,7 +967,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 30.87109375
+        "pressure": 28.8828125
       },
       {
         "name": "ROSS 128",
