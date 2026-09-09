@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788953203,
+  "generatedAtEpoch": 1788972929,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "ed674cddc2d2595d",
-  "tickIndex": 118,
+  "stateHash": "73f8e75365028b67",
+  "tickIndex": 119,
   "war": {
     "buildPool": [
-      428,
-      312
+      443,
+      322
     ],
     "chronicle": [
       [
@@ -89,7 +89,7 @@
         ""
       ]
     ],
-    "day": 58,
+    "day": 59,
     "fleets": [
       {
         "faction": 1,
@@ -344,7 +344,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 160,
+        "fighterReserve": 162,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -642,7 +642,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 8,
+        "fighterReserve": 16,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -673,7 +673,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 34,
+        "fighterReserve": 37,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -726,11 +726,6 @@
             "vet": 3
           },
           {
-            "name": "SSV PERDITION III",
-            "type": "ingot",
-            "vet": 3
-          },
-          {
             "name": "SSV HARROW II",
             "type": "ingot",
             "vet": 3
@@ -748,6 +743,12 @@
           {
             "name": "SSV DUSKWATCH II",
             "type": "caisson",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "HAVOC",
+            "type": "sledge",
             "vet": 3
           }
         ],
@@ -828,10 +829,6 @@
       }
     ],
     "log": [
-      "DAY 40 - TERRAN FORCES TOOK ALPHA CENTAURI",
-      "DAY 40 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 40 - SSV PERDITION III COMMISSIONED AT MARS",
-      "DAY 41 - SSV MAELSTROM III LOST AT ALPHA CENTAURI",
       "DAY 41 - TALLYMAN COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 42 - TALLYMAN LOST AT MARS",
       "DAY 42 - WIDOW LOST AT HALCYON",
@@ -887,7 +884,11 @@
       "DAY 58 - PILGRIM LOST AT HALCYON",
       "DAY 58 - TAS LIONHEART LOST AT ETA CASSIOPEIAE",
       "DAY 58 - TAS LIONHEART COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 58 - TAS AVALON III COMMISSIONED AT EARTH"
+      "DAY 58 - TAS AVALON III COMMISSIONED AT EARTH",
+      "DAY 59 - SSV PERDITION III LOST AT ALPHA CENTAURI",
+      "DAY 59 - HAVOC COMMISSIONED AT MARS",
+      "DAY 59 - MARS AT +89 - THE LINE IS BREAKING",
+      "DAY 59 - 82 ERIDANI AT -87 - THE LINE IS BREAKING"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -928,7 +929,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 79.03515625
+        "pressure": 88.69921875
       },
       {
         "name": "PROCYON",
@@ -937,22 +938,22 @@
       {
         "name": "HALCYON",
         "owner": 2,
-        "pressure": -10.18359375
+        "pressure": -2.18359375
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -64.32421875
+        "pressure": -56.32421875
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -78.98046875
+        "pressure": -87.17578125
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 71.88671875
+        "pressure": 78.01171875
       },
       {
         "name": "SIRIUS",
@@ -965,7 +966,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 12.59765625
+        "pressure": 11.83203125
       },
       {
         "name": "ROSS 128",
