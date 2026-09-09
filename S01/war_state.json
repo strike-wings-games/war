@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1788972929,
+  "generatedAtEpoch": 1788987625,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "73f8e75365028b67",
-  "tickIndex": 119,
+  "stateHash": "74b4e5d6001c5337",
+  "tickIndex": 120,
   "war": {
     "buildPool": [
-      443,
-      322
+      458,
+      335
     ],
     "chronicle": [
       [
@@ -89,7 +89,7 @@
         ""
       ]
     ],
-    "day": 59,
+    "day": 60,
     "fleets": [
       {
         "faction": 1,
@@ -344,7 +344,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 162,
+        "fighterReserve": 160,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -642,7 +642,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 16,
+        "fighterReserve": 24,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -673,7 +673,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 37,
+        "fighterReserve": 35,
         "fighterReserveMax": 140,
         "id": "LUCIA OCCUPATION",
         "peakCost": 193,
@@ -929,7 +929,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 88.69921875
+        "pressure": 97.703125
       },
       {
         "name": "PROCYON",
@@ -937,23 +937,22 @@
       },
       {
         "name": "HALCYON",
-        "owner": 2,
-        "pressure": -2.18359375
+        "owner": 2
       },
       {
         "name": "ETA CASSIOPEIAE",
         "owner": 2,
-        "pressure": -56.32421875
+        "pressure": -48.32421875
       },
       {
         "name": "82 ERIDANI",
         "owner": 1,
-        "pressure": -87.17578125
+        "pressure": -94.60546875
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 78.01171875
+        "pressure": 71.20703125
       },
       {
         "name": "SIRIUS",
@@ -966,7 +965,7 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 11.83203125
+        "pressure": 15.49609375
       },
       {
         "name": "ROSS 128",
