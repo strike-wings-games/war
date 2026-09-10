@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789015617,
+  "generatedAtEpoch": 1789039579,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -991,7 +991,7 @@
     "version": 1,
     "winner": 1
   },
-  "warEndedAtEpoch": 0,
+  "warEndedAtEpoch": 1789039579,
   "warIndex": 2,
   "warsWon": [
     0,
