@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789316541,
+  "generatedAtEpoch": 1789332986,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,11 +31,11 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "91b82001d98e828b",
-  "tickIndex": 126,
+  "stateHash": "e352834dd7531dab",
+  "tickIndex": 127,
   "war": {
     "buildPool": [
-      1,
+      0,
       0
     ],
     "chronicle": [
@@ -47,11 +47,11 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 5,
+    "day": 6,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 130,
+        "fighterReserve": 111,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
         "peakCost": 334,
@@ -85,11 +85,6 @@
           {
             "name": "TAS VIGILANT",
             "type": "strikecarrier",
-            "vet": 4
-          },
-          {
-            "name": "TAS AVALON",
-            "type": "longbow",
             "vet": 4
           },
           {
@@ -145,13 +140,23 @@
             "name": "HATCHET",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS AVALON",
+            "type": "frigate",
+            "vet": 3
+          },
+          {
+            "name": "TAS ORION II",
+            "type": "frigate",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 179,
+        "fighterReserve": 169,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -267,7 +272,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 94,
+        "fighterReserve": 84,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -276,11 +281,6 @@
           {
             "name": "TAS GRANITE II",
             "type": "destroyer",
-            "vet": 4
-          },
-          {
-            "name": "TAS ORION II",
-            "type": "marksman",
             "vet": 4
           },
           {
@@ -293,10 +293,10 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 133,
+        "fighterReserve": 116,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 361,
+        "peakCost": 367,
         "posture": "defend",
         "ships": [
           {
@@ -415,13 +415,29 @@
             "name": "SSV WOLFRAM III",
             "type": "frigate",
             "vet": 3
+          },
+          {
+            "name": "SSV REDSHIFT III",
+            "type": "tempest",
+            "vet": 3
+          },
+          {
+            "name": "SSV MAELSTROM III",
+            "type": "tempest",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "NINELIVES II",
+            "type": "sledge",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 174,
+        "fighterReserve": 166,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -484,7 +500,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 175,
+        "fighterReserve": 174,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -604,7 +620,14 @@
       "DAY 5 - TAS BASTION II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 5 - HATCHET COMMISSIONED AT EARTH",
       "DAY 5 - SSV RIPTIDE III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 5 - SSV WOLFRAM III COMMISSIONED AT MARS"
+      "DAY 5 - SSV WOLFRAM III COMMISSIONED AT MARS",
+      "DAY 6 - TAS AVALON LOST AT SELACH",
+      "DAY 6 - TAS ORION II LOST AT ROSS 128",
+      "DAY 6 - TAS AVALON COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 6 - TAS ORION II COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 6 - SSV REDSHIFT III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 6 - SSV MAELSTROM III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 6 - NINELIVES II COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -665,37 +688,36 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 16.1875
+        "pressure": 15.28125
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -28.1328125
+        "pressure": -35.234375
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -16.5234375
+        "pressure": -24.91015625
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -12.99609375
+        "pressure": -20.9765625
       },
       {
         "name": "ROSS 128",
-        "owner": 0,
-        "pressure": 0.7578125
+        "owner": 0
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 38.01171875
+        "pressure": 32.4765625
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 15.5703125
+        "pressure": 24.62109375
       }
     ],
     "version": 1,
