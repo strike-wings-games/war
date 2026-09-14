@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789362052,
+  "generatedAtEpoch": 1789390326,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "97e16bcdc73fc153",
-  "tickIndex": 128,
+  "stateHash": "4e3cfbb618c6213c",
+  "tickIndex": 129,
   "war": {
     "buildPool": [
-      0,
-      2
+      2,
+      1
     ],
     "chronicle": [
       [
@@ -47,11 +47,11 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 7,
+    "day": 8,
     "fleets": [
       {
         "faction": 1,
-        "fighterReserve": 83,
+        "fighterReserve": 74,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
         "peakCost": 334,
@@ -155,13 +155,18 @@
             "name": "TAS WARBRIDGE II",
             "type": "cyclone",
             "vet": 3
+          },
+          {
+            "name": "TAS IRONWOOD II",
+            "type": "destroyer",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 157,
+        "fighterReserve": 144,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -277,7 +282,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 70,
+        "fighterReserve": 64,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -298,7 +303,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 94,
+        "fighterReserve": 78,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
         "peakCost": 367,
@@ -441,13 +446,18 @@
             "name": "SSV NOCTURNE III",
             "type": "destroyer",
             "vet": 3
+          },
+          {
+            "name": "SSV VORTEX III",
+            "type": "ingot",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 160,
+        "fighterReserve": 149,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -629,7 +639,9 @@
       "DAY 7 - HAVOC LOST AT SIRIUS",
       "DAY 7 - STATIC LOST AT SELACH",
       "DAY 7 - TAS WARBRIDGE II COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 7 - SSV NOCTURNE III COMMISSIONED - CREWS REPORTING AT MARS"
+      "DAY 7 - SSV NOCTURNE III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 8 - TAS IRONWOOD II COMMISSIONED AT EARTH",
+      "DAY 8 - SSV VORTEX III COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -690,37 +702,37 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 2.93359375
+        "pressure": 3.59765625
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -29.25
+        "pressure": -24.49609375
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -32.51171875
+        "pressure": -41.4296875
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -7.67578125
+        "pressure": -15.91796875
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": 6.203125
+        "pressure": 14.59375
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 41.609375
+        "pressure": 50.69140625
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 33.125
+        "pressure": 41.12109375
       }
     ],
     "version": 1,
