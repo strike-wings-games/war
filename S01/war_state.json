@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789508693,
+  "generatedAtEpoch": 1789534403,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "bc3aabd6f24b39fa",
-  "tickIndex": 134,
+  "stateHash": "7b7c3e9423a78a0e",
+  "tickIndex": 135,
   "war": {
     "buildPool": [
       0,
-      0
+      1
     ],
     "chronicle": [
       [
@@ -47,14 +47,14 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 13,
+    "day": 14,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 334,
+        "peakCost": 343,
         "posture": "defend",
         "ships": [
           {
@@ -201,13 +201,29 @@
             "name": "TAS DAUNTLESS III",
             "type": "marksman",
             "vet": 3
+          },
+          {
+            "name": "TAS GRANITE II",
+            "type": "marksman",
+            "vet": 3
+          },
+          {
+            "name": "TAS GRANITE III",
+            "type": "longbow",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "FALCONER",
+            "type": "crusader",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 84,
+        "fighterReserve": 75,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -323,18 +339,12 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 20,
+        "fighterReserve": 9,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
         "posture": "defend",
-        "ships": [
-          {
-            "name": "TAS GRANITE II",
-            "type": "destroyer",
-            "vet": 4
-          }
-        ],
+        "ships": [],
         "system": "NEW ANTWERP"
       },
       {
@@ -342,7 +352,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 367,
+        "peakCost": 375,
         "posture": "defend",
         "ships": [
           {
@@ -384,12 +394,6 @@
             "name": "SSV IRONMAW",
             "type": "tempest",
             "vet": 4
-          },
-          {
-            "ace": true,
-            "name": "SABLE",
-            "type": "manticore",
-            "vet": 5
           },
           {
             "ace": true,
@@ -535,13 +539,23 @@
             "name": "SSV KRAIT III",
             "type": "destroyer",
             "vet": 3
+          },
+          {
+            "name": "SSV PERDITION III",
+            "type": "tempest",
+            "vet": 3
+          },
+          {
+            "name": "SSV OBSIDIAN III",
+            "type": "frigate",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 104,
+        "fighterReserve": 97,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -681,13 +695,6 @@
       }
     ],
     "log": [
-      "DAY 1 - TAS HALBERD II COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 1 - SSV UNDERTOW II COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 1 - NINELIVES COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 1 - SSV RIPTIDE II COMMISSIONED AT MARS",
-      "DAY 2 - TAS CLAYMORE LOST AT SELACH",
-      "DAY 2 - FALCONER LOST AT ARATHIL",
-      "DAY 2 - TAS CLAYMORE COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 2 - CAVALIER COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 2 - LOCKJAW COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 2 - CROSSCUT COMMISSIONED - CREWS REPORTING AT MARS",
@@ -740,7 +747,14 @@
       "DAY 13 - TAS BULWARK II COMMISSIONED AT EARTH",
       "DAY 13 - TAS DAUNTLESS III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 13 - SSV IRONMAW III COMMISSIONED AT MARS",
-      "DAY 13 - SSV KRAIT III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
+      "DAY 13 - SSV KRAIT III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 14 - SABLE LOST AT ALPHA CENTAURI",
+      "DAY 14 - TAS GRANITE II LOST AT ARATHIL",
+      "DAY 14 - TAS GRANITE II COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 14 - TAS GRANITE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 14 - FALCONER COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 14 - SSV PERDITION III COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 14 - SSV OBSIDIAN III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -801,22 +815,22 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 4.64453125
+        "pressure": 11.7421875
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -49.37890625
+        "pressure": -57.6171875
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -65.89453125
+        "pressure": -75.62109375
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -22.8984375
+        "pressure": -28.3671875
       },
       {
         "name": "ROSS 128",
@@ -825,12 +839,12 @@
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 63.4375
+        "pressure": 73.72265625
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 58.48046875
+        "pressure": 52.73046875
       }
     ],
     "version": 1,
