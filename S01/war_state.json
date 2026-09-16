@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789534403,
+  "generatedAtEpoch": 1789558951,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "7b7c3e9423a78a0e",
-  "tickIndex": 135,
+  "stateHash": "ec026d6fafb02ea9",
+  "tickIndex": 136,
   "war": {
     "buildPool": [
-      0,
-      1
+      1,
+      0
     ],
     "chronicle": [
       [
@@ -47,14 +47,14 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 14,
+    "day": 15,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 343,
+        "peakCost": 356,
         "posture": "defend",
         "ships": [
           {
@@ -217,13 +217,18 @@
             "name": "FALCONER",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS RESOLUTE III",
+            "type": "caisson",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 75,
+        "fighterReserve": 69,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -339,7 +344,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 9,
+        "fighterReserve": 8,
         "fighterReserveMax": 140,
         "id": "ANTWERP SQUADRON",
         "peakCost": 186,
@@ -352,7 +357,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 375,
+        "peakCost": 393,
         "posture": "defend",
         "ships": [
           {
@@ -549,13 +554,24 @@
             "name": "SSV OBSIDIAN III",
             "type": "frigate",
             "vet": 3
+          },
+          {
+            "name": "SSV HARROW II",
+            "type": "destroyer",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "SABLE",
+            "type": "manticore",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 97,
+        "fighterReserve": 92,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -606,7 +622,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 180,
+        "fighterReserve": 177,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -615,11 +631,6 @@
           {
             "name": "SSV CALDERA II",
             "type": "destroyer",
-            "vet": 4
-          },
-          {
-            "name": "SSV HARROW II",
-            "type": "frigate",
             "vet": 4
           },
           {
@@ -695,10 +706,6 @@
       }
     ],
     "log": [
-      "DAY 2 - CAVALIER COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 2 - LOCKJAW COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 2 - CROSSCUT COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 2 - JACKAL COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
       "DAY 3 - TAS BASTION II LOST AT ROSS 128",
       "DAY 3 - TAS SOVEREIGN II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 3 - SSV VESPERINE II COMMISSIONED - CREWS REPORTING AT MARS",
@@ -754,7 +761,11 @@
       "DAY 14 - TAS GRANITE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 14 - FALCONER COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 14 - SSV PERDITION III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 14 - SSV OBSIDIAN III COMMISSIONED - FRESH OFF THE SLIPS AT MARS"
+      "DAY 14 - SSV OBSIDIAN III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
+      "DAY 15 - SSV HARROW II LOST AT SELACH",
+      "DAY 15 - TAS RESOLUTE III COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 15 - SSV HARROW II COMMISSIONED - CREWS REPORTING AT MARS",
+      "DAY 15 - SABLE COMMISSIONED - CREWS REPORTING AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -815,22 +826,22 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 11.7421875
+        "pressure": 12.37890625
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -57.6171875
+        "pressure": -68.5859375
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -75.62109375
+        "pressure": -83.6328125
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -28.3671875
+        "pressure": -14.37890625
       },
       {
         "name": "ROSS 128",
@@ -839,12 +850,12 @@
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 73.72265625
+        "pressure": 80.30859375
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 52.73046875
+        "pressure": 46.203125
       }
     ],
     "version": 1,
