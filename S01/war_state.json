@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789645717,
+  "generatedAtEpoch": 1789665050,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "6c0d978bae3e46d3",
-  "tickIndex": 140,
+  "stateHash": "558743de6b0f0344",
+  "tickIndex": 141,
   "war": {
     "buildPool": [
-      0,
-      41
+      1,
+      44
     ],
     "chronicle": [
       [
@@ -45,16 +45,23 @@
         -1,
         0,
         "THE SUNDERING WAR"
+      ],
+      [
+        20,
+        1,
+        10,
+        2,
+        ""
       ]
     ],
-    "day": 19,
+    "day": 20,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 446,
+        "peakCost": 461,
         "posture": "defend",
         "ships": [
           {
@@ -265,13 +272,23 @@
             "name": "QUICKSILVER II",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS IRONWOOD III",
+            "type": "longbow",
+            "vet": 3
+          },
+          {
+            "name": "TAS SOVEREIGN III",
+            "type": "frigate",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 30,
+        "fighterReserve": 23,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -395,7 +412,7 @@
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "PHOBOS GUARD",
-        "peakCost": 398,
+        "peakCost": 405,
         "posture": "defend",
         "ships": [
           {
@@ -558,12 +575,6 @@
             "vet": 3
           },
           {
-            "ace": true,
-            "name": "LOCKJAW II",
-            "type": "manticore",
-            "vet": 3
-          },
-          {
             "name": "SSV CALDERA III",
             "type": "frigate",
             "vet": 3
@@ -609,13 +620,18 @@
             "name": "COLDBURN II",
             "type": "leyden",
             "vet": 3
+          },
+          {
+            "name": "SSV HARROW III",
+            "type": "caisson",
+            "vet": 3
           }
         ],
         "system": "MARS"
       },
       {
         "faction": 2,
-        "fighterReserve": 57,
+        "fighterReserve": 46,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -662,7 +678,7 @@
             "vet": 4
           }
         ],
-        "system": "PROCYON"
+        "system": "SIRIUS"
       },
       {
         "faction": 2,
@@ -750,11 +766,6 @@
       }
     ],
     "log": [
-      "DAY 5 - HATCHET COMMISSIONED AT EARTH",
-      "DAY 5 - SSV RIPTIDE III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 5 - SSV WOLFRAM III COMMISSIONED AT MARS",
-      "DAY 6 - TAS AVALON LOST AT SELACH",
-      "DAY 6 - TAS ORION II LOST AT ROSS 128",
       "DAY 6 - TAS AVALON COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 6 - TAS ORION II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 6 - SSV REDSHIFT III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
@@ -809,7 +820,12 @@
       "DAY 18 - TAS CLAYMORE III COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 19 - TAS BASTION LOST AT GLIESE 581",
       "DAY 19 - TAS BASTION COMMISSIONED AT EARTH",
-      "DAY 19 - QUICKSILVER II COMMISSIONED - CREWS REPORTING AT EARTH"
+      "DAY 19 - QUICKSILVER II COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 20 - LOCKJAW II LOST AT ALPHA CENTAURI",
+      "DAY 20 - SSA FORCES TOOK SIRIUS",
+      "DAY 20 - TAS IRONWOOD III COMMISSIONED AT EARTH",
+      "DAY 20 - TAS SOVEREIGN III COMMISSIONED AT EARTH",
+      "DAY 20 - SSV HARROW III COMMISSIONED AT MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -870,36 +886,36 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 16.328125
+        "pressure": 10.578125
       },
       {
         "name": "SIRIUS",
-        "owner": 0,
-        "pressure": -96.171875
+        "owner": 2
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -86.16015625
+        "pressure": -95.359375
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -5.8515625
+        "pressure": -8.8828125
       },
       {
         "name": "ROSS 128",
-        "owner": 0
+        "owner": 0,
+        "pressure": 5.01953125
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 59.75390625
+        "pressure": 69.03515625
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 46.49609375
+        "pressure": 39.29296875
       }
     ],
     "version": 1,
