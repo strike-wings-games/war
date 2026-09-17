@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789593763,
+  "generatedAtEpoch": 1789621112,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "7bd8e8a5cb470f4d",
-  "tickIndex": 138,
+  "stateHash": "500ee46484c68b13",
+  "tickIndex": 139,
   "war": {
     "buildPool": [
-      1,
-      19
+      2,
+      30
     ],
     "chronicle": [
       [
@@ -47,14 +47,14 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 17,
+    "day": 18,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 405,
+        "peakCost": 420,
         "posture": "defend",
         "ships": [
           {
@@ -244,13 +244,23 @@
             "name": "LONGSHOT II",
             "type": "crusader",
             "vet": 3
+          },
+          {
+            "name": "TAS BULWARK III",
+            "type": "marksman",
+            "vet": 3
+          },
+          {
+            "name": "TAS CLAYMORE III",
+            "type": "frigate",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 48,
+        "fighterReserve": 41,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -599,7 +609,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 66,
+        "fighterReserve": 61,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -650,7 +660,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 165,
+        "fighterReserve": 169,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -734,8 +744,6 @@
       }
     ],
     "log": [
-      "DAY 4 - EMBER COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 4 - SSV NOCTURNE II COMMISSIONED AT MARS",
       "DAY 4 - SSV OBSIDIAN II COMMISSIONED AT MARS",
       "DAY 5 - TAS WARBRIDGE II LOST AT ROSS 128",
       "DAY 5 - TAS BASTION II COMMISSIONED - CREWS REPORTING AT EARTH",
@@ -793,7 +801,9 @@
       "DAY 16 - COLDBURN II COMMISSIONED AT MARS",
       "DAY 17 - MONARCH II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 17 - TAS WARBRIDGE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 17 - LONGSHOT II COMMISSIONED AT EARTH"
+      "DAY 17 - LONGSHOT II COMMISSIONED AT EARTH",
+      "DAY 18 - TAS BULWARK III COMMISSIONED AT EARTH",
+      "DAY 18 - TAS CLAYMORE III COMMISSIONED - CREWS REPORTING AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -854,22 +864,21 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": -1.30859375
+        "pressure": 8.34765625
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -85.8359375
+        "pressure": -90.578125
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -84.921875
+        "pressure": -81.5234375
       },
       {
         "name": "SELACH",
-        "owner": 0,
-        "pressure": -1.0234375
+        "owner": 0
       },
       {
         "name": "ROSS 128",
@@ -878,12 +887,12 @@
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 70.75
+        "pressure": 65.30859375
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 59.08984375
+        "pressure": 51.41015625
       }
     ],
     "version": 1,
