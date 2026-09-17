@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789665050,
+  "generatedAtEpoch": 1789680582,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "558743de6b0f0344",
-  "tickIndex": 141,
+  "stateHash": "6edf93e4bc071891",
+  "tickIndex": 142,
   "war": {
     "buildPool": [
-      1,
-      44
+      0,
+      58
     ],
     "chronicle": [
       [
@@ -52,16 +52,23 @@
         10,
         2,
         ""
+      ],
+      [
+        21,
+        1,
+        11,
+        2,
+        ""
       ]
     ],
-    "day": 20,
+    "day": 21,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 461,
+        "peakCost": 478,
         "posture": "defend",
         "ships": [
           {
@@ -130,11 +137,6 @@
           {
             "name": "TAS LIONHEART II",
             "type": "longbow",
-            "vet": 3
-          },
-          {
-            "name": "TAS DAUNTLESS II",
-            "type": "frigate",
             "vet": 3
           },
           {
@@ -282,13 +284,24 @@
             "name": "TAS SOVEREIGN III",
             "type": "frigate",
             "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "BANNERET II",
+            "type": "crusader",
+            "vet": 3
+          },
+          {
+            "name": "TAS DAUNTLESS II",
+            "type": "destroyer",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 23,
+        "fighterReserve": 12,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -627,7 +640,7 @@
             "vet": 3
           }
         ],
-        "system": "MARS"
+        "system": "BARNARD"
       },
       {
         "faction": 2,
@@ -682,7 +695,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 167,
+        "fighterReserve": 161,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -766,10 +779,6 @@
       }
     ],
     "log": [
-      "DAY 6 - TAS AVALON COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
-      "DAY 6 - TAS ORION II COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 6 - SSV REDSHIFT III COMMISSIONED - FRESH OFF THE SLIPS AT MARS",
-      "DAY 6 - SSV MAELSTROM III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 6 - NINELIVES II COMMISSIONED AT MARS",
       "DAY 7 - HAVOC LOST AT SIRIUS",
       "DAY 7 - STATIC LOST AT SELACH",
@@ -825,7 +834,11 @@
       "DAY 20 - SSA FORCES TOOK SIRIUS",
       "DAY 20 - TAS IRONWOOD III COMMISSIONED AT EARTH",
       "DAY 20 - TAS SOVEREIGN III COMMISSIONED AT EARTH",
-      "DAY 20 - SSV HARROW III COMMISSIONED AT MARS"
+      "DAY 20 - SSV HARROW III COMMISSIONED AT MARS",
+      "DAY 21 - TAS DAUNTLESS II LOST AT SELACH",
+      "DAY 21 - SSA FORCES TOOK BARNARD",
+      "DAY 21 - BANNERET II COMMISSIONED AT EARTH",
+      "DAY 21 - TAS DAUNTLESS II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -886,7 +899,7 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 10.578125
+        "pressure": 15.39453125
       },
       {
         "name": "SIRIUS",
@@ -894,28 +907,26 @@
       },
       {
         "name": "BARNARD",
-        "owner": 0,
-        "pressure": -95.359375
+        "owner": 2
       },
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -8.8828125
+        "pressure": -15.18359375
       },
       {
         "name": "ROSS 128",
-        "owner": 0,
-        "pressure": 5.01953125
+        "owner": 0
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 69.03515625
+        "pressure": 75.8984375
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 39.29296875
+        "pressure": 34.703125
       }
     ],
     "version": 1,
