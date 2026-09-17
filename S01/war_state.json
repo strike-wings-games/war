@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789621112,
+  "generatedAtEpoch": 1789645717,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "500ee46484c68b13",
-  "tickIndex": 139,
+  "stateHash": "6c0d978bae3e46d3",
+  "tickIndex": 140,
   "war": {
     "buildPool": [
-      2,
-      30
+      0,
+      41
     ],
     "chronicle": [
       [
@@ -47,14 +47,14 @@
         "THE SUNDERING WAR"
       ]
     ],
-    "day": 18,
+    "day": 19,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 420,
+        "peakCost": 446,
         "posture": "defend",
         "ships": [
           {
@@ -254,13 +254,24 @@
             "name": "TAS CLAYMORE III",
             "type": "frigate",
             "vet": 3
+          },
+          {
+            "name": "TAS BASTION",
+            "type": "caisson",
+            "vet": 3
+          },
+          {
+            "ace": true,
+            "name": "QUICKSILVER II",
+            "type": "crusader",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 41,
+        "fighterReserve": 30,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -279,11 +290,6 @@
           {
             "name": "TAS GRANITE",
             "type": "destroyer",
-            "vet": 4
-          },
-          {
-            "name": "TAS BASTION",
-            "type": "frigate",
             "vet": 4
           },
           {
@@ -609,7 +615,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 61,
+        "fighterReserve": 57,
         "fighterReserveMax": 220,
         "id": "STEPPERS GUARD",
         "peakCost": 330,
@@ -660,7 +666,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 169,
+        "fighterReserve": 167,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -744,9 +750,6 @@
       }
     ],
     "log": [
-      "DAY 4 - SSV OBSIDIAN II COMMISSIONED AT MARS",
-      "DAY 5 - TAS WARBRIDGE II LOST AT ROSS 128",
-      "DAY 5 - TAS BASTION II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 5 - HATCHET COMMISSIONED AT EARTH",
       "DAY 5 - SSV RIPTIDE III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 5 - SSV WOLFRAM III COMMISSIONED AT MARS",
@@ -803,7 +806,10 @@
       "DAY 17 - TAS WARBRIDGE III COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 17 - LONGSHOT II COMMISSIONED AT EARTH",
       "DAY 18 - TAS BULWARK III COMMISSIONED AT EARTH",
-      "DAY 18 - TAS CLAYMORE III COMMISSIONED - CREWS REPORTING AT EARTH"
+      "DAY 18 - TAS CLAYMORE III COMMISSIONED - CREWS REPORTING AT EARTH",
+      "DAY 19 - TAS BASTION LOST AT GLIESE 581",
+      "DAY 19 - TAS BASTION COMMISSIONED AT EARTH",
+      "DAY 19 - QUICKSILVER II COMMISSIONED - CREWS REPORTING AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -864,21 +870,22 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 8.34765625
+        "pressure": 16.328125
       },
       {
         "name": "SIRIUS",
         "owner": 0,
-        "pressure": -90.578125
+        "pressure": -96.171875
       },
       {
         "name": "BARNARD",
         "owner": 0,
-        "pressure": -81.5234375
+        "pressure": -86.16015625
       },
       {
         "name": "SELACH",
-        "owner": 0
+        "owner": 0,
+        "pressure": -5.8515625
       },
       {
         "name": "ROSS 128",
@@ -887,12 +894,12 @@
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 65.30859375
+        "pressure": 59.75390625
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 51.41015625
+        "pressure": 46.49609375
       }
     ],
     "version": 1,
