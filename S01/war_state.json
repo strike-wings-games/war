@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789706845,
+  "generatedAtEpoch": 1789730572,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "51f40ba2a13ddf0e",
-  "tickIndex": 143,
+  "stateHash": "a566154935dee875",
+  "tickIndex": 144,
   "war": {
     "buildPool": [
-      11,
-      72
+      0,
+      86
     ],
     "chronicle": [
       [
@@ -61,14 +61,14 @@
         ""
       ]
     ],
-    "day": 22,
+    "day": 23,
     "fleets": [
       {
         "faction": 1,
         "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "HOME FLEET",
-        "peakCost": 478,
+        "peakCost": 499,
         "posture": "defend",
         "ships": [
           {
@@ -181,11 +181,6 @@
             "vet": 3
           },
           {
-            "name": "TAS ORION III",
-            "type": "longbow",
-            "vet": 3
-          },
-          {
             "name": "TAS TEMPERANCE III",
             "type": "frigate",
             "vet": 3
@@ -295,13 +290,18 @@
             "name": "TAS DAUNTLESS II",
             "type": "destroyer",
             "vet": 3
+          },
+          {
+            "name": "TAS ORION III",
+            "type": "dreadnaught",
+            "vet": 3
           }
         ],
         "system": "EARTH"
       },
       {
         "faction": 1,
-        "fighterReserve": 3,
+        "fighterReserve": 0,
         "fighterReserveMax": 220,
         "id": "SECOND FLEET",
         "peakCost": 334,
@@ -695,7 +695,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 157,
+        "fighterReserve": 152,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -779,8 +779,6 @@
       }
     ],
     "log": [
-      "DAY 6 - NINELIVES II COMMISSIONED AT MARS",
-      "DAY 7 - HAVOC LOST AT SIRIUS",
       "DAY 7 - STATIC LOST AT SELACH",
       "DAY 7 - TAS WARBRIDGE II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 7 - SSV NOCTURNE III COMMISSIONED - CREWS REPORTING AT MARS",
@@ -838,7 +836,9 @@
       "DAY 21 - TAS DAUNTLESS II LOST AT SELACH",
       "DAY 21 - SSA FORCES TOOK BARNARD",
       "DAY 21 - BANNERET II COMMISSIONED AT EARTH",
-      "DAY 21 - TAS DAUNTLESS II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH"
+      "DAY 21 - TAS DAUNTLESS II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
+      "DAY 23 - TAS ORION III LOST AT ALPHA CENTAURI",
+      "DAY 23 - TAS ORION III COMMISSIONED - CREWS REPORTING AT EARTH"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -899,7 +899,7 @@
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 21.80078125
+        "pressure": 17.0
       },
       {
         "name": "SIRIUS",
@@ -912,22 +912,22 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -15.46484375
+        "pressure": -3.1171875
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -8.1171875
+        "pressure": -14.8828125
       },
       {
         "name": "GLIESE 581",
         "owner": 0,
-        "pressure": 70.55859375
+        "pressure": 77.13671875
       },
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 30.6015625
+        "pressure": 23.984375
       }
     ],
     "version": 1,
