@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789880317,
+  "generatedAtEpoch": 1789903667,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "3ee86ca205454dc6",
-  "tickIndex": 151,
+  "stateHash": "e41e59bc5856939e",
+  "tickIndex": 152,
   "war": {
     "buildPool": [
-      82,
-      184
+      94,
+      198
     ],
     "chronicle": [
       [
@@ -68,7 +68,7 @@
         ""
       ]
     ],
-    "day": 30,
+    "day": 31,
     "fleets": [
       {
         "faction": 1,
@@ -702,7 +702,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 133,
+        "fighterReserve": 132,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -902,12 +902,12 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 24.109375
+        "pressure": 31.4765625
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 0,
-        "pressure": 61.734375
+        "pressure": 67.4453125
       },
       {
         "name": "SIRIUS",
@@ -920,12 +920,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -12.8046875
+        "pressure": -14.88671875
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -58.53515625
+        "pressure": -64.01953125
       },
       {
         "name": "GLIESE 581",
