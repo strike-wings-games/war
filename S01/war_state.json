@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789967006,
+  "generatedAtEpoch": 1789995106,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "541a44db0b19438e",
-  "tickIndex": 155,
+  "stateHash": "3321ef9f30e4eb24",
+  "tickIndex": 156,
   "war": {
     "buildPool": [
-      130,
-      240
+      143,
+      254
     ],
     "chronicle": [
       [
@@ -66,9 +66,16 @@
         14,
         1,
         ""
+      ],
+      [
+        35,
+        1,
+        9,
+        1,
+        ""
       ]
     ],
-    "day": 34,
+    "day": 35,
     "fleets": [
       {
         "faction": 1,
@@ -304,7 +311,7 @@
             "vet": 3
           }
         ],
-        "system": "EARTH"
+        "system": "ALPHA CENTAURI"
       },
       {
         "faction": 1,
@@ -702,7 +709,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 125,
+        "fighterReserve": 119,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -786,7 +793,6 @@
       }
     ],
     "log": [
-      "DAY 7 - TAS WARBRIDGE II COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 7 - SSV NOCTURNE III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 8 - TAS IRONWOOD II COMMISSIONED AT EARTH",
       "DAY 8 - SSV VORTEX III COMMISSIONED AT MARS",
@@ -845,7 +851,8 @@
       "DAY 21 - TAS DAUNTLESS II COMMISSIONED - FRESH OFF THE SLIPS AT EARTH",
       "DAY 23 - TAS ORION III LOST AT ALPHA CENTAURI",
       "DAY 23 - TAS ORION III COMMISSIONED - CREWS REPORTING AT EARTH",
-      "DAY 26 - TERRAN FORCES TOOK GLIESE 581 - RESISTANCE COLLAPSED"
+      "DAY 26 - TERRAN FORCES TOOK GLIESE 581 - RESISTANCE COLLAPSED",
+      "DAY 35 - TERRAN FORCES TOOK ALPHA CENTAURI - RESISTANCE COLLAPSED"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -902,12 +909,11 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 58.3984375
+        "pressure": 67.92578125
       },
       {
         "name": "ALPHA CENTAURI",
-        "owner": 0,
-        "pressure": 91.34375
+        "owner": 1
       },
       {
         "name": "SIRIUS",
@@ -919,12 +925,13 @@
       },
       {
         "name": "SELACH",
-        "owner": 0
+        "owner": 0,
+        "pressure": -3.33984375
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -88.37109375
+        "pressure": -83.82421875
       },
       {
         "name": "GLIESE 581",
