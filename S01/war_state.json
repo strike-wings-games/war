@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1789995106,
+  "generatedAtEpoch": 1790028342,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "3321ef9f30e4eb24",
-  "tickIndex": 156,
+  "stateHash": "f1c97e7deaf7d8db",
+  "tickIndex": 157,
   "war": {
     "buildPool": [
-      143,
-      254
+      156,
+      268
     ],
     "chronicle": [
       [
@@ -75,7 +75,7 @@
         ""
       ]
     ],
-    "day": 35,
+    "day": 36,
     "fleets": [
       {
         "faction": 1,
@@ -709,7 +709,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 119,
+        "fighterReserve": 122,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -892,7 +892,8 @@
       },
       {
         "name": "MARS",
-        "owner": 2
+        "owner": 2,
+        "pressure": 8.3203125
       },
       {
         "name": "PROCYON",
@@ -909,7 +910,7 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 67.92578125
+        "pressure": 72.69921875
       },
       {
         "name": "ALPHA CENTAURI",
@@ -926,12 +927,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -3.33984375
+        "pressure": -2.25390625
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -83.82421875
+        "pressure": -85.578125
       },
       {
         "name": "GLIESE 581",
@@ -939,7 +940,8 @@
       },
       {
         "name": "ARATHIL",
-        "owner": 0
+        "owner": 0,
+        "pressure": 7.078125
       }
     ],
     "version": 1,
