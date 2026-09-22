@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1790028342,
+  "generatedAtEpoch": 1790053350,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "f1c97e7deaf7d8db",
-  "tickIndex": 157,
+  "stateHash": "e4a0dbe270c1267c",
+  "tickIndex": 158,
   "war": {
     "buildPool": [
-      156,
-      268
+      169,
+      279
     ],
     "chronicle": [
       [
@@ -75,7 +75,7 @@
         ""
       ]
     ],
-    "day": 36,
+    "day": 37,
     "fleets": [
       {
         "faction": 1,
@@ -373,7 +373,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 180,
+        "fighterReserve": 179,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -508,12 +508,6 @@
             "ace": true,
             "name": "LOCKJAW",
             "type": "manticore",
-            "vet": 3
-          },
-          {
-            "ace": true,
-            "name": "CROSSCUT",
-            "type": "leyden",
             "vet": 3
           },
           {
@@ -790,12 +784,26 @@
           }
         ],
         "system": "ETA CASSIOPEIAE"
+      },
+      {
+        "faction": 2,
+        "fighterReserve": 0,
+        "fighterReserveMax": 120,
+        "id": "SSV RESERVE GROUP",
+        "peakCost": 6,
+        "posture": "defend",
+        "ships": [
+          {
+            "ace": true,
+            "name": "CROSSCUT",
+            "type": "manticore",
+            "vet": 3
+          }
+        ],
+        "system": "MARS"
       }
     ],
     "log": [
-      "DAY 7 - SSV NOCTURNE III COMMISSIONED - CREWS REPORTING AT MARS",
-      "DAY 8 - TAS IRONWOOD II COMMISSIONED AT EARTH",
-      "DAY 8 - SSV VORTEX III COMMISSIONED AT MARS",
       "DAY 9 - TAS AVALON III COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 9 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 9 - STATIC COMMISSIONED AT MARS",
@@ -852,7 +860,10 @@
       "DAY 23 - TAS ORION III LOST AT ALPHA CENTAURI",
       "DAY 23 - TAS ORION III COMMISSIONED - CREWS REPORTING AT EARTH",
       "DAY 26 - TERRAN FORCES TOOK GLIESE 581 - RESISTANCE COLLAPSED",
-      "DAY 35 - TERRAN FORCES TOOK ALPHA CENTAURI - RESISTANCE COLLAPSED"
+      "DAY 35 - TERRAN FORCES TOOK ALPHA CENTAURI - RESISTANCE COLLAPSED",
+      "DAY 37 - CROSSCUT LOST AT ROSS 128",
+      "DAY 37 - CROSSCUT COMMISSIONED AT MARS",
+      "DAY 37 - SSV RESERVE GROUP ARRIVES AT THE LINE - MARS"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -893,7 +904,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 8.3203125
+        "pressure": 15.78125
       },
       {
         "name": "PROCYON",
@@ -910,7 +921,7 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 72.69921875
+        "pressure": 78.6875
       },
       {
         "name": "ALPHA CENTAURI",
@@ -927,12 +938,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": -2.25390625
+        "pressure": -7.4453125
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -85.578125
+        "pressure": -76.34375
       },
       {
         "name": "GLIESE 581",
@@ -941,7 +952,7 @@
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 7.078125
+        "pressure": 13.1484375
       }
     ],
     "version": 1,
