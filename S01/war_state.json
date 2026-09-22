@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1790077526,
+  "generatedAtEpoch": 1790096911,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "2176864ba143866f",
-  "tickIndex": 159,
+  "stateHash": "d32ca830b806b13a",
+  "tickIndex": 160,
   "war": {
     "buildPool": [
-      182,
-      293
+      195,
+      307
     ],
     "chronicle": [
       [
@@ -75,7 +75,7 @@
         ""
       ]
     ],
-    "day": 38,
+    "day": 39,
     "fleets": [
       {
         "faction": 1,
@@ -373,7 +373,7 @@
       },
       {
         "faction": 1,
-        "fighterReserve": 174,
+        "fighterReserve": 173,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -703,7 +703,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 126,
+        "fighterReserve": 120,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -904,7 +904,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 26.58203125
+        "pressure": 32.71875
       },
       {
         "name": "PROCYON",
@@ -921,12 +921,12 @@
       {
         "name": "82 ERIDANI",
         "owner": 2,
-        "pressure": 86.6171875
+        "pressure": 91.9921875
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 6.37890625
+        "pressure": 11.51171875
       },
       {
         "name": "SIRIUS",
@@ -938,12 +938,13 @@
       },
       {
         "name": "SELACH",
-        "owner": 0
+        "owner": 0,
+        "pressure": 10.46875
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -79.64453125
+        "pressure": -83.0234375
       },
       {
         "name": "GLIESE 581",
@@ -952,7 +953,7 @@
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 5.9375
+        "pressure": 1.953125
       }
     ],
     "version": 1,
