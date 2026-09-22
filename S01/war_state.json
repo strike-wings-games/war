@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1790096911,
+  "generatedAtEpoch": 1790112417,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,12 +31,12 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "d32ca830b806b13a",
-  "tickIndex": 160,
+  "stateHash": "822223988dee2895",
+  "tickIndex": 161,
   "war": {
     "buildPool": [
-      195,
-      307
+      209,
+      320
     ],
     "chronicle": [
       [
@@ -73,9 +73,16 @@
         9,
         1,
         ""
+      ],
+      [
+        40,
+        1,
+        8,
+        1,
+        ""
       ]
     ],
-    "day": 39,
+    "day": 40,
     "fleets": [
       {
         "faction": 1,
@@ -369,11 +376,11 @@
             "vet": 5
           }
         ],
-        "system": "GLIESE 581"
+        "system": "82 ERIDANI"
       },
       {
         "faction": 1,
-        "fighterReserve": 173,
+        "fighterReserve": 167,
         "fighterReserveMax": 180,
         "id": "TF HALBERD",
         "peakCost": 251,
@@ -703,7 +710,7 @@
       },
       {
         "faction": 2,
-        "fighterReserve": 120,
+        "fighterReserve": 122,
         "fighterReserveMax": 180,
         "id": "TF KRAIT",
         "peakCost": 264,
@@ -804,7 +811,6 @@
       }
     ],
     "log": [
-      "DAY 9 - SSV VESPERINE III COMMISSIONED - CREWS REPORTING AT MARS",
       "DAY 9 - STATIC COMMISSIONED AT MARS",
       "DAY 9 - HAVOC COMMISSIONED AT MARS",
       "DAY 10 - NINELIVES II LOST AT ALPHA CENTAURI",
@@ -863,7 +869,8 @@
       "DAY 37 - CROSSCUT LOST AT ROSS 128",
       "DAY 37 - CROSSCUT COMMISSIONED AT MARS",
       "DAY 37 - SSV RESERVE GROUP ARRIVES AT THE LINE - MARS",
-      "DAY 38 - 82 ERIDANI AT +87 - THE LINE IS BREAKING"
+      "DAY 38 - 82 ERIDANI AT +87 - THE LINE IS BREAKING",
+      "DAY 40 - TERRAN FORCES TOOK 82 ERIDANI"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -904,7 +911,7 @@
       {
         "name": "MARS",
         "owner": 2,
-        "pressure": 32.71875
+        "pressure": 39.6171875
       },
       {
         "name": "PROCYON",
@@ -920,13 +927,12 @@
       },
       {
         "name": "82 ERIDANI",
-        "owner": 2,
-        "pressure": 91.9921875
+        "owner": 1
       },
       {
         "name": "ALPHA CENTAURI",
         "owner": 1,
-        "pressure": 11.51171875
+        "pressure": 18.87890625
       },
       {
         "name": "SIRIUS",
@@ -939,12 +945,12 @@
       {
         "name": "SELACH",
         "owner": 0,
-        "pressure": 10.46875
+        "pressure": 16.69140625
       },
       {
         "name": "ROSS 128",
         "owner": 0,
-        "pressure": -83.0234375
+        "pressure": -83.66796875
       },
       {
         "name": "GLIESE 581",
@@ -953,7 +959,7 @@
       {
         "name": "ARATHIL",
         "owner": 0,
-        "pressure": 1.953125
+        "pressure": 12.296875
       }
     ],
     "version": 1,
