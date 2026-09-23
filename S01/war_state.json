@@ -17,7 +17,7 @@
     0,
     0
   ],
-  "generatedAtEpoch": 1790112417,
+  "generatedAtEpoch": 1790138972,
   "populationX16": 0,
   "schema": "strikewings.warshared/v1",
   "season": {
@@ -31,7 +31,7 @@
     "tickSeconds": 21600,
     "warDaysPerTick": 1
   },
-  "stateHash": "822223988dee2895",
+  "stateHash": "51376ab22f1eed42",
   "tickIndex": 161,
   "war": {
     "buildPool": [
@@ -78,6 +78,13 @@
         40,
         1,
         8,
+        1,
+        ""
+      ],
+      [
+        40,
+        8,
+        -1,
         1,
         ""
       ]
@@ -811,7 +818,6 @@
       }
     ],
     "log": [
-      "DAY 9 - STATIC COMMISSIONED AT MARS",
       "DAY 9 - HAVOC COMMISSIONED AT MARS",
       "DAY 10 - NINELIVES II LOST AT ALPHA CENTAURI",
       "DAY 10 - TAS IRONWOOD III COMMISSIONED AT EARTH",
@@ -870,7 +876,8 @@
       "DAY 37 - CROSSCUT COMMISSIONED AT MARS",
       "DAY 37 - SSV RESERVE GROUP ARRIVES AT THE LINE - MARS",
       "DAY 38 - 82 ERIDANI AT +87 - THE LINE IS BREAKING",
-      "DAY 40 - TERRAN FORCES TOOK 82 ERIDANI"
+      "DAY 40 - TERRAN FORCES TOOK 82 ERIDANI",
+      "DAY 40 - THE SEASON BELL - THE ALLIANCE HOLDS THE MAP"
     ],
     "memorial": [],
     "playerFaction": 1,
@@ -963,7 +970,7 @@
       }
     ],
     "version": 1,
-    "winner": 0
+    "winner": 1
   },
   "warEndedAtEpoch": 0,
   "warIndex": 3,
